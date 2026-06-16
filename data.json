@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-16T05:24:34.612979Z",
+ "updated": "2026-06-16T12:05:47.281732+00:00",
  "tournament": "VM 2026",
  "matches": [
   {
@@ -792,6 +792,328 @@
    "homeGoals": null,
    "awayGoals": null,
    "sign": null,
+   "played": false
+  }
+ ],
+ "knockout": [
+  {
+   "no": 73,
+   "round": "Sextondelsfinal",
+   "home": "Tvåa grupp A",
+   "away": "Tvåa grupp B",
+   "date": "2026-06-28",
+   "homeGoals": null,
+   "awayGoals": null,
+   "played": false
+  },
+  {
+   "no": 74,
+   "round": "Sextondelsfinal",
+   "home": "Vinnare grupp E",
+   "away": "Bästa trea ABCDF",
+   "date": "2026-06-29",
+   "homeGoals": null,
+   "awayGoals": null,
+   "played": false
+  },
+  {
+   "no": 75,
+   "round": "Sextondelsfinal",
+   "home": "Vinnare grupp F",
+   "away": "Tvåa grupp C",
+   "date": "2026-06-30",
+   "homeGoals": null,
+   "awayGoals": null,
+   "played": false
+  },
+  {
+   "no": 76,
+   "round": "Sextondelsfinal",
+   "home": "Vinnare grupp C",
+   "away": "Tvåa grupp F",
+   "date": "2026-06-29",
+   "homeGoals": null,
+   "awayGoals": null,
+   "played": false
+  },
+  {
+   "no": 77,
+   "round": "Sextondelsfinal",
+   "home": "Vinnare grupp I",
+   "away": "Bästa trea CDFGH",
+   "date": "2026-06-30",
+   "homeGoals": null,
+   "awayGoals": null,
+   "played": false
+  },
+  {
+   "no": 78,
+   "round": "Sextondelsfinal",
+   "home": "Tvåa grupp E",
+   "away": "Tvåa grupp I",
+   "date": "2026-06-30",
+   "homeGoals": null,
+   "awayGoals": null,
+   "played": false
+  },
+  {
+   "no": 79,
+   "round": "Sextondelsfinal",
+   "home": "Vinnare grupp A",
+   "away": "Bästa trea CEFHI",
+   "date": "2026-07-01",
+   "homeGoals": null,
+   "awayGoals": null,
+   "played": false
+  },
+  {
+   "no": 80,
+   "round": "Sextondelsfinal",
+   "home": "Vinnare grupp L",
+   "away": "Bästa trea EHIJK",
+   "date": "2026-07-01",
+   "homeGoals": null,
+   "awayGoals": null,
+   "played": false
+  },
+  {
+   "no": 81,
+   "round": "Sextondelsfinal",
+   "home": "Vinnare grupp D",
+   "away": "Bästa trea BEFIJ",
+   "date": "2026-07-02",
+   "homeGoals": null,
+   "awayGoals": null,
+   "played": false
+  },
+  {
+   "no": 82,
+   "round": "Sextondelsfinal",
+   "home": "Vinnare grupp G",
+   "away": "Bästa trea AEHIJ",
+   "date": "2026-07-01",
+   "homeGoals": null,
+   "awayGoals": null,
+   "played": false
+  },
+  {
+   "no": 83,
+   "round": "Sextondelsfinal",
+   "home": "Tvåa grupp K",
+   "away": "Tvåa grupp L",
+   "date": "2026-07-03",
+   "homeGoals": null,
+   "awayGoals": null,
+   "played": false
+  },
+  {
+   "no": 84,
+   "round": "Sextondelsfinal",
+   "home": "Vinnare grupp H",
+   "away": "Tvåa grupp J",
+   "date": "2026-07-02",
+   "homeGoals": null,
+   "awayGoals": null,
+   "played": false
+  },
+  {
+   "no": 85,
+   "round": "Sextondelsfinal",
+   "home": "Vinnare grupp B",
+   "away": "Bästa trea EFGIJ",
+   "date": "2026-07-03",
+   "homeGoals": null,
+   "awayGoals": null,
+   "played": false
+  },
+  {
+   "no": 86,
+   "round": "Sextondelsfinal",
+   "home": "Vinnare grupp J",
+   "away": "Tvåa grupp H",
+   "date": "2026-07-04",
+   "homeGoals": null,
+   "awayGoals": null,
+   "played": false
+  },
+  {
+   "no": 87,
+   "round": "Sextondelsfinal",
+   "home": "Vinnare grupp K",
+   "away": "Bästa trea DEIJL",
+   "date": "2026-07-04",
+   "homeGoals": null,
+   "awayGoals": null,
+   "played": false
+  },
+  {
+   "no": 88,
+   "round": "Sextondelsfinal",
+   "home": "Tvåa grupp D",
+   "away": "Tvåa grupp G",
+   "date": "2026-07-03",
+   "homeGoals": null,
+   "awayGoals": null,
+   "played": false
+  },
+  {
+   "no": 89,
+   "round": "Åttondelsfinal",
+   "home": "Vinnare match 74",
+   "away": "Vinnare match 77",
+   "date": "2026-07-04",
+   "homeGoals": null,
+   "awayGoals": null,
+   "played": false
+  },
+  {
+   "no": 90,
+   "round": "Åttondelsfinal",
+   "home": "Vinnare match 73",
+   "away": "Vinnare match 75",
+   "date": "2026-07-04",
+   "homeGoals": null,
+   "awayGoals": null,
+   "played": false
+  },
+  {
+   "no": 91,
+   "round": "Åttondelsfinal",
+   "home": "Vinnare match 76",
+   "away": "Vinnare match 78",
+   "date": "2026-07-05",
+   "homeGoals": null,
+   "awayGoals": null,
+   "played": false
+  },
+  {
+   "no": 92,
+   "round": "Åttondelsfinal",
+   "home": "Vinnare match 79",
+   "away": "Vinnare match 80",
+   "date": "2026-07-06",
+   "homeGoals": null,
+   "awayGoals": null,
+   "played": false
+  },
+  {
+   "no": 93,
+   "round": "Åttondelsfinal",
+   "home": "Vinnare match 83",
+   "away": "Vinnare match 84",
+   "date": "2026-07-06",
+   "homeGoals": null,
+   "awayGoals": null,
+   "played": false
+  },
+  {
+   "no": 94,
+   "round": "Åttondelsfinal",
+   "home": "Vinnare match 81",
+   "away": "Vinnare match 82",
+   "date": "2026-07-07",
+   "homeGoals": null,
+   "awayGoals": null,
+   "played": false
+  },
+  {
+   "no": 95,
+   "round": "Åttondelsfinal",
+   "home": "Vinnare match 86",
+   "away": "Vinnare match 88",
+   "date": "2026-07-07",
+   "homeGoals": null,
+   "awayGoals": null,
+   "played": false
+  },
+  {
+   "no": 96,
+   "round": "Åttondelsfinal",
+   "home": "Vinnare match 85",
+   "away": "Vinnare match 87",
+   "date": "2026-07-07",
+   "homeGoals": null,
+   "awayGoals": null,
+   "played": false
+  },
+  {
+   "no": 97,
+   "round": "Kvartsfinal",
+   "home": "Vinnare match 89",
+   "away": "Vinnare match 90",
+   "date": "2026-07-09",
+   "homeGoals": null,
+   "awayGoals": null,
+   "played": false
+  },
+  {
+   "no": 98,
+   "round": "Kvartsfinal",
+   "home": "Vinnare match 93",
+   "away": "Vinnare match 94",
+   "date": "2026-07-10",
+   "homeGoals": null,
+   "awayGoals": null,
+   "played": false
+  },
+  {
+   "no": 99,
+   "round": "Kvartsfinal",
+   "home": "Vinnare match 91",
+   "away": "Vinnare match 92",
+   "date": "2026-07-11",
+   "homeGoals": null,
+   "awayGoals": null,
+   "played": false
+  },
+  {
+   "no": 100,
+   "round": "Kvartsfinal",
+   "home": "Vinnare match 95",
+   "away": "Vinnare match 96",
+   "date": "2026-07-12",
+   "homeGoals": null,
+   "awayGoals": null,
+   "played": false
+  },
+  {
+   "no": 101,
+   "round": "Semifinal",
+   "home": "Vinnare match 97",
+   "away": "Vinnare match 98",
+   "date": "2026-07-14",
+   "homeGoals": null,
+   "awayGoals": null,
+   "played": false
+  },
+  {
+   "no": 102,
+   "round": "Semifinal",
+   "home": "Vinnare match 99",
+   "away": "Vinnare match 100",
+   "date": "2026-07-15",
+   "homeGoals": null,
+   "awayGoals": null,
+   "played": false
+  },
+  {
+   "no": 103,
+   "round": "Bronsmatch",
+   "home": "Förlorare match 101",
+   "away": "Förlorare match 102",
+   "date": "2026-07-18",
+   "homeGoals": null,
+   "awayGoals": null,
+   "played": false
+  },
+  {
+   "no": 104,
+   "round": "Final",
+   "home": "Vinnare match 101",
+   "away": "Vinnare match 102",
+   "date": "2026-07-19",
+   "homeGoals": null,
+   "awayGoals": null,
    "played": false
   }
  ],

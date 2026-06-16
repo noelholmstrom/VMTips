@@ -120,21 +120,31 @@ def apply_results(path, results, manual):
 def extract(path):
     wb = load_workbook(path, data_only=True)
     res = wb['Resultat & tabell']
+    ROUNDS = ('Sextondelsfinal','Åttondelsfinal','Kvartsfinal','Semifinal','Bronsmatch','Final')
     matches = {}
+    knockout = []
     for r, no, home, away in match_rows(res):
-        if no > 72:  # bara gruppspel i matchlistan på sidan
-            continue
         date = res.cell(row=r, column=3).value
         hg = res.cell(row=r, column=7).value; ag = res.cell(row=r, column=9).value
         sign = res.cell(row=r, column=10).value
         played = is_num(hg) and is_num(ag)
+        datestr = date.strftime('%Y-%m-%d') if hasattr(date, 'strftime') else (str(date) if date else None)
+        if no > 72:
+            rnd = None
+            for rr in range(r, 0, -1):
+                bv = res.cell(row=rr, column=2).value
+                if isinstance(bv, str) and bv.strip() in ROUNDS:
+                    rnd = bv.strip(); break
+            knockout.append({'no': no, 'round': rnd, 'home': home, 'away': away,
+                'date': datestr, 'homeGoals': int(hg) if played else None,
+                'awayGoals': int(ag) if played else None, 'played': bool(played)})
+            continue
         grp = None
         for rr in range(r, 0, -1):
             bv = res.cell(row=rr, column=2).value
             if isinstance(bv, str) and bv.startswith('Grupp '):
                 grp = bv.replace('Grupp ', '').strip(); break
-        matches[no] = {'no': no, 'group': grp, 'home': home, 'away': away,
-            'date': date.strftime('%Y-%m-%d') if hasattr(date, 'strftime') else (str(date) if date else None),
+        matches[no] = {'no': no, 'group': grp, 'home': home, 'away': away, 'date': datestr,
             'homeGoals': int(hg) if played else None, 'awayGoals': int(ag) if played else None,
             'sign': str(sign) if sign is not None else None, 'played': bool(played)}
     players = []
@@ -165,7 +175,9 @@ def extract(path):
     players.sort(key=lambda p: -p['total'])
     return {'updated': datetime.datetime.now(datetime.timezone.utc).isoformat(),
             'tournament': 'VM 2026',
-            'matches': [matches[k] for k in sorted(matches)], 'players': players}
+            'matches': [matches[k] for k in sorted(matches)],
+            'knockout': sorted(knockout, key=lambda m: m['no']),
+            'players': players}
 
 def main():
     ap = argparse.ArgumentParser()
