@@ -1,0 +1,46 @@
+name: Uppdatera VM-resultat
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # var 30:e minut (UTC). GitHub kan fördröja något.
+  workflow_dispatch:          # tillåter manuell körning via Actions-fliken
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-results
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installera beroenden
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends libreoffice-calc
+          pip install --quiet openpyxl
+
+      - name: Hämta resultat och räkna om
+        env:
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+        run: python update_results.py
+
+      - name: Commita data.json om den ändrats
+        run: |
+          git config user.name  "vm-tips-bot"
+          git config user.email "actions@github.com"
+          if ! git diff --quiet -- data.json; then
+            git add data.json
+            git commit -m "Uppdatera resultat $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          else
+            echo "Inga nya resultat."
+          fi
