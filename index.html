@@ -19,14 +19,8 @@
 }
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
-body{margin:0; background:var(--bg); color:var(--ink);
-  font-family:"Hanken Grotesk",system-ui,-apple-system,sans-serif;
-  font-size:16px; line-height:1.45; font-variant-numeric:tabular-nums; -webkit-font-smoothing:antialiased}
-.wrap{max-width:760px; margin:0 auto; padding:0 0 80px}
-img{display:block}
-
-.hero{
-  background: url('vmbild.jpg') center / cover no-repeat, #0a2a1e;
+body{
+  background: url('vmbild.jpg') center / cover no-repeat fixed, var(--bg);
 }
 .hero::after{content:""; position:absolute; right:-50px; top:-60px; width:230px; height:230px; border-radius:50%;
   background:radial-gradient(circle at 30% 30%, rgba(255,255,255,.22), rgba(255,255,255,0) 70%)}
