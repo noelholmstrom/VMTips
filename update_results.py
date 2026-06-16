@@ -173,10 +173,34 @@ def extract(path):
                         'bonusPoints': bpts, 'knockoutPoints': total - gpts - bpts,
                         'predictions': preds, 'bonus': bonus})
     players.sort(key=lambda p: -p['total'])
+
+    # grupptabeller (färdigräknade i arket, rätt inbördes ordning)
+    standings = {}
+    for r in range(1, res.max_row + 1):
+        if res.cell(row=r, column=15).value == 'Lag' and res.cell(row=r, column=19).value == 'GM':
+            grp = None
+            for rr in range(r, 0, -1):
+                bv = res.cell(row=rr, column=2).value
+                if isinstance(bv, str) and bv.startswith('Grupp '):
+                    grp = bv.replace('Grupp ', '').strip(); break
+            rows = []
+            for tr in range(r + 1, r + 5):
+                lag = res.cell(row=tr, column=15).value
+                if not isinstance(lag, str) or not lag.strip():
+                    continue
+                def gi(c, _tr=tr):
+                    v = res.cell(row=_tr, column=c).value
+                    return int(v) if is_num(v) else 0
+                rows.append({'team': lag.strip(), 'w': gi(16), 'd': gi(17), 'l': gi(18),
+                             'gf': gi(19), 'ga': gi(20), 'gd': gi(21), 'pts': gi(22)})
+            if grp and rows:
+                standings[grp] = rows
+
     return {'updated': datetime.datetime.now(datetime.timezone.utc).isoformat(),
             'tournament': 'VM 2026',
             'matches': [matches[k] for k in sorted(matches)],
             'knockout': sorted(knockout, key=lambda m: m['no']),
+            'standings': standings,
             'players': players}
 
 def main():

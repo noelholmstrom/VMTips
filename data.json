@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-16T12:05:47.281732+00:00",
+ "updated": "2026-06-16T12:25:00.492500+00:00",
  "tournament": "VM 2026",
  "matches": [
   {
@@ -1117,6 +1117,512 @@
    "played": false
   }
  ],
+ "standings": {
+  "A": [
+   {
+    "team": "Mexiko",
+    "w": 1,
+    "d": 0,
+    "l": 0,
+    "gf": 2,
+    "ga": 0,
+    "gd": 2,
+    "pts": 3
+   },
+   {
+    "team": "Sydkorea",
+    "w": 1,
+    "d": 0,
+    "l": 0,
+    "gf": 2,
+    "ga": 1,
+    "gd": 1,
+    "pts": 3
+   },
+   {
+    "team": "Czechia",
+    "w": 0,
+    "d": 0,
+    "l": 1,
+    "gf": 1,
+    "ga": 2,
+    "gd": -1,
+    "pts": 0
+   },
+   {
+    "team": "Sydafrika",
+    "w": 0,
+    "d": 0,
+    "l": 1,
+    "gf": 0,
+    "ga": 2,
+    "gd": -2,
+    "pts": 0
+   }
+  ],
+  "B": [
+   {
+    "team": "Kanada",
+    "w": 0,
+    "d": 1,
+    "l": 0,
+    "gf": 1,
+    "ga": 1,
+    "gd": 0,
+    "pts": 1
+   },
+   {
+    "team": "Bosnien-Herzigovina",
+    "w": 0,
+    "d": 1,
+    "l": 0,
+    "gf": 1,
+    "ga": 1,
+    "gd": 0,
+    "pts": 1
+   },
+   {
+    "team": "Qatar",
+    "w": 0,
+    "d": 1,
+    "l": 0,
+    "gf": 1,
+    "ga": 1,
+    "gd": 0,
+    "pts": 1
+   },
+   {
+    "team": "Schweiz",
+    "w": 0,
+    "d": 1,
+    "l": 0,
+    "gf": 1,
+    "ga": 1,
+    "gd": 0,
+    "pts": 1
+   }
+  ],
+  "C": [
+   {
+    "team": "Skottland",
+    "w": 1,
+    "d": 0,
+    "l": 0,
+    "gf": 1,
+    "ga": 0,
+    "gd": 1,
+    "pts": 3
+   },
+   {
+    "team": "Brasilien",
+    "w": 0,
+    "d": 1,
+    "l": 0,
+    "gf": 1,
+    "ga": 1,
+    "gd": 0,
+    "pts": 1
+   },
+   {
+    "team": "Marocko",
+    "w": 0,
+    "d": 1,
+    "l": 0,
+    "gf": 1,
+    "ga": 1,
+    "gd": 0,
+    "pts": 1
+   },
+   {
+    "team": "Haiti",
+    "w": 0,
+    "d": 0,
+    "l": 1,
+    "gf": 0,
+    "ga": 1,
+    "gd": -1,
+    "pts": 0
+   }
+  ],
+  "D": [
+   {
+    "team": "USA",
+    "w": 1,
+    "d": 0,
+    "l": 0,
+    "gf": 4,
+    "ga": 1,
+    "gd": 3,
+    "pts": 3
+   },
+   {
+    "team": "Australien",
+    "w": 1,
+    "d": 0,
+    "l": 0,
+    "gf": 2,
+    "ga": 0,
+    "gd": 2,
+    "pts": 3
+   },
+   {
+    "team": "Turkiet",
+    "w": 0,
+    "d": 0,
+    "l": 1,
+    "gf": 0,
+    "ga": 2,
+    "gd": -2,
+    "pts": 0
+   },
+   {
+    "team": "Paraguay",
+    "w": 0,
+    "d": 0,
+    "l": 1,
+    "gf": 1,
+    "ga": 4,
+    "gd": -3,
+    "pts": 0
+   }
+  ],
+  "E": [
+   {
+    "team": "Tyskland",
+    "w": 1,
+    "d": 0,
+    "l": 0,
+    "gf": 7,
+    "ga": 1,
+    "gd": 6,
+    "pts": 3
+   },
+   {
+    "team": "Elfenbenskusten",
+    "w": 1,
+    "d": 0,
+    "l": 0,
+    "gf": 1,
+    "ga": 0,
+    "gd": 1,
+    "pts": 3
+   },
+   {
+    "team": "Ecuador",
+    "w": 0,
+    "d": 0,
+    "l": 1,
+    "gf": 0,
+    "ga": 1,
+    "gd": -1,
+    "pts": 0
+   },
+   {
+    "team": "Curaçao",
+    "w": 0,
+    "d": 0,
+    "l": 1,
+    "gf": 1,
+    "ga": 7,
+    "gd": -6,
+    "pts": 0
+   }
+  ],
+  "F": [
+   {
+    "team": "Sverige",
+    "w": 1,
+    "d": 0,
+    "l": 0,
+    "gf": 5,
+    "ga": 1,
+    "gd": 4,
+    "pts": 3
+   },
+   {
+    "team": "Nederländerna",
+    "w": 0,
+    "d": 1,
+    "l": 0,
+    "gf": 2,
+    "ga": 2,
+    "gd": 0,
+    "pts": 1
+   },
+   {
+    "team": "Japan",
+    "w": 0,
+    "d": 1,
+    "l": 0,
+    "gf": 2,
+    "ga": 2,
+    "gd": 0,
+    "pts": 1
+   },
+   {
+    "team": "Tunisien",
+    "w": 0,
+    "d": 0,
+    "l": 1,
+    "gf": 1,
+    "ga": 5,
+    "gd": -4,
+    "pts": 0
+   }
+  ],
+  "G": [
+   {
+    "team": "Belgien",
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "gf": 0,
+    "ga": 0,
+    "gd": 0,
+    "pts": 0
+   },
+   {
+    "team": "Egypten",
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "gf": 0,
+    "ga": 0,
+    "gd": 0,
+    "pts": 0
+   },
+   {
+    "team": "Iran",
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "gf": 0,
+    "ga": 0,
+    "gd": 0,
+    "pts": 0
+   },
+   {
+    "team": "Nya Zeeland",
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "gf": 0,
+    "ga": 0,
+    "gd": 0,
+    "pts": 0
+   }
+  ],
+  "H": [
+   {
+    "team": "Spanien",
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "gf": 0,
+    "ga": 0,
+    "gd": 0,
+    "pts": 0
+   },
+   {
+    "team": "Kap Verde",
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "gf": 0,
+    "ga": 0,
+    "gd": 0,
+    "pts": 0
+   },
+   {
+    "team": "Saudiarabien",
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "gf": 0,
+    "ga": 0,
+    "gd": 0,
+    "pts": 0
+   },
+   {
+    "team": "Uruguay",
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "gf": 0,
+    "ga": 0,
+    "gd": 0,
+    "pts": 0
+   }
+  ],
+  "I": [
+   {
+    "team": "Frankrike",
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "gf": 0,
+    "ga": 0,
+    "gd": 0,
+    "pts": 0
+   },
+   {
+    "team": "Senegal",
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "gf": 0,
+    "ga": 0,
+    "gd": 0,
+    "pts": 0
+   },
+   {
+    "team": "Irak",
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "gf": 0,
+    "ga": 0,
+    "gd": 0,
+    "pts": 0
+   },
+   {
+    "team": "Norge",
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "gf": 0,
+    "ga": 0,
+    "gd": 0,
+    "pts": 0
+   }
+  ],
+  "J": [
+   {
+    "team": "Argentina",
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "gf": 0,
+    "ga": 0,
+    "gd": 0,
+    "pts": 0
+   },
+   {
+    "team": "Algeriet",
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "gf": 0,
+    "ga": 0,
+    "gd": 0,
+    "pts": 0
+   },
+   {
+    "team": "Österrike",
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "gf": 0,
+    "ga": 0,
+    "gd": 0,
+    "pts": 0
+   },
+   {
+    "team": "Jordanien",
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "gf": 0,
+    "ga": 0,
+    "gd": 0,
+    "pts": 0
+   }
+  ],
+  "K": [
+   {
+    "team": "Portugal",
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "gf": 0,
+    "ga": 0,
+    "gd": 0,
+    "pts": 0
+   },
+   {
+    "team": "Kongo",
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "gf": 0,
+    "ga": 0,
+    "gd": 0,
+    "pts": 0
+   },
+   {
+    "team": "Uzbekistan",
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "gf": 0,
+    "ga": 0,
+    "gd": 0,
+    "pts": 0
+   },
+   {
+    "team": "Colombia",
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "gf": 0,
+    "ga": 0,
+    "gd": 0,
+    "pts": 0
+   }
+  ],
+  "L": [
+   {
+    "team": "England",
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "gf": 0,
+    "ga": 0,
+    "gd": 0,
+    "pts": 0
+   },
+   {
+    "team": "Kroatien",
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "gf": 0,
+    "ga": 0,
+    "gd": 0,
+    "pts": 0
+   },
+   {
+    "team": "Ghana",
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "gf": 0,
+    "ga": 0,
+    "gd": 0,
+    "pts": 0
+   },
+   {
+    "team": "Panama",
+    "w": 0,
+    "d": 0,
+    "l": 0,
+    "gf": 0,
+    "ga": 0,
+    "gd": 0,
+    "pts": 0
+   }
+  ]
+ },
  "players": [
   {
    "name": "Mikael Cordes",

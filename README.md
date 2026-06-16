@@ -74,5 +74,8 @@ Det var allt — sen sköter schemat resten.
 ## Poängsystem (oförändrat från arket)
 
 * Gruppmatch: 2 p per lag med rätt antal mål + 3 p för rätt tecken = max **7 p**.
-* Slutspel: 1 p (32-del) upp till 8 p (final) per rätt lag vidare.
-* Bonusfrågor: 20 p styck (Skyttekung, Världsmästare m.fl.).
+* Slutspel (rätt lag vidare): 1 p sextondelsfinal, 2 p åttondelsfinal, 4 p kvartsfinal,
+  6 p semifinal, 8 p bronsmatch, 8 p final — per lag. Plus slutspelsbonus när matcherna spelas.
+* Bonusfrågor: Skyttekung, Världsmästare och Vinnare bronsmatch ger 20 p styck;
+  flest gjorda mål, flest insläppta och de två egna frågorna ger 10 p styck.
+* Totalt 980 p. Hela uppställningen finns i appens **Regler**-flik.
