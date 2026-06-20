@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-20T17:54:34.823106+00:00",
+ "updated": "2026-06-20T19:18:42.434551+00:00",
  "tournament": "VM 2026",
  "matches": [
   {
@@ -382,10 +382,10 @@
    "home": "Nederländerna",
    "away": "Sverige",
    "date": "2026-06-20",
-   "homeGoals": null,
-   "awayGoals": null,
-   "sign": null,
-   "played": false
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sign": "1",
+   "played": true
   },
   {
    "no": 36,
@@ -1330,24 +1330,24 @@
   ],
   "F": [
    {
+    "team": "Nederländerna",
+    "w": 1,
+    "d": 1,
+    "l": 0,
+    "gf": 7,
+    "ga": 3,
+    "gd": 4,
+    "pts": 4
+   },
+   {
     "team": "Sverige",
     "w": 1,
     "d": 0,
-    "l": 0,
-    "gf": 5,
-    "ga": 1,
-    "gd": 4,
-    "pts": 3
-   },
-   {
-    "team": "Nederländerna",
-    "w": 0,
-    "d": 1,
-    "l": 0,
-    "gf": 2,
-    "ga": 2,
+    "l": 1,
+    "gf": 6,
+    "ga": 6,
     "gd": 0,
-    "pts": 1
+    "pts": 3
    },
    {
     "team": "Japan",
@@ -1626,8 +1626,8 @@
  "players": [
   {
    "name": "Ralle Nilsson Hansen",
-   "total": 114,
-   "groupPoints": 114,
+   "total": 117,
+   "groupPoints": 117,
    "bonusPoints": 0,
    "knockoutPoints": 0,
    "predictions": {
@@ -1827,7 +1827,7 @@
      "home": 4,
      "away": 2,
      "sign": "1",
-     "points": 0
+     "points": 3
     },
     "36": {
      "home": 1,
@@ -2104,8 +2104,8 @@
   },
   {
    "name": "Emma Svensson",
-   "total": 112,
-   "groupPoints": 112,
+   "total": 115,
+   "groupPoints": 115,
    "bonusPoints": 0,
    "knockoutPoints": 0,
    "predictions": {
@@ -2305,7 +2305,7 @@
      "home": 2,
      "away": 0,
      "sign": "1",
-     "points": 0
+     "points": 3
     },
     "36": {
      "home": 0,
@@ -2582,8 +2582,8 @@
   },
   {
    "name": "Noel Holmström",
-   "total": 105,
-   "groupPoints": 105,
+   "total": 108,
+   "groupPoints": 108,
    "bonusPoints": 0,
    "knockoutPoints": 0,
    "predictions": {
@@ -2783,7 +2783,7 @@
      "home": 2,
      "away": 0,
      "sign": "1",
-     "points": 0
+     "points": 3
     },
     "36": {
      "home": 0,
@@ -3059,9 +3059,487 @@
    ]
   },
   {
+   "name": "Christer Lövgren",
+   "total": 97,
+   "groupPoints": 97,
+   "bonusPoints": 0,
+   "knockoutPoints": 0,
+   "predictions": {
+    "1": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 7
+    },
+    "2": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 2
+    },
+    "25": {
+     "home": 1,
+     "away": 0,
+     "sign": "1",
+     "points": 2
+    },
+    "28": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 3
+    },
+    "53": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 0
+    },
+    "54": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 0
+    },
+    "3": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 0
+    },
+    "8": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 0
+    },
+    "26": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 2
+    },
+    "27": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 3
+    },
+    "51": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 0
+    },
+    "52": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 0
+    },
+    "7": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 2
+    },
+    "5": {
+     "home": 0,
+     "away": 3,
+     "sign": "2",
+     "points": 5
+    },
+    "30": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 3
+    },
+    "29": {
+     "home": 4,
+     "away": 0,
+     "sign": "1",
+     "points": 5
+    },
+    "49": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 0
+    },
+    "50": {
+     "home": 4,
+     "away": 0,
+     "sign": "1",
+     "points": 0
+    },
+    "4": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 2
+    },
+    "6": {
+     "home": 0,
+     "away": 1,
+     "sign": "2",
+     "points": 0
+    },
+    "32": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 5
+    },
+    "31": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 2
+    },
+    "59": {
+     "home": 2,
+     "away": 2,
+     "sign": "X",
+     "points": 0
+    },
+    "60": {
+     "home": 1,
+     "away": 0,
+     "sign": "1",
+     "points": 0
+    },
+    "10": {
+     "home": 5,
+     "away": 0,
+     "sign": "1",
+     "points": 3
+    },
+    "9": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 2
+    },
+    "33": {
+     "home": 1,
+     "away": 0,
+     "sign": "1",
+     "points": 0
+    },
+    "34": {
+     "home": 4,
+     "away": 0,
+     "sign": "1",
+     "points": 0
+    },
+    "55": {
+     "home": 0,
+     "away": 3,
+     "sign": "2",
+     "points": 0
+    },
+    "56": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 0
+    },
+    "11": {
+     "home": 1,
+     "away": 0,
+     "sign": "1",
+     "points": 0
+    },
+    "12": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 5
+    },
+    "35": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 5
+    },
+    "36": {
+     "home": 0,
+     "away": 1,
+     "sign": "2",
+     "points": 0
+    },
+    "57": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 0
+    },
+    "58": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 0
+    },
+    "16": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 7
+    },
+    "15": {
+     "home": 0,
+     "away": 1,
+     "sign": "2",
+     "points": 0
+    },
+    "39": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 0
+    },
+    "40": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 0
+    },
+    "63": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 0
+    },
+    "64": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 0
+    },
+    "14": {
+     "home": 5,
+     "away": 0,
+     "sign": "1",
+     "points": 2
+    },
+    "13": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 0
+    },
+    "38": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 0
+    },
+    "37": {
+     "home": 3,
+     "away": 0,
+     "sign": "1",
+     "points": 0
+    },
+    "65": {
+     "home": 0,
+     "away": 1,
+     "sign": "2",
+     "points": 0
+    },
+    "66": {
+     "home": 0,
+     "away": 0,
+     "sign": "X",
+     "points": 0
+    },
+    "17": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 5
+    },
+    "18": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 5
+    },
+    "42": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 0
+    },
+    "41": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 0
+    },
+    "61": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 0
+    },
+    "62": {
+     "home": 1,
+     "away": 0,
+     "sign": "1",
+     "points": 0
+    },
+    "19": {
+     "home": 3,
+     "away": 0,
+     "sign": "1",
+     "points": 7
+    },
+    "20": {
+     "home": 3,
+     "away": 0,
+     "sign": "1",
+     "points": 5
+    },
+    "43": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 0
+    },
+    "44": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 0
+    },
+    "69": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 0
+    },
+    "70": {
+     "home": 0,
+     "away": 4,
+     "sign": "2",
+     "points": 0
+    },
+    "23": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 0
+    },
+    "24": {
+     "home": 0,
+     "away": 1,
+     "sign": "2",
+     "points": 3
+    },
+    "47": {
+     "home": 3,
+     "away": 0,
+     "sign": "1",
+     "points": 0
+    },
+    "48": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 0
+    },
+    "71": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 0
+    },
+    "72": {
+     "home": 2,
+     "away": 2,
+     "sign": "X",
+     "points": 0
+    },
+    "22": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 0
+    },
+    "21": {
+     "home": 3,
+     "away": 0,
+     "sign": "1",
+     "points": 5
+    },
+    "45": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 0
+    },
+    "46": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 0
+    },
+    "67": {
+     "home": 0,
+     "away": 3,
+     "sign": "2",
+     "points": 0
+    },
+    "68": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 0
+    }
+   },
+   "bonus": [
+    {
+     "category": "Skyttekung",
+     "answer": "mbappe",
+     "points": 0
+    },
+    {
+     "category": "Världsmästare",
+     "answer": "Tyskland",
+     "points": 0
+    },
+    {
+     "category": "Vinnare bronsmatch",
+     "answer": "Argentina",
+     "points": 0
+    },
+    {
+     "category": "Lag som gör flest mål i gruppspelet",
+     "answer": "Brasilien",
+     "points": 0
+    },
+    {
+     "category": "Lag som släpper in flest mål i gruppspelet",
+     "answer": "Curacao",
+     "points": 0
+    },
+    {
+     "category": "Egen bonusfråga 1",
+     "answer": null,
+     "points": 0
+    },
+    {
+     "category": "Egen bonusfråga 2",
+     "answer": null,
+     "points": 0
+    }
+   ]
+  },
+  {
    "name": "Mikael Cordes",
-   "total": 95,
-   "groupPoints": 95,
+   "total": 97,
+   "groupPoints": 97,
    "bonusPoints": 0,
    "knockoutPoints": 0,
    "predictions": {
@@ -3261,7 +3739,7 @@
      "home": 1,
      "away": 1,
      "sign": "X",
-     "points": 0
+     "points": 2
     },
     "36": {
      "home": 1,
@@ -3538,8 +4016,8 @@
   },
   {
    "name": "Lasse Svensson",
-   "total": 93,
-   "groupPoints": 93,
+   "total": 96,
+   "groupPoints": 96,
    "bonusPoints": 0,
    "knockoutPoints": 0,
    "predictions": {
@@ -3739,7 +4217,7 @@
      "home": 2,
      "away": 0,
      "sign": "1",
-     "points": 0
+     "points": 3
     },
     "36": {
      "home": 1,
@@ -4015,40 +4493,40 @@
    ]
   },
   {
-   "name": "Christer Lövgren",
-   "total": 92,
-   "groupPoints": 92,
+   "name": "Hampus Svensson",
+   "total": 96,
+   "groupPoints": 96,
    "bonusPoints": 0,
    "knockoutPoints": 0,
    "predictions": {
     "1": {
      "home": 2,
-     "away": 0,
+     "away": 1,
      "sign": "1",
-     "points": 7
+     "points": 5
     },
     "2": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 2
-    },
-    "25": {
-     "home": 1,
-     "away": 0,
-     "sign": "1",
-     "points": 2
-    },
-    "28": {
      "home": 2,
      "away": 1,
      "sign": "1",
-     "points": 3
+     "points": 7
     },
-    "53": {
+    "25": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 2
+    },
+    "28": {
      "home": 1,
      "away": 1,
      "sign": "X",
+     "points": 2
+    },
+    "53": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
      "points": 0
     },
     "54": {
@@ -4058,10 +4536,10 @@
      "points": 0
     },
     "3": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 0
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 7
     },
     "8": {
      "home": 0,
@@ -4070,13 +4548,13 @@
      "points": 0
     },
     "26": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 2
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 3
     },
     "27": {
-     "home": 2,
+     "home": 3,
      "away": 1,
      "sign": "1",
      "points": 3
@@ -4088,9 +4566,9 @@
      "points": 0
     },
     "52": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
+     "home": 1,
+     "away": 1,
+     "sign": "X",
      "points": 0
     },
     "7": {
@@ -4100,16 +4578,16 @@
      "points": 2
     },
     "5": {
-     "home": 0,
+     "home": 1,
      "away": 3,
      "sign": "2",
-     "points": 5
+     "points": 3
     },
     "30": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 3
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 2
     },
     "29": {
      "home": 4,
@@ -4118,116 +4596,116 @@
      "points": 5
     },
     "49": {
-     "home": 0,
+     "home": 2,
      "away": 2,
-     "sign": "2",
+     "sign": "X",
      "points": 0
     },
     "50": {
-     "home": 4,
+     "home": 2,
      "away": 0,
      "sign": "1",
      "points": 0
     },
     "4": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 2
-    },
-    "6": {
-     "home": 0,
-     "away": 1,
-     "sign": "2",
-     "points": 0
-    },
-    "32": {
      "home": 2,
      "away": 1,
      "sign": "1",
      "points": 5
     },
-    "31": {
+    "6": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 0
+    },
+    "32": {
      "home": 1,
      "away": 1,
      "sign": "X",
-     "points": 2
+     "points": 0
+    },
+    "31": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 0
     },
     "59": {
-     "home": 2,
-     "away": 2,
+     "home": 1,
+     "away": 1,
      "sign": "X",
      "points": 0
     },
     "60": {
      "home": 1,
-     "away": 0,
-     "sign": "1",
+     "away": 1,
+     "sign": "X",
      "points": 0
     },
     "10": {
-     "home": 5,
+     "home": 3,
      "away": 0,
      "sign": "1",
      "points": 3
     },
     "9": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 2
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 5
     },
     "33": {
-     "home": 1,
-     "away": 0,
+     "home": 2,
+     "away": 1,
      "sign": "1",
      "points": 0
     },
     "34": {
-     "home": 4,
+     "home": 1,
      "away": 0,
      "sign": "1",
      "points": 0
     },
     "55": {
-     "home": 0,
+     "home": 1,
      "away": 3,
      "sign": "2",
      "points": 0
     },
     "56": {
-     "home": 1,
+     "home": 2,
      "away": 2,
-     "sign": "2",
+     "sign": "X",
      "points": 0
     },
     "11": {
-     "home": 1,
-     "away": 0,
+     "home": 3,
+     "away": 1,
      "sign": "1",
      "points": 0
     },
     "12": {
-     "home": 2,
+     "home": 3,
      "away": 1,
      "sign": "1",
      "points": 5
     },
     "35": {
-     "home": 2,
+     "home": 3,
      "away": 1,
      "sign": "1",
-     "points": 0
+     "points": 5
     },
     "36": {
-     "home": 0,
-     "away": 1,
+     "home": 1,
+     "away": 2,
      "sign": "2",
      "points": 0
     },
     "57": {
-     "home": 1,
-     "away": 1,
+     "home": 2,
+     "away": 2,
      "sign": "X",
      "points": 0
     },
@@ -4238,82 +4716,82 @@
      "points": 0
     },
     "16": {
-     "home": 1,
+     "home": 2,
      "away": 1,
-     "sign": "X",
-     "points": 7
+     "sign": "1",
+     "points": 2
     },
     "15": {
-     "home": 0,
-     "away": 1,
-     "sign": "2",
-     "points": 0
-    },
-    "39": {
      "home": 2,
      "away": 0,
      "sign": "1",
+     "points": 2
+    },
+    "39": {
+     "home": 2,
+     "away": 2,
+     "sign": "X",
      "points": 0
     },
     "40": {
-     "home": 0,
+     "home": 1,
      "away": 2,
      "sign": "2",
      "points": 0
     },
     "63": {
-     "home": 1,
-     "away": 1,
+     "home": 3,
+     "away": 3,
      "sign": "X",
      "points": 0
     },
     "64": {
-     "home": 0,
+     "home": 1,
      "away": 2,
      "sign": "2",
      "points": 0
     },
     "14": {
-     "home": 5,
-     "away": 0,
+     "home": 3,
+     "away": 1,
      "sign": "1",
-     "points": 2
+     "points": 0
     },
     "13": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 0
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 7
     },
     "38": {
      "home": 2,
-     "away": 0,
+     "away": 1,
      "sign": "1",
      "points": 0
     },
     "37": {
-     "home": 3,
+     "home": 2,
      "away": 0,
      "sign": "1",
      "points": 0
     },
     "65": {
-     "home": 0,
-     "away": 1,
+     "home": 1,
+     "away": 2,
      "sign": "2",
      "points": 0
     },
     "66": {
-     "home": 0,
-     "away": 0,
+     "home": 1,
+     "away": 1,
      "sign": "X",
      "points": 0
     },
     "17": {
      "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 5
+     "away": 2,
+     "sign": "X",
+     "points": 0
     },
     "18": {
      "home": 1,
@@ -4322,80 +4800,80 @@
      "points": 5
     },
     "42": {
-     "home": 2,
+     "home": 3,
      "away": 0,
      "sign": "1",
      "points": 0
     },
     "41": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 0
+    },
+    "61": {
      "home": 1,
      "away": 1,
      "sign": "X",
      "points": 0
     },
-    "61": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 0
-    },
     "62": {
-     "home": 1,
+     "home": 2,
      "away": 0,
      "sign": "1",
      "points": 0
     },
     "19": {
-     "home": 3,
-     "away": 0,
+     "home": 2,
+     "away": 1,
      "sign": "1",
-     "points": 7
+     "points": 3
     },
     "20": {
-     "home": 3,
+     "home": 2,
      "away": 0,
      "sign": "1",
-     "points": 5
+     "points": 3
     },
     "43": {
-     "home": 2,
+     "home": 3,
      "away": 1,
      "sign": "1",
      "points": 0
     },
     "44": {
-     "home": 0,
+     "home": 2,
      "away": 2,
-     "sign": "2",
+     "sign": "X",
      "points": 0
     },
     "69": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
+     "home": 1,
+     "away": 1,
+     "sign": "X",
      "points": 0
     },
     "70": {
-     "home": 0,
-     "away": 4,
+     "home": 1,
+     "away": 2,
      "sign": "2",
      "points": 0
     },
     "23": {
-     "home": 2,
-     "away": 0,
+     "home": 3,
+     "away": 1,
      "sign": "1",
-     "points": 0
+     "points": 2
     },
     "24": {
      "home": 0,
-     "away": 1,
+     "away": 2,
      "sign": "2",
      "points": 3
     },
     "47": {
-     "home": 3,
-     "away": 0,
+     "home": 4,
+     "away": 1,
      "sign": "1",
      "points": 0
     },
@@ -4406,78 +4884,78 @@
      "points": 0
     },
     "71": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 0
-    },
-    "72": {
      "home": 2,
      "away": 2,
      "sign": "X",
      "points": 0
     },
-    "22": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 0
-    },
-    "21": {
-     "home": 3,
+    "72": {
+     "home": 2,
      "away": 0,
      "sign": "1",
-     "points": 5
+     "points": 0
+    },
+    "22": {
+     "home": 2,
+     "away": 2,
+     "sign": "X",
+     "points": 2
+    },
+    "21": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 3
     },
     "45": {
-     "home": 2,
+     "home": 3,
      "away": 1,
      "sign": "1",
      "points": 0
     },
     "46": {
-     "home": 0,
+     "home": 1,
      "away": 2,
      "sign": "2",
      "points": 0
     },
     "67": {
      "home": 0,
-     "away": 3,
+     "away": 2,
      "sign": "2",
      "points": 0
     },
     "68": {
      "home": 2,
-     "away": 1,
-     "sign": "1",
+     "away": 2,
+     "sign": "X",
      "points": 0
     }
    },
    "bonus": [
     {
      "category": "Skyttekung",
-     "answer": "mbappe",
+     "answer": "Harry Kane",
      "points": 0
     },
     {
      "category": "Världsmästare",
-     "answer": "Tyskland",
+     "answer": "Portugal",
      "points": 0
     },
     {
      "category": "Vinnare bronsmatch",
-     "answer": "Argentina",
+     "answer": "England",
      "points": 0
     },
     {
      "category": "Lag som gör flest mål i gruppspelet",
-     "answer": "Brasilien",
+     "answer": "Portugal",
      "points": 0
     },
     {
      "category": "Lag som släpper in flest mål i gruppspelet",
-     "answer": "Curacao",
+     "answer": "Haiti",
      "points": 0
     },
     {
@@ -4971,9 +5449,9 @@
    ]
   },
   {
-   "name": "Hampus Svensson",
-   "total": 91,
-   "groupPoints": 91,
+   "name": "Philip Wallberg",
+   "total": 89,
+   "groupPoints": 89,
    "bonusPoints": 0,
    "knockoutPoints": 0,
    "predictions": {
@@ -4984,16 +5462,16 @@
      "points": 5
     },
     "2": {
-     "home": 2,
+     "home": 1,
      "away": 1,
-     "sign": "1",
-     "points": 7
+     "sign": "X",
+     "points": 2
     },
     "25": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 2
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 0
     },
     "28": {
      "home": 1,
@@ -5014,28 +5492,28 @@
      "points": 0
     },
     "3": {
-     "home": 1,
+     "home": 2,
      "away": 1,
-     "sign": "X",
-     "points": 7
+     "sign": "1",
+     "points": 2
     },
     "8": {
      "home": 0,
-     "away": 2,
+     "away": 3,
      "sign": "2",
      "points": 0
     },
     "26": {
-     "home": 2,
+     "home": 1,
      "away": 0,
      "sign": "1",
      "points": 3
     },
     "27": {
      "home": 3,
-     "away": 1,
+     "away": 0,
      "sign": "1",
-     "points": 3
+     "points": 5
     },
     "51": {
      "home": 1,
@@ -5044,9 +5522,9 @@
      "points": 0
     },
     "52": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
+     "home": 2,
+     "away": 0,
+     "sign": "1",
      "points": 0
     },
     "7": {
@@ -5056,15 +5534,15 @@
      "points": 2
     },
     "5": {
-     "home": 1,
+     "home": 0,
      "away": 3,
      "sign": "2",
-     "points": 3
+     "points": 5
     },
     "30": {
-     "home": 2,
+     "home": 1,
      "away": 1,
-     "sign": "1",
+     "sign": "X",
      "points": 2
     },
     "29": {
@@ -5074,9 +5552,9 @@
      "points": 5
     },
     "49": {
-     "home": 2,
-     "away": 2,
-     "sign": "X",
+     "home": 1,
+     "away": 3,
+     "sign": "2",
      "points": 0
     },
     "50": {
@@ -5098,16 +5576,16 @@
      "points": 0
     },
     "32": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 0
-    },
-    "31": {
      "home": 2,
      "away": 0,
      "sign": "1",
-     "points": 0
+     "points": 7
+    },
+    "31": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 2
     },
     "59": {
      "home": 1,
@@ -5117,8 +5595,8 @@
     },
     "60": {
      "home": 1,
-     "away": 1,
-     "sign": "X",
+     "away": 0,
+     "sign": "1",
      "points": 0
     },
     "10": {
@@ -5128,10 +5606,10 @@
      "points": 3
     },
     "9": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 5
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 2
     },
     "33": {
      "home": 2,
@@ -5140,56 +5618,56 @@
      "points": 0
     },
     "34": {
-     "home": 1,
+     "home": 2,
      "away": 0,
      "sign": "1",
      "points": 0
     },
     "55": {
-     "home": 1,
-     "away": 3,
+     "home": 0,
+     "away": 2,
      "sign": "2",
      "points": 0
     },
     "56": {
-     "home": 2,
+     "home": 1,
      "away": 2,
-     "sign": "X",
+     "sign": "2",
      "points": 0
     },
     "11": {
-     "home": 3,
+     "home": 2,
      "away": 1,
      "sign": "1",
-     "points": 0
+     "points": 2
     },
     "12": {
-     "home": 3,
-     "away": 1,
+     "home": 2,
+     "away": 0,
      "sign": "1",
-     "points": 5
+     "points": 3
     },
     "35": {
-     "home": 3,
+     "home": 1,
      "away": 1,
-     "sign": "1",
-     "points": 0
+     "sign": "X",
+     "points": 2
     },
     "36": {
-     "home": 1,
+     "home": 0,
      "away": 2,
      "sign": "2",
      "points": 0
     },
     "57": {
-     "home": 2,
-     "away": 2,
+     "home": 1,
+     "away": 1,
      "sign": "X",
      "points": 0
     },
     "58": {
      "home": 0,
-     "away": 2,
+     "away": 3,
      "sign": "2",
      "points": 0
     },
@@ -5207,43 +5685,43 @@
     },
     "39": {
      "home": 2,
-     "away": 2,
-     "sign": "X",
+     "away": 1,
+     "sign": "1",
      "points": 0
     },
     "40": {
-     "home": 1,
+     "home": 0,
      "away": 2,
      "sign": "2",
      "points": 0
     },
     "63": {
-     "home": 3,
-     "away": 3,
+     "home": 1,
+     "away": 1,
      "sign": "X",
      "points": 0
     },
     "64": {
-     "home": 1,
-     "away": 2,
+     "home": 0,
+     "away": 3,
      "sign": "2",
      "points": 0
     },
     "14": {
-     "home": 3,
-     "away": 1,
+     "home": 4,
+     "away": 0,
      "sign": "1",
-     "points": 0
+     "points": 2
     },
     "13": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 7
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 0
     },
     "38": {
      "home": 2,
-     "away": 1,
+     "away": 0,
      "sign": "1",
      "points": 0
     },
@@ -5267,15 +5745,15 @@
     },
     "17": {
      "home": 2,
-     "away": 2,
-     "sign": "X",
-     "points": 0
+     "away": 1,
+     "sign": "1",
+     "points": 5
     },
     "18": {
-     "home": 1,
+     "home": 0,
      "away": 2,
      "sign": "2",
-     "points": 5
+     "points": 3
     },
     "42": {
      "home": 3,
@@ -5284,28 +5762,28 @@
      "points": 0
     },
     "41": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 0
-    },
-    "61": {
      "home": 1,
      "away": 1,
      "sign": "X",
      "points": 0
     },
+    "61": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 0
+    },
     "62": {
      "home": 2,
-     "away": 0,
+     "away": 1,
      "sign": "1",
      "points": 0
     },
     "19": {
      "home": 2,
-     "away": 1,
+     "away": 0,
      "sign": "1",
-     "points": 3
+     "points": 5
     },
     "20": {
      "home": 2,
@@ -5314,15 +5792,15 @@
      "points": 3
     },
     "43": {
-     "home": 3,
+     "home": 2,
      "away": 1,
      "sign": "1",
      "points": 0
     },
     "44": {
-     "home": 2,
+     "home": 0,
      "away": 2,
-     "sign": "X",
+     "sign": "2",
      "points": 0
     },
     "69": {
@@ -5332,16 +5810,16 @@
      "points": 0
     },
     "70": {
-     "home": 1,
-     "away": 2,
+     "home": 0,
+     "away": 3,
      "sign": "2",
      "points": 0
     },
     "23": {
-     "home": 3,
-     "away": 1,
+     "home": 2,
+     "away": 0,
      "sign": "1",
-     "points": 2
+     "points": 0
     },
     "24": {
      "home": 0,
@@ -5350,8 +5828,8 @@
      "points": 3
     },
     "47": {
-     "home": 4,
-     "away": 1,
+     "home": 3,
+     "away": 0,
      "sign": "1",
      "points": 0
     },
@@ -5362,8 +5840,8 @@
      "points": 0
     },
     "71": {
-     "home": 2,
-     "away": 2,
+     "home": 1,
+     "away": 1,
      "sign": "X",
      "points": 0
     },
@@ -5374,38 +5852,38 @@
      "points": 0
     },
     "22": {
-     "home": 2,
-     "away": 2,
+     "home": 1,
+     "away": 1,
      "sign": "X",
-     "points": 2
+     "points": 0
     },
     "21": {
      "home": 2,
-     "away": 1,
+     "away": 0,
      "sign": "1",
-     "points": 3
+     "points": 5
     },
     "45": {
-     "home": 3,
+     "home": 2,
      "away": 1,
      "sign": "1",
      "points": 0
     },
     "46": {
-     "home": 1,
+     "home": 0,
      "away": 2,
      "sign": "2",
      "points": 0
     },
     "67": {
      "home": 0,
-     "away": 2,
+     "away": 3,
      "sign": "2",
      "points": 0
     },
     "68": {
-     "home": 2,
-     "away": 2,
+     "home": 1,
+     "away": 1,
      "sign": "X",
      "points": 0
     }
@@ -5413,27 +5891,505 @@
    "bonus": [
     {
      "category": "Skyttekung",
-     "answer": "Harry Kane",
+     "answer": "olise",
      "points": 0
     },
     {
      "category": "Världsmästare",
-     "answer": "Portugal",
+     "answer": "spanien",
      "points": 0
     },
     {
      "category": "Vinnare bronsmatch",
-     "answer": "England",
+     "answer": "Frankrike",
      "points": 0
     },
     {
      "category": "Lag som gör flest mål i gruppspelet",
-     "answer": "Portugal",
+     "answer": "Brasilien",
      "points": 0
     },
     {
      "category": "Lag som släpper in flest mål i gruppspelet",
      "answer": "Haiti",
+     "points": 0
+    },
+    {
+     "category": "Egen bonusfråga 1",
+     "answer": null,
+     "points": 0
+    },
+    {
+     "category": "Egen bonusfråga 2",
+     "answer": null,
+     "points": 0
+    }
+   ]
+  },
+  {
+   "name": "Tim Israelsson",
+   "total": 89,
+   "groupPoints": 89,
+   "bonusPoints": 0,
+   "knockoutPoints": 0,
+   "predictions": {
+    "1": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 5
+    },
+    "2": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 2
+    },
+    "25": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 2
+    },
+    "28": {
+     "home": 3,
+     "away": 3,
+     "sign": "X",
+     "points": 0
+    },
+    "53": {
+     "home": 0,
+     "away": 1,
+     "sign": "2",
+     "points": 0
+    },
+    "54": {
+     "home": 2,
+     "away": 4,
+     "sign": "2",
+     "points": 0
+    },
+    "3": {
+     "home": 3,
+     "away": 0,
+     "sign": "1",
+     "points": 0
+    },
+    "8": {
+     "home": 1,
+     "away": 4,
+     "sign": "2",
+     "points": 2
+    },
+    "26": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 2
+    },
+    "27": {
+     "home": 5,
+     "away": 0,
+     "sign": "1",
+     "points": 5
+    },
+    "51": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 0
+    },
+    "52": {
+     "home": 3,
+     "away": 0,
+     "sign": "1",
+     "points": 0
+    },
+    "7": {
+     "home": 3,
+     "away": 2,
+     "sign": "1",
+     "points": 0
+    },
+    "5": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 5
+    },
+    "30": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 2
+    },
+    "29": {
+     "home": 6,
+     "away": 0,
+     "sign": "1",
+     "points": 5
+    },
+    "49": {
+     "home": 2,
+     "away": 3,
+     "sign": "2",
+     "points": 0
+    },
+    "50": {
+     "home": 3,
+     "away": 0,
+     "sign": "1",
+     "points": 0
+    },
+    "4": {
+     "home": 4,
+     "away": 2,
+     "sign": "1",
+     "points": 5
+    },
+    "6": {
+     "home": 2,
+     "away": 2,
+     "sign": "X",
+     "points": 2
+    },
+    "32": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 7
+    },
+    "31": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 2
+    },
+    "59": {
+     "home": 1,
+     "away": 3,
+     "sign": "2",
+     "points": 0
+    },
+    "60": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 0
+    },
+    "10": {
+     "home": 4,
+     "away": 0,
+     "sign": "1",
+     "points": 3
+    },
+    "9": {
+     "home": 0,
+     "away": 1,
+     "sign": "2",
+     "points": 0
+    },
+    "33": {
+     "home": 3,
+     "away": 0,
+     "sign": "1",
+     "points": 0
+    },
+    "34": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 0
+    },
+    "55": {
+     "home": 1,
+     "away": 4,
+     "sign": "2",
+     "points": 0
+    },
+    "56": {
+     "home": 2,
+     "away": 6,
+     "sign": "2",
+     "points": 0
+    },
+    "11": {
+     "home": 3,
+     "away": 1,
+     "sign": "1",
+     "points": 0
+    },
+    "12": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 3
+    },
+    "35": {
+     "home": 3,
+     "away": 1,
+     "sign": "1",
+     "points": 5
+    },
+    "36": {
+     "home": 2,
+     "away": 2,
+     "sign": "X",
+     "points": 0
+    },
+    "57": {
+     "home": 1,
+     "away": 3,
+     "sign": "2",
+     "points": 0
+    },
+    "58": {
+     "home": 1,
+     "away": 4,
+     "sign": "2",
+     "points": 0
+    },
+    "16": {
+     "home": 3,
+     "away": 0,
+     "sign": "1",
+     "points": 0
+    },
+    "15": {
+     "home": 1,
+     "away": 4,
+     "sign": "2",
+     "points": 0
+    },
+    "39": {
+     "home": 4,
+     "away": 0,
+     "sign": "1",
+     "points": 0
+    },
+    "40": {
+     "home": 1,
+     "away": 0,
+     "sign": "1",
+     "points": 0
+    },
+    "63": {
+     "home": 3,
+     "away": 1,
+     "sign": "1",
+     "points": 0
+    },
+    "64": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 0
+    },
+    "14": {
+     "home": 5,
+     "away": 0,
+     "sign": "1",
+     "points": 2
+    },
+    "13": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 7
+    },
+    "38": {
+     "home": 3,
+     "away": 0,
+     "sign": "1",
+     "points": 0
+    },
+    "37": {
+     "home": 4,
+     "away": 0,
+     "sign": "1",
+     "points": 0
+    },
+    "65": {
+     "home": 2,
+     "away": 2,
+     "sign": "X",
+     "points": 0
+    },
+    "66": {
+     "home": 2,
+     "away": 3,
+     "sign": "2",
+     "points": 0
+    },
+    "17": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 2
+    },
+    "18": {
+     "home": 0,
+     "away": 3,
+     "sign": "2",
+     "points": 3
+    },
+    "42": {
+     "home": 5,
+     "away": 1,
+     "sign": "1",
+     "points": 0
+    },
+    "41": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 0
+    },
+    "61": {
+     "home": 2,
+     "away": 3,
+     "sign": "2",
+     "points": 0
+    },
+    "62": {
+     "home": 2,
+     "away": 3,
+     "sign": "2",
+     "points": 0
+    },
+    "19": {
+     "home": 3,
+     "away": 2,
+     "sign": "1",
+     "points": 5
+    },
+    "20": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 3
+    },
+    "43": {
+     "home": 4,
+     "away": 3,
+     "sign": "1",
+     "points": 0
+    },
+    "44": {
+     "home": 1,
+     "away": 4,
+     "sign": "2",
+     "points": 0
+    },
+    "69": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 0
+    },
+    "70": {
+     "home": 0,
+     "away": 5,
+     "sign": "2",
+     "points": 0
+    },
+    "23": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 0
+    },
+    "24": {
+     "home": 0,
+     "away": 3,
+     "sign": "2",
+     "points": 5
+    },
+    "47": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 0
+    },
+    "48": {
+     "home": 3,
+     "away": 2,
+     "sign": "1",
+     "points": 0
+    },
+    "71": {
+     "home": 2,
+     "away": 3,
+     "sign": "2",
+     "points": 0
+    },
+    "72": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 0
+    },
+    "22": {
+     "home": 2,
+     "away": 2,
+     "sign": "X",
+     "points": 2
+    },
+    "21": {
+     "home": 3,
+     "away": 1,
+     "sign": "1",
+     "points": 3
+    },
+    "45": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 0
+    },
+    "46": {
+     "home": 2,
+     "away": 3,
+     "sign": "2",
+     "points": 0
+    },
+    "67": {
+     "home": 0,
+     "away": 1,
+     "sign": "2",
+     "points": 0
+    },
+    "68": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 0
+    }
+   },
+   "bonus": [
+    {
+     "category": "Skyttekung",
+     "answer": "Haaland",
+     "points": 0
+    },
+    {
+     "category": "Världsmästare",
+     "answer": "Frankrike",
+     "points": 0
+    },
+    {
+     "category": "Vinnare bronsmatch",
+     "answer": "Kroatien",
+     "points": 0
+    },
+    {
+     "category": "Lag som gör flest mål i gruppspelet",
+     "answer": "Tyskland",
+     "points": 0
+    },
+    {
+     "category": "Lag som släpper in flest mål i gruppspelet",
+     "answer": "Quatar",
      "points": 0
     },
     {
@@ -5912,962 +6868,6 @@
     {
      "category": "Lag som släpper in flest mål i gruppspelet",
      "answer": "Haiti",
-     "points": 0
-    },
-    {
-     "category": "Egen bonusfråga 1",
-     "answer": null,
-     "points": 0
-    },
-    {
-     "category": "Egen bonusfråga 2",
-     "answer": null,
-     "points": 0
-    }
-   ]
-  },
-  {
-   "name": "Philip Wallberg",
-   "total": 87,
-   "groupPoints": 87,
-   "bonusPoints": 0,
-   "knockoutPoints": 0,
-   "predictions": {
-    "1": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 5
-    },
-    "2": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 2
-    },
-    "25": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 0
-    },
-    "28": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 2
-    },
-    "53": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 0
-    },
-    "54": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 0
-    },
-    "3": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 2
-    },
-    "8": {
-     "home": 0,
-     "away": 3,
-     "sign": "2",
-     "points": 0
-    },
-    "26": {
-     "home": 1,
-     "away": 0,
-     "sign": "1",
-     "points": 3
-    },
-    "27": {
-     "home": 3,
-     "away": 0,
-     "sign": "1",
-     "points": 5
-    },
-    "51": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 0
-    },
-    "52": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 0
-    },
-    "7": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 2
-    },
-    "5": {
-     "home": 0,
-     "away": 3,
-     "sign": "2",
-     "points": 5
-    },
-    "30": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 2
-    },
-    "29": {
-     "home": 4,
-     "away": 0,
-     "sign": "1",
-     "points": 5
-    },
-    "49": {
-     "home": 1,
-     "away": 3,
-     "sign": "2",
-     "points": 0
-    },
-    "50": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 0
-    },
-    "4": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 5
-    },
-    "6": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 0
-    },
-    "32": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 7
-    },
-    "31": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 2
-    },
-    "59": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 0
-    },
-    "60": {
-     "home": 1,
-     "away": 0,
-     "sign": "1",
-     "points": 0
-    },
-    "10": {
-     "home": 3,
-     "away": 0,
-     "sign": "1",
-     "points": 3
-    },
-    "9": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 2
-    },
-    "33": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 0
-    },
-    "34": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 0
-    },
-    "55": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 0
-    },
-    "56": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 0
-    },
-    "11": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 2
-    },
-    "12": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 3
-    },
-    "35": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 0
-    },
-    "36": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 0
-    },
-    "57": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 0
-    },
-    "58": {
-     "home": 0,
-     "away": 3,
-     "sign": "2",
-     "points": 0
-    },
-    "16": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 2
-    },
-    "15": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 2
-    },
-    "39": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 0
-    },
-    "40": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 0
-    },
-    "63": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 0
-    },
-    "64": {
-     "home": 0,
-     "away": 3,
-     "sign": "2",
-     "points": 0
-    },
-    "14": {
-     "home": 4,
-     "away": 0,
-     "sign": "1",
-     "points": 2
-    },
-    "13": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 0
-    },
-    "38": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 0
-    },
-    "37": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 0
-    },
-    "65": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 0
-    },
-    "66": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 0
-    },
-    "17": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 5
-    },
-    "18": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 3
-    },
-    "42": {
-     "home": 3,
-     "away": 0,
-     "sign": "1",
-     "points": 0
-    },
-    "41": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 0
-    },
-    "61": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 0
-    },
-    "62": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 0
-    },
-    "19": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 5
-    },
-    "20": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 3
-    },
-    "43": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 0
-    },
-    "44": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 0
-    },
-    "69": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 0
-    },
-    "70": {
-     "home": 0,
-     "away": 3,
-     "sign": "2",
-     "points": 0
-    },
-    "23": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 0
-    },
-    "24": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 3
-    },
-    "47": {
-     "home": 3,
-     "away": 0,
-     "sign": "1",
-     "points": 0
-    },
-    "48": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 0
-    },
-    "71": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 0
-    },
-    "72": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 0
-    },
-    "22": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 0
-    },
-    "21": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 5
-    },
-    "45": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 0
-    },
-    "46": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 0
-    },
-    "67": {
-     "home": 0,
-     "away": 3,
-     "sign": "2",
-     "points": 0
-    },
-    "68": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 0
-    }
-   },
-   "bonus": [
-    {
-     "category": "Skyttekung",
-     "answer": "olise",
-     "points": 0
-    },
-    {
-     "category": "Världsmästare",
-     "answer": "spanien",
-     "points": 0
-    },
-    {
-     "category": "Vinnare bronsmatch",
-     "answer": "Frankrike",
-     "points": 0
-    },
-    {
-     "category": "Lag som gör flest mål i gruppspelet",
-     "answer": "Brasilien",
-     "points": 0
-    },
-    {
-     "category": "Lag som släpper in flest mål i gruppspelet",
-     "answer": "Haiti",
-     "points": 0
-    },
-    {
-     "category": "Egen bonusfråga 1",
-     "answer": null,
-     "points": 0
-    },
-    {
-     "category": "Egen bonusfråga 2",
-     "answer": null,
-     "points": 0
-    }
-   ]
-  },
-  {
-   "name": "Tim Israelsson",
-   "total": 84,
-   "groupPoints": 84,
-   "bonusPoints": 0,
-   "knockoutPoints": 0,
-   "predictions": {
-    "1": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 5
-    },
-    "2": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 2
-    },
-    "25": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 2
-    },
-    "28": {
-     "home": 3,
-     "away": 3,
-     "sign": "X",
-     "points": 0
-    },
-    "53": {
-     "home": 0,
-     "away": 1,
-     "sign": "2",
-     "points": 0
-    },
-    "54": {
-     "home": 2,
-     "away": 4,
-     "sign": "2",
-     "points": 0
-    },
-    "3": {
-     "home": 3,
-     "away": 0,
-     "sign": "1",
-     "points": 0
-    },
-    "8": {
-     "home": 1,
-     "away": 4,
-     "sign": "2",
-     "points": 2
-    },
-    "26": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 2
-    },
-    "27": {
-     "home": 5,
-     "away": 0,
-     "sign": "1",
-     "points": 5
-    },
-    "51": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 0
-    },
-    "52": {
-     "home": 3,
-     "away": 0,
-     "sign": "1",
-     "points": 0
-    },
-    "7": {
-     "home": 3,
-     "away": 2,
-     "sign": "1",
-     "points": 0
-    },
-    "5": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 5
-    },
-    "30": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 2
-    },
-    "29": {
-     "home": 6,
-     "away": 0,
-     "sign": "1",
-     "points": 5
-    },
-    "49": {
-     "home": 2,
-     "away": 3,
-     "sign": "2",
-     "points": 0
-    },
-    "50": {
-     "home": 3,
-     "away": 0,
-     "sign": "1",
-     "points": 0
-    },
-    "4": {
-     "home": 4,
-     "away": 2,
-     "sign": "1",
-     "points": 5
-    },
-    "6": {
-     "home": 2,
-     "away": 2,
-     "sign": "X",
-     "points": 2
-    },
-    "32": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 7
-    },
-    "31": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 2
-    },
-    "59": {
-     "home": 1,
-     "away": 3,
-     "sign": "2",
-     "points": 0
-    },
-    "60": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 0
-    },
-    "10": {
-     "home": 4,
-     "away": 0,
-     "sign": "1",
-     "points": 3
-    },
-    "9": {
-     "home": 0,
-     "away": 1,
-     "sign": "2",
-     "points": 0
-    },
-    "33": {
-     "home": 3,
-     "away": 0,
-     "sign": "1",
-     "points": 0
-    },
-    "34": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 0
-    },
-    "55": {
-     "home": 1,
-     "away": 4,
-     "sign": "2",
-     "points": 0
-    },
-    "56": {
-     "home": 2,
-     "away": 6,
-     "sign": "2",
-     "points": 0
-    },
-    "11": {
-     "home": 3,
-     "away": 1,
-     "sign": "1",
-     "points": 0
-    },
-    "12": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 3
-    },
-    "35": {
-     "home": 3,
-     "away": 1,
-     "sign": "1",
-     "points": 0
-    },
-    "36": {
-     "home": 2,
-     "away": 2,
-     "sign": "X",
-     "points": 0
-    },
-    "57": {
-     "home": 1,
-     "away": 3,
-     "sign": "2",
-     "points": 0
-    },
-    "58": {
-     "home": 1,
-     "away": 4,
-     "sign": "2",
-     "points": 0
-    },
-    "16": {
-     "home": 3,
-     "away": 0,
-     "sign": "1",
-     "points": 0
-    },
-    "15": {
-     "home": 1,
-     "away": 4,
-     "sign": "2",
-     "points": 0
-    },
-    "39": {
-     "home": 4,
-     "away": 0,
-     "sign": "1",
-     "points": 0
-    },
-    "40": {
-     "home": 1,
-     "away": 0,
-     "sign": "1",
-     "points": 0
-    },
-    "63": {
-     "home": 3,
-     "away": 1,
-     "sign": "1",
-     "points": 0
-    },
-    "64": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 0
-    },
-    "14": {
-     "home": 5,
-     "away": 0,
-     "sign": "1",
-     "points": 2
-    },
-    "13": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 7
-    },
-    "38": {
-     "home": 3,
-     "away": 0,
-     "sign": "1",
-     "points": 0
-    },
-    "37": {
-     "home": 4,
-     "away": 0,
-     "sign": "1",
-     "points": 0
-    },
-    "65": {
-     "home": 2,
-     "away": 2,
-     "sign": "X",
-     "points": 0
-    },
-    "66": {
-     "home": 2,
-     "away": 3,
-     "sign": "2",
-     "points": 0
-    },
-    "17": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 2
-    },
-    "18": {
-     "home": 0,
-     "away": 3,
-     "sign": "2",
-     "points": 3
-    },
-    "42": {
-     "home": 5,
-     "away": 1,
-     "sign": "1",
-     "points": 0
-    },
-    "41": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 0
-    },
-    "61": {
-     "home": 2,
-     "away": 3,
-     "sign": "2",
-     "points": 0
-    },
-    "62": {
-     "home": 2,
-     "away": 3,
-     "sign": "2",
-     "points": 0
-    },
-    "19": {
-     "home": 3,
-     "away": 2,
-     "sign": "1",
-     "points": 5
-    },
-    "20": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 3
-    },
-    "43": {
-     "home": 4,
-     "away": 3,
-     "sign": "1",
-     "points": 0
-    },
-    "44": {
-     "home": 1,
-     "away": 4,
-     "sign": "2",
-     "points": 0
-    },
-    "69": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 0
-    },
-    "70": {
-     "home": 0,
-     "away": 5,
-     "sign": "2",
-     "points": 0
-    },
-    "23": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 0
-    },
-    "24": {
-     "home": 0,
-     "away": 3,
-     "sign": "2",
-     "points": 5
-    },
-    "47": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 0
-    },
-    "48": {
-     "home": 3,
-     "away": 2,
-     "sign": "1",
-     "points": 0
-    },
-    "71": {
-     "home": 2,
-     "away": 3,
-     "sign": "2",
-     "points": 0
-    },
-    "72": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 0
-    },
-    "22": {
-     "home": 2,
-     "away": 2,
-     "sign": "X",
-     "points": 2
-    },
-    "21": {
-     "home": 3,
-     "away": 1,
-     "sign": "1",
-     "points": 3
-    },
-    "45": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 0
-    },
-    "46": {
-     "home": 2,
-     "away": 3,
-     "sign": "2",
-     "points": 0
-    },
-    "67": {
-     "home": 0,
-     "away": 1,
-     "sign": "2",
-     "points": 0
-    },
-    "68": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 0
-    }
-   },
-   "bonus": [
-    {
-     "category": "Skyttekung",
-     "answer": "Haaland",
-     "points": 0
-    },
-    {
-     "category": "Världsmästare",
-     "answer": "Frankrike",
-     "points": 0
-    },
-    {
-     "category": "Vinnare bronsmatch",
-     "answer": "Kroatien",
-     "points": 0
-    },
-    {
-     "category": "Lag som gör flest mål i gruppspelet",
-     "answer": "Tyskland",
-     "points": 0
-    },
-    {
-     "category": "Lag som släpper in flest mål i gruppspelet",
-     "answer": "Quatar",
      "points": 0
     },
     {
