@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-26T19:18:07.712924+00:00",
+ "updated": "2026-06-26T21:05:47.562000+00:00",
  "tournament": "VM 2026",
  "matches": [
   {
@@ -668,10 +668,10 @@
    "home": "Norge",
    "away": "Frankrike",
    "date": "2026-06-26",
-   "homeGoals": null,
-   "awayGoals": null,
-   "sign": null,
-   "played": false
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sign": "2",
+   "played": true
   },
   {
    "no": 62,
@@ -1457,22 +1457,22 @@
   "I": [
    {
     "team": "Frankrike",
-    "w": 2,
+    "w": 3,
     "d": 0,
     "l": 0,
-    "gf": 6,
-    "ga": 1,
-    "gd": 5,
-    "pts": 6
+    "gf": 10,
+    "ga": 2,
+    "gd": 8,
+    "pts": 9
    },
    {
     "team": "Norge",
     "w": 2,
     "d": 0,
-    "l": 0,
-    "gf": 7,
-    "ga": 3,
-    "gd": 4,
+    "l": 1,
+    "gf": 8,
+    "ga": 7,
+    "gd": 1,
     "pts": 6
    },
    {
@@ -1626,8 +1626,8 @@
  "players": [
   {
    "name": "Emma Svensson",
-   "total": 207,
-   "groupPoints": 207,
+   "total": 212,
+   "groupPoints": 212,
    "bonusPoints": 0,
    "knockoutPoints": 0,
    "predictions": {
@@ -1947,7 +1947,7 @@
      "home": 1,
      "away": 2,
      "sign": "2",
-     "points": 0
+     "points": 5
     },
     "62": {
      "home": 2,
@@ -2104,8 +2104,8 @@
   },
   {
    "name": "Noel Holmström",
-   "total": 205,
-   "groupPoints": 205,
+   "total": 210,
+   "groupPoints": 210,
    "bonusPoints": 0,
    "knockoutPoints": 0,
    "predictions": {
@@ -2425,7 +2425,7 @@
      "home": 1,
      "away": 2,
      "sign": "2",
-     "points": 0
+     "points": 5
     },
     "62": {
      "home": 2,
@@ -2582,8 +2582,8 @@
   },
   {
    "name": "Mikael Cordes",
-   "total": 197,
-   "groupPoints": 197,
+   "total": 202,
+   "groupPoints": 202,
    "bonusPoints": 0,
    "knockoutPoints": 0,
    "predictions": {
@@ -2903,7 +2903,7 @@
      "home": 1,
      "away": 2,
      "sign": "2",
-     "points": 0
+     "points": 5
     },
     "62": {
      "home": 2,
@@ -3060,8 +3060,8 @@
   },
   {
    "name": "Lasse Svensson",
-   "total": 189,
-   "groupPoints": 189,
+   "total": 194,
+   "groupPoints": 194,
    "bonusPoints": 0,
    "knockoutPoints": 0,
    "predictions": {
@@ -3381,7 +3381,7 @@
      "home": 1,
      "away": 2,
      "sign": "2",
-     "points": 0
+     "points": 5
     },
     "62": {
      "home": 1,
@@ -3538,8 +3538,8 @@
   },
   {
    "name": "Rayan Lövgren",
-   "total": 186,
-   "groupPoints": 186,
+   "total": 189,
+   "groupPoints": 189,
    "bonusPoints": 0,
    "knockoutPoints": 0,
    "predictions": {
@@ -3859,7 +3859,7 @@
      "home": 0,
      "away": 2,
      "sign": "2",
-     "points": 0
+     "points": 3
     },
     "62": {
      "home": 3,
@@ -4016,8 +4016,8 @@
   },
   {
    "name": "Oliver Jönsson",
-   "total": 183,
-   "groupPoints": 183,
+   "total": 188,
+   "groupPoints": 188,
    "bonusPoints": 0,
    "knockoutPoints": 0,
    "predictions": {
@@ -4337,7 +4337,7 @@
      "home": 1,
      "away": 2,
      "sign": "2",
-     "points": 0
+     "points": 5
     },
     "62": {
      "home": 2,
@@ -4494,8 +4494,8 @@
   },
   {
    "name": "Ralle Nilsson Hansen",
-   "total": 183,
-   "groupPoints": 183,
+   "total": 188,
+   "groupPoints": 188,
    "bonusPoints": 0,
    "knockoutPoints": 0,
    "predictions": {
@@ -4815,7 +4815,7 @@
      "home": 1,
      "away": 2,
      "sign": "2",
-     "points": 0
+     "points": 5
     },
     "62": {
      "home": 1,
@@ -4972,8 +4972,8 @@
   },
   {
    "name": "Philip Wallberg",
-   "total": 180,
-   "groupPoints": 180,
+   "total": 185,
+   "groupPoints": 185,
    "bonusPoints": 0,
    "knockoutPoints": 0,
    "predictions": {
@@ -5293,7 +5293,7 @@
      "home": 1,
      "away": 2,
      "sign": "2",
-     "points": 0
+     "points": 5
     },
     "62": {
      "home": 2,
@@ -5450,8 +5450,8 @@
   },
   {
    "name": "Christer Lövgren",
-   "total": 179,
-   "groupPoints": 179,
+   "total": 184,
+   "groupPoints": 184,
    "bonusPoints": 0,
    "knockoutPoints": 0,
    "predictions": {
@@ -5771,7 +5771,7 @@
      "home": 1,
      "away": 2,
      "sign": "2",
-     "points": 0
+     "points": 5
     },
     "62": {
      "home": 1,
@@ -5928,8 +5928,8 @@
   },
   {
    "name": "Hampus Svensson",
-   "total": 169,
-   "groupPoints": 169,
+   "total": 171,
+   "groupPoints": 171,
    "bonusPoints": 0,
    "knockoutPoints": 0,
    "predictions": {
@@ -6249,7 +6249,7 @@
      "home": 1,
      "away": 1,
      "sign": "X",
-     "points": 0
+     "points": 2
     },
     "62": {
      "home": 2,
@@ -6406,8 +6406,8 @@
   },
   {
    "name": "Conny Lantz",
-   "total": 163,
-   "groupPoints": 163,
+   "total": 168,
+   "groupPoints": 168,
    "bonusPoints": 0,
    "knockoutPoints": 0,
    "predictions": {
@@ -6727,7 +6727,7 @@
      "home": 1,
      "away": 2,
      "sign": "2",
-     "points": 0
+     "points": 5
     },
     "62": {
      "home": 2,
@@ -6884,8 +6884,8 @@
   },
   {
    "name": "Tim Israelsson",
-   "total": 158,
-   "groupPoints": 158,
+   "total": 161,
+   "groupPoints": 161,
    "bonusPoints": 0,
    "knockoutPoints": 0,
    "predictions": {
@@ -7205,7 +7205,7 @@
      "home": 2,
      "away": 3,
      "sign": "2",
-     "points": 0
+     "points": 3
     },
     "62": {
      "home": 2,
