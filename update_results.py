@@ -152,30 +152,55 @@ def extract(path):
             'homeGoals': int(hg) if played else None, 'awayGoals': int(ag) if played else None,
             'sign': str(sign) if sign is not None else None, 'played': bool(played)}
     players = []
+    ROUND_LABELS = {'Sextondelsfinaler':'Sextondelsfinal','Åttondelsfinaler':'Åttondelsfinal',
+                    'Kvartsfinaler':'Kvartsfinal','Semifinaler':'Semifinal',
+                    'Bronsmatch':'Bronsmatch','Final':'Final'}
     for name in PLAYERS:
         if name not in wb.sheetnames: continue
-        ws = wb[name]; preds = {}; gpts = 0
+        ws = wb[name]; preds = {}; ko = {}
         for r, no, home, away in match_rows(ws):
-            if no > 72: continue
             hg = ws.cell(row=r, column=7).value; ag = ws.cell(row=r, column=9).value
             sign = ws.cell(row=r, column=10).value; pts = ws.cell(row=r, column=11).value
-            pv = int(pts) if is_num(pts) else 0; gpts += pv
-            preds[no] = {'home': int(hg) if is_num(hg) else None,
-                         'away': int(ag) if is_num(ag) else None,
-                         'sign': str(sign) if sign is not None else None, 'points': pv}
-        bonus = []; bpts = 0
+            pv = int(pts) if is_num(pts) else 0
+            entry = {'home': int(hg) if is_num(hg) else None,
+                     'away': int(ag) if is_num(ag) else None,
+                     'sign': str(sign) if sign is not None else None, 'points': pv}
+            if no > 72:
+                entry['predHome'] = home; entry['predAway'] = away
+                ko[no] = entry
+            else:
+                preds[no] = entry
+        # per-runda-sammanställning (rad 22-29: X=label, Y=poäng, Z=bonus, AA=totalt)
+        rounds = []
+        for r in range(22, 30):
+            lbl = ws.cell(row=r, column=24).value
+            if not (isinstance(lbl, str) and lbl.strip()):
+                continue
+            y = ws.cell(row=r, column=25).value; z = ws.cell(row=r, column=26).value
+            aa = ws.cell(row=r, column=27).value
+            rounds.append({'label': lbl.strip(),
+                           'points': int(y) if is_num(y) else 0,
+                           'bonus': int(z) if is_num(z) else 0,
+                           'total': int(aa) if is_num(aa) else 0,
+                           'round': ROUND_LABELS.get(lbl.strip())})
+        bonus = []
         for r in range(4, 11):
             cat = ws.cell(row=r, column=24).value; ans = ws.cell(row=r, column=25).value
             bp = ws.cell(row=r, column=29).value
             if isinstance(cat, str) and cat.strip():
-                bv = int(bp) if is_num(bp) else 0; bpts += bv
                 bonus.append({'category': cat.strip(),
-                              'answer': ans.strip() if isinstance(ans, str) else None, 'points': bv})
+                              'answer': ans.strip() if isinstance(ans, str) else None,
+                              'points': int(bp) if is_num(bp) else 0})
+        by_label = {r['label']: r for r in rounds}
+        gpts = by_label.get('Gruppspel', {}).get('total', 0)
+        bpts = by_label.get('Bonusfrågor', {}).get('total', 0)
         total = ws.cell(row=30, column=27).value
-        total = int(total) if is_num(total) else (gpts + bpts)
+        total = int(total) if is_num(total) else 0
+        kpts = total - gpts - bpts
         players.append({'name': name, 'total': total, 'groupPoints': gpts,
-                        'bonusPoints': bpts, 'knockoutPoints': total - gpts - bpts,
-                        'predictions': preds, 'bonus': bonus})
+                        'bonusPoints': bpts, 'knockoutPoints': kpts,
+                        'predictions': preds, 'knockoutPreds': ko,
+                        'rounds': rounds, 'bonus': bonus})
     players.sort(key=lambda p: -p['total'])
 
     # grupptabeller (färdigräknade i arket, rätt inbördes ordning)
@@ -206,6 +231,52 @@ def extract(path):
             'knockout': sorted(knockout, key=lambda m: m['no']),
             'standings': standings,
             'players': players}
+
+def autofill_bonus(work_path, recalced_path):
+    """Fyll i facit (Resultat & tabell Y5–Y8) för de bonusfrågor som går att
+    räkna ut: världsmästare, bronsmatchvinnare, flest gjorda/insläppta mål i
+    gruppspelet. Skriver bara i tomma celler (manuellt facit vinner)."""
+    rc = load_workbook(recalced_path, data_only=True)
+    res = rc['Resultat & tabell']
+    scored, conceded = {}, {}
+    group_done = 0; group_total = 0
+    winners = {}  # match_no -> winning team name
+    for r, no, home, away in match_rows(res):
+        hg = res.cell(row=r, column=7).value; ag = res.cell(row=r, column=9).value
+        if no <= 72:
+            group_total += 1
+            if is_num(hg) and is_num(ag):
+                group_done += 1
+                scored[home] = scored.get(home, 0) + hg; scored[away] = scored.get(away, 0) + ag
+                conceded[home] = conceded.get(home, 0) + ag; conceded[away] = conceded.get(away, 0) + hg
+        else:
+            if is_num(hg) and is_num(ag) and hg != ag:
+                winners[no] = home if hg > ag else away
+
+    def unique_leader(d):
+        if not d: return None
+        m = max(d.values())
+        leaders = [t for t, v in d.items() if v == m]
+        return leaders[0] if len(leaders) == 1 else None
+
+    facit = {}
+    if group_total and group_done == group_total:        # hela gruppspelet klart
+        ml = unique_leader(scored);  facit[7] = ml if ml else None    # Y7 flest mål
+        cl = unique_leader(conceded); facit[8] = cl if cl else None   # Y8 flest insläppta
+    if 104 in winners: facit[5] = winners[104]           # Y5 världsmästare
+    if 103 in winners: facit[6] = winners[103]           # Y6 vinnare bronsmatch
+
+    wb = load_workbook(work_path, keep_vba=True); ws = wb['Resultat & tabell']
+    written = 0
+    for row, val in facit.items():
+        if not val: continue
+        cur = ws.cell(row=row, column=25).value
+        if cur is None or (isinstance(cur, str) and not cur.strip()):
+            ws.cell(row=row, column=25).value = val; written += 1
+    if written:
+        wb.save(work_path)
+    return written
+
 
 def main():
     ap = argparse.ArgumentParser()
@@ -256,6 +327,11 @@ def main():
             break
         prev = n
     print(f'Skrev {prev} matcher totalt (gruppspel + slutspel).')
+
+    # fyll i de bonusfacit som går att räkna ut automatiskt
+    if autofill_bonus(work, recalced):
+        recalced = recalc(work)
+        print('Fyllde i automatiskt bonusfacit (flest mål/insläppta, världsmästare, brons).')
 
     data = extract(recalced)
     json.dump(data, open(args.out, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
