@@ -233,38 +233,24 @@ def extract(path):
             'players': players}
 
 def autofill_bonus(work_path, recalced_path):
-    """Fyll i facit (Resultat & tabell Y5–Y8) för de bonusfrågor som går att
-    räkna ut: världsmästare, bronsmatchvinnare, flest gjorda/insläppta mål i
-    gruppspelet. Skriver bara i tomma celler (manuellt facit vinner)."""
+    """Fyll i facit (Resultat & tabell Y5–Y6) för de bonusfrågor som är
+    entydiga: världsmästare (vinnare final) och vinnare bronsmatch. Skriver bara
+    i tomma celler (manuellt facit vinner).
+    OBS: "flest mål/insläppta i gruppspelet" fylls INTE i automatiskt, eftersom
+    flera lag ofta hamnar lika — där måste tipsgeneralen själv avgöra (Y7/Y8)."""
     rc = load_workbook(recalced_path, data_only=True)
     res = rc['Resultat & tabell']
-    scored, conceded = {}, {}
-    group_done = 0; group_total = 0
     winners = {}  # match_no -> winning team name
     for r, no, home, away in match_rows(res):
-        hg = res.cell(row=r, column=7).value; ag = res.cell(row=r, column=9).value
         if no <= 72:
-            group_total += 1
-            if is_num(hg) and is_num(ag):
-                group_done += 1
-                scored[home] = scored.get(home, 0) + hg; scored[away] = scored.get(away, 0) + ag
-                conceded[home] = conceded.get(home, 0) + ag; conceded[away] = conceded.get(away, 0) + hg
-        else:
-            if is_num(hg) and is_num(ag) and hg != ag:
-                winners[no] = home if hg > ag else away
-
-    def unique_leader(d):
-        if not d: return None
-        m = max(d.values())
-        leaders = [t for t, v in d.items() if v == m]
-        return leaders[0] if len(leaders) == 1 else None
+            continue
+        hg = res.cell(row=r, column=7).value; ag = res.cell(row=r, column=9).value
+        if is_num(hg) and is_num(ag) and hg != ag:
+            winners[no] = home if hg > ag else away
 
     facit = {}
-    if group_total and group_done == group_total:        # hela gruppspelet klart
-        ml = unique_leader(scored);  facit[7] = ml if ml else None    # Y7 flest mål
-        cl = unique_leader(conceded); facit[8] = cl if cl else None   # Y8 flest insläppta
-    if 104 in winners: facit[5] = winners[104]           # Y5 världsmästare
-    if 103 in winners: facit[6] = winners[103]           # Y6 vinnare bronsmatch
+    if 104 in winners: facit[5] = winners[104]   # Y5 världsmästare (vinnare final)
+    if 103 in winners: facit[6] = winners[103]   # Y6 vinnare bronsmatch
 
     wb = load_workbook(work_path, keep_vba=True); ws = wb['Resultat & tabell']
     written = 0
@@ -331,7 +317,7 @@ def main():
     # fyll i de bonusfacit som går att räkna ut automatiskt
     if autofill_bonus(work, recalced):
         recalced = recalc(work)
-        print('Fyllde i automatiskt bonusfacit (flest mål/insläppta, världsmästare, brons).')
+        print('Fyllde i automatiskt bonusfacit (världsmästare, bronsmatchvinnare).')
 
     data = extract(recalced)
     json.dump(data, open(args.out, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
