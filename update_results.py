@@ -151,6 +151,34 @@ def extract(path):
         matches[no] = {'no': no, 'group': grp, 'home': home, 'away': away, 'date': datestr,
             'homeGoals': int(hg) if played else None, 'awayGoals': int(ag) if played else None,
             'sign': str(sign) if sign is not None else None, 'played': bool(played)}
+    # --- extra poänglogik som arket inte gör av sig självt ---
+    KNOWN_TEAMS = set(TEAM_ALIASES.keys())
+    RL_PTS = {'Sextondelsfinal': 1, 'Åttondelsfinal': 2, 'Kvartsfinal': 4,
+              'Semifinal': 6, 'Bronsmatch': 8, 'Final': 8}
+    # flest gjorda/insläppta mål i gruppspelet — kan delas av flera lag (lika)
+    scored, conceded = {}, {}
+    group_played = 0
+    for m in matches.values():
+        if m['played']:
+            group_played += 1
+            scored[m['home']] = scored.get(m['home'], 0) + m['homeGoals']
+            scored[m['away']] = scored.get(m['away'], 0) + m['awayGoals']
+            conceded[m['home']] = conceded.get(m['home'], 0) + m['awayGoals']
+            conceded[m['away']] = conceded.get(m['away'], 0) + m['homeGoals']
+    def leaders(d):
+        if not d: return set()
+        mx = max(d.values()); return {t.lower() for t, v in d.items() if v == mx}
+    group_complete = len(matches) > 0 and group_played == len(matches)
+    scored_leaders = leaders(scored) if group_complete else set()
+    conceded_leaders = leaders(conceded) if group_complete else set()
+    # facit-lag per slutspelsrunda (vilka lag som faktiskt nått omgången)
+    ko_round = {m['no']: m['round'] for m in knockout}
+    facit_by_round = {}
+    for m in knockout:
+        s = facit_by_round.setdefault(m['round'], set())
+        if m['home'] in KNOWN_TEAMS: s.add(m['home'])
+        if m['away'] in KNOWN_TEAMS: s.add(m['away'])
+
     players = []
     ROUND_LABELS = {'Sextondelsfinaler':'Sextondelsfinal','Åttondelsfinaler':'Åttondelsfinal',
                     'Kvartsfinaler':'Kvartsfinal','Semifinaler':'Semifinal',
@@ -191,12 +219,36 @@ def extract(path):
                 bonus.append({'category': cat.strip(),
                               'answer': ans.strip() if isinstance(ans, str) else None,
                               'points': int(bp) if is_num(bp) else 0})
+        # "rätt lag vidare" — dela ut direkt baserat på vilka lag som nått varje
+        # runda (1/2/4/6/8/8 p per rätt lag), oberoende av om matchen spelats.
+        player_by_round = {}
+        for kno, e in ko.items():
+            rnd = ko_round.get(int(kno))
+            if not rnd: continue
+            s = player_by_round.setdefault(rnd, set())
+            if e.get('predHome') in KNOWN_TEAMS: s.add(e['predHome'])
+            if e.get('predAway') in KNOWN_TEAMS: s.add(e['predAway'])
+        ratt_lag = {rnd: pts * len(facit_by_round.get(rnd, set()) & player_by_round.get(rnd, set()))
+                    for rnd, pts in RL_PTS.items()}
+        for rd in rounds:
+            if rd['round'] in RL_PTS:
+                rd['bonus'] = ratt_lag.get(rd['round'], 0)
+                rd['total'] = rd['points'] + rd['bonus']
+
+        # bonusfrågor: "flest mål/insläppta" kan delas av flera lag (lika räknas rätt)
+        for b in bonus:
+            cat = b['category'].lower()
+            ans = (b['answer'] or '').strip().lower()
+            if 'gör flest mål' in cat:
+                b['points'] = 10 if ans and ans in scored_leaders else 0
+            elif 'släpper in flest' in cat:
+                b['points'] = 10 if ans and ans in conceded_leaders else 0
+
         by_label = {r['label']: r for r in rounds}
         gpts = by_label.get('Gruppspel', {}).get('total', 0)
-        bpts = by_label.get('Bonusfrågor', {}).get('total', 0)
-        total = ws.cell(row=30, column=27).value
-        total = int(total) if is_num(total) else 0
-        kpts = total - gpts - bpts
+        bpts = sum(b['points'] for b in bonus)
+        kpts = sum(rd['total'] for rd in rounds if rd['round'] in RL_PTS)
+        total = gpts + kpts + bpts
         players.append({'name': name, 'total': total, 'groupPoints': gpts,
                         'bonusPoints': bpts, 'knockoutPoints': kpts,
                         'predictions': preds, 'knockoutPreds': ko,
