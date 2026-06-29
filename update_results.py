@@ -108,7 +108,11 @@ def apply_results(path, results, manual):
         key = frozenset((home, away))
         if key in results:
             d = results[key]; goals = (d[home], d[away])
-        if str(no) in manual:        # manuell override vinner
+            # slutspel kan inte sluta oavgjort i arket (vinnaren måste fram).
+            # Hoppa över oavgjorda API-resultat för matchnr > 72 — matas in manuellt.
+            if no > 72 and goals[0] == goals[1]:
+                goals = None
+        if str(no) in manual:        # manuell override vinner alltid
             mh, ma = manual[str(no)]; goals = (mh, ma)
         if goals is not None:
             ws.cell(row=r, column=7).value = goals[0]
@@ -224,33 +228,41 @@ def main():
     print(f'{len(results)} spelade matcher matchade från källan.')
 
     # arbetskopia av master
-    import shutil
+    import shutil, openpyxl
     work = 'work.xlsm'; shutil.copy(args.master, work)
 
-    # Pass 1 (gruppspel + ev. redan kända slutspelslag), räkna om
-    n1 = apply_results(work, results, manual)
+    # Pass 1: skriv gruppspel (slutspelslagen är ännu formler), räkna om
+    apply_results(work, results, manual)
     recalced = recalc(work)
-    # överför omräknade lagnamn (slutspel) tillbaka och kör pass 2
-    import openpyxl
-    rc = openpyxl.load_workbook(recalced, data_only=True)
-    src_ws = rc['Resultat & tabell']
-    wb = load_workbook(work, keep_vba=True); ws = wb['Resultat & tabell']
-    for r in range(1, src_ws.max_row + 1):
-        for c in (4, 6):  # hemmalag/bortalag (kan vara formler i slutspel)
-            v = src_ws.cell(row=r, column=c).value
-            if isinstance(v, str) and v.strip():
-                cur = ws.cell(row=r, column=c).value
-                if not isinstance(cur, str) or cur.startswith('='):
-                    ws.cell(row=r, column=c).value = v  # frys lagnamn för matchning
-    wb.save(work)
-    n2 = apply_results(work, results, manual)
-    recalced = recalc(work)
-    print(f'Skrev {n1} matcher (pass 1), {n2} (pass 2).')
+
+    # Iterera: frys framräknade slutspelslag -> skriv den rundans resultat -> räkna om.
+    # Varje varv löser nästa runda (sextondel -> åttondel -> ... -> final).
+    prev = -1
+    for _ in range(7):
+        rc = openpyxl.load_workbook(recalced, data_only=True)
+        src_ws = rc['Resultat & tabell']
+        wb = load_workbook(work, keep_vba=True); ws = wb['Resultat & tabell']
+        for r in range(1, src_ws.max_row + 1):
+            for c in (4, 6):  # hemmalag/bortalag (formler i slutspelet)
+                v = src_ws.cell(row=r, column=c).value
+                if isinstance(v, str) and v.strip() and 'VALUE' not in v.upper():
+                    cur = ws.cell(row=r, column=c).value
+                    if not isinstance(cur, str) or cur.startswith('='):
+                        ws.cell(row=r, column=c).value = v  # frys lagnamn för matchning
+        wb.save(work)
+        n = apply_results(work, results, manual)
+        recalced = recalc(work)
+        if n == prev:
+            break
+        prev = n
+    print(f'Skrev {prev} matcher totalt (gruppspel + slutspel).')
 
     data = extract(recalced)
     json.dump(data, open(args.out, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     played = sum(1 for m in data['matches'] if m['played'])
-    print(f'Klart. {played}/{len(data["matches"])} gruppmatcher spelade. Ledare: '
+    ko_played = sum(1 for m in data.get('knockout', []) if m['played'])
+    print(f'Klart. Gruppspel {played}/{len(data["matches"])}, slutspel {ko_played}/'
+          f'{len(data.get("knockout", []))}. Ledare: '
           f'{data["players"][0]["name"]} ({data["players"][0]["total"]} p).')
 
 if __name__ == '__main__':
