@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-30T00:00:49.022267+00:00",
+ "updated": "2026-06-30T04:01:16.332502+00:00",
  "tournament": "VM 2026",
  "matches": [
   {
@@ -812,8 +812,8 @@
    "home": "Tyskland",
    "away": "Paraguay",
    "date": "2026-06-29",
-   "homeGoals": 5,
-   "awayGoals": 6,
+   "homeGoals": 4,
+   "awayGoals": 5,
    "played": true
   },
   {
