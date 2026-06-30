@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-30T04:01:16.332502+00:00",
+ "updated": "2026-06-30T04:05:33.839062+00:00",
  "tournament": "VM 2026",
  "matches": [
   {
@@ -822,9 +822,9 @@
    "home": "Nederländerna",
    "away": "Marocko",
    "date": "2026-06-30",
-   "homeGoals": null,
-   "awayGoals": null,
-   "played": false
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "played": true
   },
   {
    "no": 76,
@@ -3214,10 +3214,10 @@
   },
   {
    "name": "Mikael Cordes",
-   "total": 272,
+   "total": 275,
    "groupPoints": 242,
    "bonusPoints": 0,
-   "knockoutPoints": 30,
+   "knockoutPoints": 33,
    "predictions": {
     "1": {
      "home": 2,
@@ -3673,7 +3673,7 @@
      "home": 1,
      "away": 3,
      "sign": "2",
-     "points": 0,
+     "points": 3,
      "predHome": "Nederländerna",
      "predAway": "Marocko"
     },
@@ -3920,9 +3920,9 @@
     },
     {
      "label": "Sextondelsfinaler",
-     "points": 3,
+     "points": 6,
      "bonus": 27,
-     "total": 30,
+     "total": 33,
      "round": "Sextondelsfinal"
     },
     {
@@ -8772,10 +8772,10 @@
   },
   {
    "name": "Hampus Svensson",
-   "total": 238,
+   "total": 240,
    "groupPoints": 209,
    "bonusPoints": 0,
-   "knockoutPoints": 29,
+   "knockoutPoints": 31,
    "predictions": {
     "1": {
      "home": 2,
@@ -9231,7 +9231,7 @@
      "home": 3,
      "away": 1,
      "sign": "1",
-     "points": 0,
+     "points": 2,
      "predHome": "Nederländerna",
      "predAway": "Skottland"
     },
@@ -9478,9 +9478,9 @@
     },
     {
      "label": "Sextondelsfinaler",
-     "points": 3,
+     "points": 5,
      "bonus": 26,
-     "total": 29,
+     "total": 31,
      "round": "Sextondelsfinal"
     },
     {
