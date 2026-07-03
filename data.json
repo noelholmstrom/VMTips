@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-03T20:39:17.321216+00:00",
+ "updated": "2026-07-03T22:03:17.211062+00:00",
  "tournament": "VM 2026",
  "matches": [
   {
@@ -952,9 +952,9 @@
    "home": "Australien",
    "away": "Egypten",
    "date": "2026-07-03",
-   "homeGoals": null,
-   "awayGoals": null,
-   "played": false
+   "homeGoals": 3,
+   "awayGoals": 5,
+   "played": true
   },
   {
    "no": 89,
@@ -3214,10 +3214,10 @@
   },
   {
    "name": "Mikael Cordes",
-   "total": 312,
+   "total": 315,
    "groupPoints": 242,
    "bonusPoints": 0,
-   "knockoutPoints": 70,
+   "knockoutPoints": 73,
    "predictions": {
     "1": {
      "home": 2,
@@ -3777,7 +3777,7 @@
      "home": 1,
      "away": 2,
      "sign": "2",
-     "points": 0,
+     "points": 3,
      "predHome": "USA",
      "predAway": "Egypten"
     },
@@ -3920,9 +3920,9 @@
     },
     {
      "label": "Sextondelsfinaler",
-     "points": 43,
+     "points": 46,
      "bonus": 27,
-     "total": 70,
+     "total": 73,
      "round": "Sextondelsfinal"
     },
     {
@@ -4802,10 +4802,10 @@
   },
   {
    "name": "Christer Lövgren",
-   "total": 289,
+   "total": 292,
    "groupPoints": 221,
    "bonusPoints": 0,
-   "knockoutPoints": 68,
+   "knockoutPoints": 71,
    "predictions": {
     "1": {
      "home": 2,
@@ -5365,7 +5365,7 @@
      "home": 0,
      "away": 2,
      "sign": "2",
-     "points": 0,
+     "points": 3,
      "predHome": "Turkiet",
      "predAway": "Egypten"
     },
@@ -5508,9 +5508,9 @@
     },
     {
      "label": "Sextondelsfinaler",
-     "points": 41,
+     "points": 44,
      "bonus": 27,
-     "total": 68,
+     "total": 71,
      "round": "Sextondelsfinal"
     },
     {
@@ -9566,10 +9566,10 @@
   },
   {
    "name": "Tim Israelsson",
-   "total": 256,
+   "total": 258,
    "groupPoints": 189,
    "bonusPoints": 10,
-   "knockoutPoints": 57,
+   "knockoutPoints": 59,
    "predictions": {
     "1": {
      "home": 2,
@@ -10129,7 +10129,7 @@
      "home": 3,
      "away": 1,
      "sign": "1",
-     "points": 0,
+     "points": 2,
      "predHome": "Australien",
      "predAway": "Nya Zeeland"
     },
@@ -10272,9 +10272,9 @@
     },
     {
      "label": "Sextondelsfinaler",
-     "points": 31,
+     "points": 33,
      "bonus": 26,
-     "total": 57,
+     "total": 59,
      "round": "Sextondelsfinal"
     },
     {
