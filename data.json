@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-03T02:30:26.733500+00:00",
+ "updated": "2026-07-03T06:11:03.037958+00:00",
  "tournament": "VM 2026",
  "matches": [
   {
@@ -922,9 +922,9 @@
    "home": "Schweiz",
    "away": "Algeriet",
    "date": "2026-07-03",
-   "homeGoals": null,
-   "awayGoals": null,
-   "played": false
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "played": true
   },
   {
    "no": 86,
@@ -1626,10 +1626,10 @@
  "players": [
   {
    "name": "Noel Holmström",
-   "total": 341,
+   "total": 348,
    "groupPoints": 246,
    "bonusPoints": 10,
-   "knockoutPoints": 85,
+   "knockoutPoints": 92,
    "predictions": {
     "1": {
      "home": 2,
@@ -2165,7 +2165,7 @@
      "home": 2,
      "away": 0,
      "sign": "1",
-     "points": 0,
+     "points": 7,
      "predHome": "Schweiz",
      "predAway": "Iran"
     },
@@ -2332,9 +2332,9 @@
     },
     {
      "label": "Sextondelsfinaler",
-     "points": 59,
+     "points": 66,
      "bonus": 26,
-     "total": 85,
+     "total": 92,
      "round": "Sextondelsfinal"
     },
     {
@@ -2420,10 +2420,10 @@
   },
   {
    "name": "Emma Svensson",
-   "total": 321,
+   "total": 326,
    "groupPoints": 247,
    "bonusPoints": 0,
-   "knockoutPoints": 74,
+   "knockoutPoints": 79,
    "predictions": {
     "1": {
      "home": 1,
@@ -2959,7 +2959,7 @@
      "home": 1,
      "away": 0,
      "sign": "1",
-     "points": 0,
+     "points": 5,
      "predHome": "Schweiz",
      "predAway": "Iran"
     },
@@ -3126,9 +3126,9 @@
     },
     {
      "label": "Sextondelsfinaler",
-     "points": 48,
+     "points": 53,
      "bonus": 26,
-     "total": 74,
+     "total": 79,
      "round": "Sextondelsfinal"
     },
     {
@@ -3214,10 +3214,10 @@
   },
   {
    "name": "Mikael Cordes",
-   "total": 305,
+   "total": 312,
    "groupPoints": 242,
    "bonusPoints": 0,
-   "knockoutPoints": 63,
+   "knockoutPoints": 70,
    "predictions": {
     "1": {
      "home": 2,
@@ -3753,7 +3753,7 @@
      "home": 2,
      "away": 0,
      "sign": "1",
-     "points": 0,
+     "points": 7,
      "predHome": "Schweiz",
      "predAway": "Iran"
     },
@@ -3920,9 +3920,9 @@
     },
     {
      "label": "Sextondelsfinaler",
-     "points": 36,
+     "points": 43,
      "bonus": 27,
-     "total": 63,
+     "total": 70,
      "round": "Sextondelsfinal"
     },
     {
@@ -4008,10 +4008,10 @@
   },
   {
    "name": "Lasse Svensson",
-   "total": 299,
+   "total": 304,
    "groupPoints": 234,
    "bonusPoints": 0,
-   "knockoutPoints": 65,
+   "knockoutPoints": 70,
    "predictions": {
     "1": {
      "home": 2,
@@ -4547,7 +4547,7 @@
      "home": 2,
      "away": 1,
      "sign": "1",
-     "points": 0,
+     "points": 5,
      "predHome": "Schweiz",
      "predAway": "Elfenbenskusten"
     },
@@ -4714,9 +4714,9 @@
     },
     {
      "label": "Sextondelsfinaler",
-     "points": 39,
+     "points": 44,
      "bonus": 26,
-     "total": 65,
+     "total": 70,
      "round": "Sextondelsfinal"
     },
     {
@@ -4786,6 +4786,2388 @@
     {
      "category": "Lag som släpper in flest mål i gruppspelet",
      "answer": "Quatar",
+     "points": 0
+    },
+    {
+     "category": "Egen bonusfråga 1",
+     "answer": null,
+     "points": 0
+    },
+    {
+     "category": "Egen bonusfråga 2",
+     "answer": null,
+     "points": 0
+    }
+   ]
+  },
+  {
+   "name": "Christer Lövgren",
+   "total": 289,
+   "groupPoints": 221,
+   "bonusPoints": 0,
+   "knockoutPoints": 68,
+   "predictions": {
+    "1": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 7
+    },
+    "2": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 2
+    },
+    "25": {
+     "home": 1,
+     "away": 0,
+     "sign": "1",
+     "points": 2
+    },
+    "28": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 3
+    },
+    "53": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 0
+    },
+    "54": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 0
+    },
+    "3": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 0
+    },
+    "8": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 0
+    },
+    "26": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 2
+    },
+    "27": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 3
+    },
+    "51": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 2
+    },
+    "52": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 3
+    },
+    "7": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 2
+    },
+    "5": {
+     "home": 0,
+     "away": 3,
+     "sign": "2",
+     "points": 5
+    },
+    "30": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 3
+    },
+    "29": {
+     "home": 4,
+     "away": 0,
+     "sign": "1",
+     "points": 5
+    },
+    "49": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 5
+    },
+    "50": {
+     "home": 4,
+     "away": 0,
+     "sign": "1",
+     "points": 5
+    },
+    "4": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 2
+    },
+    "6": {
+     "home": 0,
+     "away": 1,
+     "sign": "2",
+     "points": 0
+    },
+    "32": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 5
+    },
+    "31": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 2
+    },
+    "59": {
+     "home": 2,
+     "away": 2,
+     "sign": "X",
+     "points": 2
+    },
+    "60": {
+     "home": 1,
+     "away": 0,
+     "sign": "1",
+     "points": 2
+    },
+    "10": {
+     "home": 5,
+     "away": 0,
+     "sign": "1",
+     "points": 3
+    },
+    "9": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 2
+    },
+    "33": {
+     "home": 1,
+     "away": 0,
+     "sign": "1",
+     "points": 3
+    },
+    "34": {
+     "home": 4,
+     "away": 0,
+     "sign": "1",
+     "points": 2
+    },
+    "55": {
+     "home": 0,
+     "away": 3,
+     "sign": "2",
+     "points": 5
+    },
+    "56": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 0
+    },
+    "11": {
+     "home": 1,
+     "away": 0,
+     "sign": "1",
+     "points": 0
+    },
+    "12": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 5
+    },
+    "35": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 5
+    },
+    "36": {
+     "home": 0,
+     "away": 1,
+     "sign": "2",
+     "points": 5
+    },
+    "57": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 7
+    },
+    "58": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 3
+    },
+    "16": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 7
+    },
+    "15": {
+     "home": 0,
+     "away": 1,
+     "sign": "2",
+     "points": 0
+    },
+    "39": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 2
+    },
+    "40": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 3
+    },
+    "63": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 7
+    },
+    "64": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 3
+    },
+    "14": {
+     "home": 5,
+     "away": 0,
+     "sign": "1",
+     "points": 2
+    },
+    "13": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 0
+    },
+    "38": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 5
+    },
+    "37": {
+     "home": 3,
+     "away": 0,
+     "sign": "1",
+     "points": 0
+    },
+    "65": {
+     "home": 0,
+     "away": 1,
+     "sign": "2",
+     "points": 2
+    },
+    "66": {
+     "home": 0,
+     "away": 0,
+     "sign": "X",
+     "points": 2
+    },
+    "17": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 5
+    },
+    "18": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 5
+    },
+    "42": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 5
+    },
+    "41": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 0
+    },
+    "61": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 5
+    },
+    "62": {
+     "home": 1,
+     "away": 0,
+     "sign": "1",
+     "points": 5
+    },
+    "19": {
+     "home": 3,
+     "away": 0,
+     "sign": "1",
+     "points": 7
+    },
+    "20": {
+     "home": 3,
+     "away": 0,
+     "sign": "1",
+     "points": 5
+    },
+    "43": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 5
+    },
+    "44": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 5
+    },
+    "69": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 0
+    },
+    "70": {
+     "home": 0,
+     "away": 4,
+     "sign": "2",
+     "points": 3
+    },
+    "23": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 0
+    },
+    "24": {
+     "home": 0,
+     "away": 1,
+     "sign": "2",
+     "points": 3
+    },
+    "47": {
+     "home": 3,
+     "away": 0,
+     "sign": "1",
+     "points": 5
+    },
+    "48": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 3
+    },
+    "71": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 3
+    },
+    "72": {
+     "home": 2,
+     "away": 2,
+     "sign": "X",
+     "points": 0
+    },
+    "22": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 0
+    },
+    "21": {
+     "home": 3,
+     "away": 0,
+     "sign": "1",
+     "points": 5
+    },
+    "45": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 0
+    },
+    "46": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 5
+    },
+    "67": {
+     "home": 0,
+     "away": 3,
+     "sign": "2",
+     "points": 5
+    },
+    "68": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 7
+    }
+   },
+   "knockoutPreds": {
+    "73": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 3,
+     "predHome": "Czechia",
+     "predAway": "Schweiz"
+    },
+    "74": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 0,
+     "predHome": "Tyskland",
+     "predAway": "Paraguay"
+    },
+    "75": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 0,
+     "predHome": "Nederländerna",
+     "predAway": "Marocko"
+    },
+    "76": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 5,
+     "predHome": "Brasilien",
+     "predAway": "Sverige"
+    },
+    "77": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 3,
+     "predHome": "Frankrike",
+     "predAway": "Japan"
+    },
+    "78": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 7,
+     "predHome": "Ecuador",
+     "predAway": "Norge"
+    },
+    "79": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 0,
+     "predHome": "Mexiko",
+     "predAway": "Skottland"
+    },
+    "80": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 7,
+     "predHome": "England",
+     "predAway": "Senegal"
+    },
+    "81": {
+     "home": 1,
+     "away": 0,
+     "sign": "1",
+     "points": 5,
+     "predHome": "USA",
+     "predAway": "Kanada"
+    },
+    "82": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 3,
+     "predHome": "Belgien",
+     "predAway": "Sydkorea"
+    },
+    "83": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 0,
+     "predHome": "Colombia",
+     "predAway": "Kroatien"
+    },
+    "84": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 3,
+     "predHome": "Spanien",
+     "predAway": "Österrike"
+    },
+    "85": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 5,
+     "predHome": "Bosnien-Herzigovina",
+     "predAway": "Elfenbenskusten"
+    },
+    "86": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 0,
+     "predHome": "Argentina",
+     "predAway": "Uruguay"
+    },
+    "87": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 0,
+     "predHome": "Portugal",
+     "predAway": "Ghana"
+    },
+    "88": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 0,
+     "predHome": "Turkiet",
+     "predAway": "Egypten"
+    },
+    "89": {
+     "home": 1,
+     "away": 0,
+     "sign": "1",
+     "points": 0,
+     "predHome": "Tyskland",
+     "predAway": "Frankrike"
+    },
+    "90": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 0,
+     "predHome": "Schweiz",
+     "predAway": "Nederländerna"
+    },
+    "91": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 0,
+     "predHome": "Brasilien",
+     "predAway": "Norge"
+    },
+    "92": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 0,
+     "predHome": "Skottland",
+     "predAway": "England"
+    },
+    "93": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 0,
+     "predHome": "Kroatien",
+     "predAway": "Spanien"
+    },
+    "94": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 0,
+     "predHome": "USA",
+     "predAway": "Belgien"
+    },
+    "95": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 0,
+     "predHome": "Argentina",
+     "predAway": "Egypten"
+    },
+    "96": {
+     "home": 0,
+     "away": 1,
+     "sign": "2",
+     "points": 0,
+     "predHome": "Bosnien-Herzigovina",
+     "predAway": "Portugal"
+    },
+    "97": {
+     "home": 1,
+     "away": 0,
+     "sign": "1",
+     "points": 0,
+     "predHome": "Tyskland",
+     "predAway": "Nederländerna"
+    },
+    "98": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 0,
+     "predHome": "Spanien",
+     "predAway": "Belgien"
+    },
+    "99": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 0,
+     "predHome": "Brasilien",
+     "predAway": "England"
+    },
+    "100": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 0,
+     "predHome": "Argentina",
+     "predAway": "Portugal"
+    },
+    "101": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 0,
+     "predHome": "Tyskland",
+     "predAway": "Spanien"
+    },
+    "102": {
+     "home": 1,
+     "away": 0,
+     "sign": "1",
+     "points": 0,
+     "predHome": "Brasilien",
+     "predAway": "Argentina"
+    },
+    "103": {
+     "home": 0,
+     "away": 1,
+     "sign": "2",
+     "points": 0,
+     "predHome": "Spanien",
+     "predAway": "Argentina"
+    },
+    "104": {
+     "home": 1,
+     "away": 0,
+     "sign": "1",
+     "points": 0,
+     "predHome": "Tyskland",
+     "predAway": "Brasilien"
+    }
+   },
+   "rounds": [
+    {
+     "label": "Gruppspel",
+     "points": 221,
+     "bonus": 0,
+     "total": 221,
+     "round": null
+    },
+    {
+     "label": "Sextondelsfinaler",
+     "points": 41,
+     "bonus": 27,
+     "total": 68,
+     "round": "Sextondelsfinal"
+    },
+    {
+     "label": "Åttondelsfinaler",
+     "points": 0,
+     "bonus": 0,
+     "total": 0,
+     "round": "Åttondelsfinal"
+    },
+    {
+     "label": "Kvartsfinaler",
+     "points": 0,
+     "bonus": 0,
+     "total": 0,
+     "round": "Kvartsfinal"
+    },
+    {
+     "label": "Semifinaler",
+     "points": 0,
+     "bonus": 0,
+     "total": 0,
+     "round": "Semifinal"
+    },
+    {
+     "label": "Bronsmatch",
+     "points": 0,
+     "bonus": 0,
+     "total": 0,
+     "round": "Bronsmatch"
+    },
+    {
+     "label": "Final",
+     "points": 0,
+     "bonus": 0,
+     "total": 0,
+     "round": "Final"
+    },
+    {
+     "label": "Bonusfrågor",
+     "points": 0,
+     "bonus": 0,
+     "total": 0,
+     "round": null
+    }
+   ],
+   "bonus": [
+    {
+     "category": "Skyttekung",
+     "answer": "mbappe",
+     "points": 0
+    },
+    {
+     "category": "Världsmästare",
+     "answer": "Tyskland",
+     "points": 0
+    },
+    {
+     "category": "Vinnare bronsmatch",
+     "answer": "Argentina",
+     "points": 0
+    },
+    {
+     "category": "Lag som gör flest mål i gruppspelet",
+     "answer": "Brasilien",
+     "points": 0
+    },
+    {
+     "category": "Lag som släpper in flest mål i gruppspelet",
+     "answer": "Curacao",
+     "points": 0
+    },
+    {
+     "category": "Egen bonusfråga 1",
+     "answer": null,
+     "points": 0
+    },
+    {
+     "category": "Egen bonusfråga 2",
+     "answer": null,
+     "points": 0
+    }
+   ]
+  },
+  {
+   "name": "Oliver Jönsson",
+   "total": 289,
+   "groupPoints": 221,
+   "bonusPoints": 0,
+   "knockoutPoints": 68,
+   "predictions": {
+    "1": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 7
+    },
+    "2": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 2
+    },
+    "25": {
+     "home": 3,
+     "away": 1,
+     "sign": "1",
+     "points": 2
+    },
+    "28": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 2
+    },
+    "53": {
+     "home": 0,
+     "away": 1,
+     "sign": "2",
+     "points": 5
+    },
+    "54": {
+     "home": 2,
+     "away": 2,
+     "sign": "X",
+     "points": 0
+    },
+    "3": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 0
+    },
+    "8": {
+     "home": 0,
+     "away": 3,
+     "sign": "2",
+     "points": 0
+    },
+    "26": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 5
+    },
+    "27": {
+     "home": 1,
+     "away": 0,
+     "sign": "1",
+     "points": 5
+    },
+    "51": {
+     "home": 4,
+     "away": 1,
+     "sign": "1",
+     "points": 5
+    },
+    "52": {
+     "home": 3,
+     "away": 2,
+     "sign": "1",
+     "points": 5
+    },
+    "7": {
+     "home": 4,
+     "away": 2,
+     "sign": "1",
+     "points": 0
+    },
+    "5": {
+     "home": 0,
+     "away": 3,
+     "sign": "2",
+     "points": 5
+    },
+    "30": {
+     "home": 0,
+     "away": 0,
+     "sign": "X",
+     "points": 2
+    },
+    "29": {
+     "home": 6,
+     "away": 0,
+     "sign": "1",
+     "points": 5
+    },
+    "49": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 0
+    },
+    "50": {
+     "home": 4,
+     "away": 1,
+     "sign": "1",
+     "points": 5
+    },
+    "4": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 3
+    },
+    "6": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 0
+    },
+    "32": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 0
+    },
+    "31": {
+     "home": 1,
+     "away": 0,
+     "sign": "1",
+     "points": 0
+    },
+    "59": {
+     "home": 2,
+     "away": 2,
+     "sign": "X",
+     "points": 2
+    },
+    "60": {
+     "home": 0,
+     "away": 0,
+     "sign": "X",
+     "points": 7
+    },
+    "10": {
+     "home": 5,
+     "away": 0,
+     "sign": "1",
+     "points": 3
+    },
+    "9": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 2
+    },
+    "33": {
+     "home": 2,
+     "away": 2,
+     "sign": "X",
+     "points": 2
+    },
+    "34": {
+     "home": 3,
+     "away": 0,
+     "sign": "1",
+     "points": 2
+    },
+    "55": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 0
+    },
+    "56": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 7
+    },
+    "11": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 3
+    },
+    "12": {
+     "home": 3,
+     "away": 1,
+     "sign": "1",
+     "points": 5
+    },
+    "35": {
+     "home": 2,
+     "away": 2,
+     "sign": "X",
+     "points": 0
+    },
+    "36": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 5
+    },
+    "57": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 2
+    },
+    "58": {
+     "home": 0,
+     "away": 4,
+     "sign": "2",
+     "points": 3
+    },
+    "16": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 2
+    },
+    "15": {
+     "home": 0,
+     "away": 1,
+     "sign": "2",
+     "points": 0
+    },
+    "39": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 3
+    },
+    "40": {
+     "home": 0,
+     "away": 1,
+     "sign": "2",
+     "points": 3
+    },
+    "63": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 7
+    },
+    "64": {
+     "home": 0,
+     "away": 1,
+     "sign": "2",
+     "points": 3
+    },
+    "14": {
+     "home": 4,
+     "away": 0,
+     "sign": "1",
+     "points": 2
+    },
+    "13": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 0
+    },
+    "38": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 3
+    },
+    "37": {
+     "home": 3,
+     "away": 1,
+     "sign": "1",
+     "points": 0
+    },
+    "65": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 3
+    },
+    "66": {
+     "home": 2,
+     "away": 2,
+     "sign": "X",
+     "points": 0
+    },
+    "17": {
+     "home": 3,
+     "away": 1,
+     "sign": "1",
+     "points": 7
+    },
+    "18": {
+     "home": 0,
+     "away": 4,
+     "sign": "2",
+     "points": 5
+    },
+    "42": {
+     "home": 3,
+     "away": 0,
+     "sign": "1",
+     "points": 7
+    },
+    "41": {
+     "home": 3,
+     "away": 3,
+     "sign": "X",
+     "points": 2
+    },
+    "61": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 5
+    },
+    "62": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 3
+    },
+    "19": {
+     "home": 2,
+     "away": 2,
+     "sign": "X",
+     "points": 0
+    },
+    "20": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 3
+    },
+    "43": {
+     "home": 1,
+     "away": 0,
+     "sign": "1",
+     "points": 5
+    },
+    "44": {
+     "home": 1,
+     "away": 3,
+     "sign": "2",
+     "points": 5
+    },
+    "69": {
+     "home": 2,
+     "away": 3,
+     "sign": "2",
+     "points": 2
+    },
+    "70": {
+     "home": 0,
+     "away": 3,
+     "sign": "2",
+     "points": 5
+    },
+    "23": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 7
+    },
+    "24": {
+     "home": 0,
+     "away": 1,
+     "sign": "2",
+     "points": 3
+    },
+    "47": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 5
+    },
+    "48": {
+     "home": 2,
+     "away": 2,
+     "sign": "X",
+     "points": 0
+    },
+    "71": {
+     "home": 3,
+     "away": 2,
+     "sign": "1",
+     "points": 0
+    },
+    "72": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 5
+    },
+    "22": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 3
+    },
+    "21": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 5
+    },
+    "45": {
+     "home": 0,
+     "away": 0,
+     "sign": "X",
+     "points": 7
+    },
+    "46": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 5
+    },
+    "67": {
+     "home": 0,
+     "away": 4,
+     "sign": "2",
+     "points": 5
+    },
+    "68": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 0
+    }
+   },
+   "knockoutPreds": {
+    "73": {
+     "home": 0,
+     "away": 1,
+     "sign": "2",
+     "points": 7,
+     "predHome": "Sydkorea",
+     "predAway": "Kanada"
+    },
+    "74": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 0,
+     "predHome": "Ecuador",
+     "predAway": "Australien"
+    },
+    "75": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 0,
+     "predHome": "Sverige",
+     "predAway": "Skottland"
+    },
+    "76": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 5,
+     "predHome": "Brasilien",
+     "predAway": "Nederländerna"
+    },
+    "77": {
+     "home": 3,
+     "away": 1,
+     "sign": "1",
+     "points": 5,
+     "predHome": "Frankrike",
+     "predAway": "Japan"
+    },
+    "78": {
+     "home": 2,
+     "away": 2,
+     "sign": "X",
+     "points": 2,
+     "predHome": "Tyskland",
+     "predAway": "Norge"
+    },
+    "79": {
+     "home": 1,
+     "away": 0,
+     "sign": "1",
+     "points": 5,
+     "predHome": "Mexiko",
+     "predAway": "Marocko"
+    },
+    "80": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 0,
+     "predHome": "England",
+     "predAway": "Portugal"
+    },
+    "81": {
+     "home": 1,
+     "away": 0,
+     "sign": "1",
+     "points": 5,
+     "predHome": "USA",
+     "predAway": "Senegal"
+    },
+    "82": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 0,
+     "predHome": "Egypten",
+     "predAway": "Czechia"
+    },
+    "83": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 0,
+     "predHome": "Kongo",
+     "predAway": "Ghana"
+    },
+    "84": {
+     "home": 3,
+     "away": 2,
+     "sign": "1",
+     "points": 5,
+     "predHome": "Spanien",
+     "predAway": "Österrike"
+    },
+    "85": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 7,
+     "predHome": "Schweiz",
+     "predAway": "Algeriet"
+    },
+    "86": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 0,
+     "predHome": "Argentina",
+     "predAway": "Uruguay"
+    },
+    "87": {
+     "home": 3,
+     "away": 0,
+     "sign": "1",
+     "points": 0,
+     "predHome": "Colombia",
+     "predAway": "Kroatien"
+    },
+    "88": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 0,
+     "predHome": "Turkiet",
+     "predAway": "Belgien"
+    },
+    "89": {
+     "home": 1,
+     "away": 3,
+     "sign": "2",
+     "points": 0,
+     "predHome": "Ecuador",
+     "predAway": "Frankrike"
+    },
+    "90": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 0,
+     "predHome": "Kanada",
+     "predAway": "Sverige"
+    },
+    "91": {
+     "home": 3,
+     "away": 2,
+     "sign": "1",
+     "points": 0,
+     "predHome": "Brasilien",
+     "predAway": "Norge"
+    },
+    "92": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 0,
+     "predHome": "Mexiko",
+     "predAway": "Portugal"
+    },
+    "93": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 0,
+     "predHome": "Ghana",
+     "predAway": "Spanien"
+    },
+    "94": {
+     "home": 1,
+     "away": 0,
+     "sign": "1",
+     "points": 0,
+     "predHome": "USA",
+     "predAway": "Egypten"
+    },
+    "95": {
+     "home": 3,
+     "away": 0,
+     "sign": "1",
+     "points": 0,
+     "predHome": "Uruguay",
+     "predAway": "Turkiet"
+    },
+    "96": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 0,
+     "predHome": "Schweiz",
+     "predAway": "Colombia"
+    },
+    "97": {
+     "home": 4,
+     "away": 2,
+     "sign": "1",
+     "points": 0,
+     "predHome": "Frankrike",
+     "predAway": "Sverige"
+    },
+    "98": {
+     "home": 3,
+     "away": 1,
+     "sign": "1",
+     "points": 0,
+     "predHome": "Spanien",
+     "predAway": "USA"
+    },
+    "99": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 0,
+     "predHome": "Brasilien",
+     "predAway": "Mexiko"
+    },
+    "100": {
+     "home": 2,
+     "away": 2,
+     "sign": "X",
+     "points": 0,
+     "predHome": "Uruguay",
+     "predAway": "Colombia"
+    },
+    "101": {
+     "home": 2,
+     "away": 2,
+     "sign": "X",
+     "points": 0,
+     "predHome": "Frankrike",
+     "predAway": "Spanien"
+    },
+    "102": {
+     "home": 2,
+     "away": 2,
+     "sign": "X",
+     "points": 0,
+     "predHome": "Brasilien",
+     "predAway": "Colombia"
+    },
+    "103": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 0,
+     "predHome": "Frankrike",
+     "predAway": "Colombia"
+    },
+    "104": {
+     "home": 2,
+     "away": 3,
+     "sign": "2",
+     "points": 0,
+     "predHome": "Spanien",
+     "predAway": "Brasilien"
+    }
+   },
+   "rounds": [
+    {
+     "label": "Gruppspel",
+     "points": 221,
+     "bonus": 0,
+     "total": 221,
+     "round": null
+    },
+    {
+     "label": "Sextondelsfinaler",
+     "points": 41,
+     "bonus": 27,
+     "total": 68,
+     "round": "Sextondelsfinal"
+    },
+    {
+     "label": "Åttondelsfinaler",
+     "points": 0,
+     "bonus": 0,
+     "total": 0,
+     "round": "Åttondelsfinal"
+    },
+    {
+     "label": "Kvartsfinaler",
+     "points": 0,
+     "bonus": 0,
+     "total": 0,
+     "round": "Kvartsfinal"
+    },
+    {
+     "label": "Semifinaler",
+     "points": 0,
+     "bonus": 0,
+     "total": 0,
+     "round": "Semifinal"
+    },
+    {
+     "label": "Bronsmatch",
+     "points": 0,
+     "bonus": 0,
+     "total": 0,
+     "round": "Bronsmatch"
+    },
+    {
+     "label": "Final",
+     "points": 0,
+     "bonus": 0,
+     "total": 0,
+     "round": "Final"
+    },
+    {
+     "label": "Bonusfrågor",
+     "points": 0,
+     "bonus": 0,
+     "total": 0,
+     "round": null
+    }
+   ],
+   "bonus": [
+    {
+     "category": "Skyttekung",
+     "answer": "Luis Diaz",
+     "points": 0
+    },
+    {
+     "category": "Världsmästare",
+     "answer": "Brasilien",
+     "points": 0
+    },
+    {
+     "category": "Vinnare bronsmatch",
+     "answer": "Frankrike",
+     "points": 0
+    },
+    {
+     "category": "Lag som gör flest mål i gruppspelet",
+     "answer": "Brasilien",
+     "points": 0
+    },
+    {
+     "category": "Lag som släpper in flest mål i gruppspelet",
+     "answer": "Haiti",
+     "points": 0
+    },
+    {
+     "category": "Egen bonusfråga 1",
+     "answer": null,
+     "points": 0
+    },
+    {
+     "category": "Egen bonusfråga 2",
+     "answer": null,
+     "points": 0
+    }
+   ]
+  },
+  {
+   "name": "Philip Wallberg",
+   "total": 288,
+   "groupPoints": 221,
+   "bonusPoints": 0,
+   "knockoutPoints": 67,
+   "predictions": {
+    "1": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 5
+    },
+    "2": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 2
+    },
+    "25": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 0
+    },
+    "28": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 2
+    },
+    "53": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 3
+    },
+    "54": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 0
+    },
+    "3": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 2
+    },
+    "8": {
+     "home": 0,
+     "away": 3,
+     "sign": "2",
+     "points": 0
+    },
+    "26": {
+     "home": 1,
+     "away": 0,
+     "sign": "1",
+     "points": 3
+    },
+    "27": {
+     "home": 3,
+     "away": 0,
+     "sign": "1",
+     "points": 5
+    },
+    "51": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 2
+    },
+    "52": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 3
+    },
+    "7": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 2
+    },
+    "5": {
+     "home": 0,
+     "away": 3,
+     "sign": "2",
+     "points": 5
+    },
+    "30": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 2
+    },
+    "29": {
+     "home": 4,
+     "away": 0,
+     "sign": "1",
+     "points": 5
+    },
+    "49": {
+     "home": 1,
+     "away": 3,
+     "sign": "2",
+     "points": 5
+    },
+    "50": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 3
+    },
+    "4": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 5
+    },
+    "6": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 0
+    },
+    "32": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 7
+    },
+    "31": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 2
+    },
+    "59": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 0
+    },
+    "60": {
+     "home": 1,
+     "away": 0,
+     "sign": "1",
+     "points": 2
+    },
+    "10": {
+     "home": 3,
+     "away": 0,
+     "sign": "1",
+     "points": 3
+    },
+    "9": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 2
+    },
+    "33": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 7
+    },
+    "34": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 2
+    },
+    "55": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 7
+    },
+    "56": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 0
+    },
+    "11": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 2
+    },
+    "12": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 3
+    },
+    "35": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 2
+    },
+    "36": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 5
+    },
+    "57": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 7
+    },
+    "58": {
+     "home": 0,
+     "away": 3,
+     "sign": "2",
+     "points": 5
+    },
+    "16": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 2
+    },
+    "15": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 2
+    },
+    "39": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 0
+    },
+    "40": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 3
+    },
+    "63": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 7
+    },
+    "64": {
+     "home": 0,
+     "away": 3,
+     "sign": "2",
+     "points": 3
+    },
+    "14": {
+     "home": 4,
+     "away": 0,
+     "sign": "1",
+     "points": 2
+    },
+    "13": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 0
+    },
+    "38": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 5
+    },
+    "37": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 2
+    },
+    "65": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 0
+    },
+    "66": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 2
+    },
+    "17": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 5
+    },
+    "18": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 3
+    },
+    "42": {
+     "home": 3,
+     "away": 0,
+     "sign": "1",
+     "points": 7
+    },
+    "41": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 0
+    },
+    "61": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 5
+    },
+    "62": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 3
+    },
+    "19": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 5
+    },
+    "20": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 3
+    },
+    "43": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 5
+    },
+    "44": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 5
+    },
+    "69": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 3
+    },
+    "70": {
+     "home": 0,
+     "away": 3,
+     "sign": "2",
+     "points": 5
+    },
+    "23": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 0
+    },
+    "24": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 3
+    },
+    "47": {
+     "home": 3,
+     "away": 0,
+     "sign": "1",
+     "points": 5
+    },
+    "48": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 3
+    },
+    "71": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 3
+    },
+    "72": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 3
+    },
+    "22": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 0
+    },
+    "21": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 5
+    },
+    "45": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 0
+    },
+    "46": {
+     "home": 0,
+     "away": 2,
+     "sign": "2",
+     "points": 5
+    },
+    "67": {
+     "home": 0,
+     "away": 3,
+     "sign": "2",
+     "points": 5
+    },
+    "68": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 2
+    }
+   },
+   "knockoutPreds": {
+    "73": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 3,
+     "predHome": "Sydkorea",
+     "predAway": "Schweiz"
+    },
+    "74": {
+     "home": 3,
+     "away": 1,
+     "sign": "1",
+     "points": 0,
+     "predHome": "Tyskland",
+     "predAway": "Marocko"
+    },
+    "75": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 0,
+     "predHome": "Nederländerna",
+     "predAway": "Skottland"
+    },
+    "76": {
+     "home": 3,
+     "away": 1,
+     "sign": "1",
+     "points": 5,
+     "predHome": "Brasilien",
+     "predAway": "Sverige"
+    },
+    "77": {
+     "home": 3,
+     "away": 1,
+     "sign": "1",
+     "points": 5,
+     "predHome": "Frankrike",
+     "predAway": "Japan"
+    },
+    "78": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 2,
+     "predHome": "Elfenbenskusten",
+     "predAway": "Norge"
+    },
+    "79": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 0,
+     "predHome": "Mexiko",
+     "predAway": "Ecuador"
+    },
+    "80": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 7,
+     "predHome": "England",
+     "predAway": "Senegal"
+    },
+    "81": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 5,
+     "predHome": "USA",
+     "predAway": "Algeriet"
+    },
+    "82": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 2,
+     "predHome": "Belgien",
+     "predAway": "Czechia"
+    },
+    "83": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 2,
+     "predHome": "Colombia",
+     "predAway": "Kroatien"
+    },
+    "84": {
+     "home": 3,
+     "away": 1,
+     "sign": "1",
+     "points": 5,
+     "predHome": "Spanien",
+     "predAway": "Österrike"
+    },
+    "85": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 5,
+     "predHome": "Kanada",
+     "predAway": "Iran"
+    },
+    "86": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 0,
+     "predHome": "Argentina",
+     "predAway": "Uruguay"
+    },
+    "87": {
+     "home": 3,
+     "away": 1,
+     "sign": "1",
+     "points": 0,
+     "predHome": "Portugal",
+     "predAway": "Ghana"
+    },
+    "88": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 0,
+     "predHome": "Turkiet",
+     "predAway": "Egypten"
+    },
+    "89": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 0,
+     "predHome": "Tyskland",
+     "predAway": "Frankrike"
+    },
+    "90": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 0,
+     "predHome": "Schweiz",
+     "predAway": "Nederländerna"
+    },
+    "91": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 0,
+     "predHome": "Brasilien",
+     "predAway": "Norge"
+    },
+    "92": {
+     "home": 2,
+     "away": 3,
+     "sign": "2",
+     "points": 0,
+     "predHome": "Ecuador",
+     "predAway": "England"
+    },
+    "93": {
+     "home": 1,
+     "away": 3,
+     "sign": "2",
+     "points": 0,
+     "predHome": "Kroatien",
+     "predAway": "Spanien"
+    },
+    "94": {
+     "home": 1,
+     "away": 3,
+     "sign": "2",
+     "points": 0,
+     "predHome": "USA",
+     "predAway": "Czechia"
+    },
+    "95": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 0,
+     "predHome": "Argentina",
+     "predAway": "Turkiet"
+    },
+    "96": {
+     "home": 1,
+     "away": 2,
+     "sign": "2",
+     "points": 0,
+     "predHome": "Kanada",
+     "predAway": "Portugal"
+    },
+    "97": {
+     "home": 3,
+     "away": 1,
+     "sign": "1",
+     "points": 0,
+     "predHome": "Frankrike",
+     "predAway": "Nederländerna"
+    },
+    "98": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 0,
+     "predHome": "Spanien",
+     "predAway": "Czechia"
+    },
+    "99": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 0,
+     "predHome": "Brasilien",
+     "predAway": "England"
+    },
+    "100": {
+     "home": 2,
+     "away": 1,
+     "sign": "1",
+     "points": 0,
+     "predHome": "Argentina",
+     "predAway": "Portugal"
+    },
+    "101": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 0,
+     "predHome": "Frankrike",
+     "predAway": "Spanien"
+    },
+    "102": {
+     "home": 2,
+     "away": 2,
+     "sign": "X",
+     "points": 0,
+     "predHome": "England",
+     "predAway": "Argentina"
+    },
+    "103": {
+     "home": 2,
+     "away": 0,
+     "sign": "1",
+     "points": 0,
+     "predHome": "Frankrike",
+     "predAway": "Argentina"
+    },
+    "104": {
+     "home": 1,
+     "away": 1,
+     "sign": "X",
+     "points": 0,
+     "predHome": "Spanien",
+     "predAway": "England"
+    }
+   },
+   "rounds": [
+    {
+     "label": "Gruppspel",
+     "points": 221,
+     "bonus": 0,
+     "total": 221,
+     "round": null
+    },
+    {
+     "label": "Sextondelsfinaler",
+     "points": 41,
+     "bonus": 26,
+     "total": 67,
+     "round": "Sextondelsfinal"
+    },
+    {
+     "label": "Åttondelsfinaler",
+     "points": 0,
+     "bonus": 0,
+     "total": 0,
+     "round": "Åttondelsfinal"
+    },
+    {
+     "label": "Kvartsfinaler",
+     "points": 0,
+     "bonus": 0,
+     "total": 0,
+     "round": "Kvartsfinal"
+    },
+    {
+     "label": "Semifinaler",
+     "points": 0,
+     "bonus": 0,
+     "total": 0,
+     "round": "Semifinal"
+    },
+    {
+     "label": "Bronsmatch",
+     "points": 0,
+     "bonus": 0,
+     "total": 0,
+     "round": "Bronsmatch"
+    },
+    {
+     "label": "Final",
+     "points": 0,
+     "bonus": 0,
+     "total": 0,
+     "round": "Final"
+    },
+    {
+     "label": "Bonusfrågor",
+     "points": 0,
+     "bonus": 0,
+     "total": 0,
+     "round": null
+    }
+   ],
+   "bonus": [
+    {
+     "category": "Skyttekung",
+     "answer": "olise",
+     "points": 0
+    },
+    {
+     "category": "Världsmästare",
+     "answer": "spanien",
+     "points": 0
+    },
+    {
+     "category": "Vinnare bronsmatch",
+     "answer": "Frankrike",
+     "points": 0
+    },
+    {
+     "category": "Lag som gör flest mål i gruppspelet",
+     "answer": "Brasilien",
+     "points": 0
+    },
+    {
+     "category": "Lag som släpper in flest mål i gruppspelet",
+     "answer": "Haiti",
      "points": 0
     },
     {
@@ -5595,2393 +7977,11 @@
    ]
   },
   {
-   "name": "Christer Lövgren",
-   "total": 284,
-   "groupPoints": 221,
-   "bonusPoints": 0,
-   "knockoutPoints": 63,
-   "predictions": {
-    "1": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 7
-    },
-    "2": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 2
-    },
-    "25": {
-     "home": 1,
-     "away": 0,
-     "sign": "1",
-     "points": 2
-    },
-    "28": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 3
-    },
-    "53": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 0
-    },
-    "54": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 0
-    },
-    "3": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 0
-    },
-    "8": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 0
-    },
-    "26": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 2
-    },
-    "27": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 3
-    },
-    "51": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 2
-    },
-    "52": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 3
-    },
-    "7": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 2
-    },
-    "5": {
-     "home": 0,
-     "away": 3,
-     "sign": "2",
-     "points": 5
-    },
-    "30": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 3
-    },
-    "29": {
-     "home": 4,
-     "away": 0,
-     "sign": "1",
-     "points": 5
-    },
-    "49": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 5
-    },
-    "50": {
-     "home": 4,
-     "away": 0,
-     "sign": "1",
-     "points": 5
-    },
-    "4": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 2
-    },
-    "6": {
-     "home": 0,
-     "away": 1,
-     "sign": "2",
-     "points": 0
-    },
-    "32": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 5
-    },
-    "31": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 2
-    },
-    "59": {
-     "home": 2,
-     "away": 2,
-     "sign": "X",
-     "points": 2
-    },
-    "60": {
-     "home": 1,
-     "away": 0,
-     "sign": "1",
-     "points": 2
-    },
-    "10": {
-     "home": 5,
-     "away": 0,
-     "sign": "1",
-     "points": 3
-    },
-    "9": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 2
-    },
-    "33": {
-     "home": 1,
-     "away": 0,
-     "sign": "1",
-     "points": 3
-    },
-    "34": {
-     "home": 4,
-     "away": 0,
-     "sign": "1",
-     "points": 2
-    },
-    "55": {
-     "home": 0,
-     "away": 3,
-     "sign": "2",
-     "points": 5
-    },
-    "56": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 0
-    },
-    "11": {
-     "home": 1,
-     "away": 0,
-     "sign": "1",
-     "points": 0
-    },
-    "12": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 5
-    },
-    "35": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 5
-    },
-    "36": {
-     "home": 0,
-     "away": 1,
-     "sign": "2",
-     "points": 5
-    },
-    "57": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 7
-    },
-    "58": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 3
-    },
-    "16": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 7
-    },
-    "15": {
-     "home": 0,
-     "away": 1,
-     "sign": "2",
-     "points": 0
-    },
-    "39": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 2
-    },
-    "40": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 3
-    },
-    "63": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 7
-    },
-    "64": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 3
-    },
-    "14": {
-     "home": 5,
-     "away": 0,
-     "sign": "1",
-     "points": 2
-    },
-    "13": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 0
-    },
-    "38": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 5
-    },
-    "37": {
-     "home": 3,
-     "away": 0,
-     "sign": "1",
-     "points": 0
-    },
-    "65": {
-     "home": 0,
-     "away": 1,
-     "sign": "2",
-     "points": 2
-    },
-    "66": {
-     "home": 0,
-     "away": 0,
-     "sign": "X",
-     "points": 2
-    },
-    "17": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 5
-    },
-    "18": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 5
-    },
-    "42": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 5
-    },
-    "41": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 0
-    },
-    "61": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 5
-    },
-    "62": {
-     "home": 1,
-     "away": 0,
-     "sign": "1",
-     "points": 5
-    },
-    "19": {
-     "home": 3,
-     "away": 0,
-     "sign": "1",
-     "points": 7
-    },
-    "20": {
-     "home": 3,
-     "away": 0,
-     "sign": "1",
-     "points": 5
-    },
-    "43": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 5
-    },
-    "44": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 5
-    },
-    "69": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 0
-    },
-    "70": {
-     "home": 0,
-     "away": 4,
-     "sign": "2",
-     "points": 3
-    },
-    "23": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 0
-    },
-    "24": {
-     "home": 0,
-     "away": 1,
-     "sign": "2",
-     "points": 3
-    },
-    "47": {
-     "home": 3,
-     "away": 0,
-     "sign": "1",
-     "points": 5
-    },
-    "48": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 3
-    },
-    "71": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 3
-    },
-    "72": {
-     "home": 2,
-     "away": 2,
-     "sign": "X",
-     "points": 0
-    },
-    "22": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 0
-    },
-    "21": {
-     "home": 3,
-     "away": 0,
-     "sign": "1",
-     "points": 5
-    },
-    "45": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 0
-    },
-    "46": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 5
-    },
-    "67": {
-     "home": 0,
-     "away": 3,
-     "sign": "2",
-     "points": 5
-    },
-    "68": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 7
-    }
-   },
-   "knockoutPreds": {
-    "73": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 3,
-     "predHome": "Czechia",
-     "predAway": "Schweiz"
-    },
-    "74": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Tyskland",
-     "predAway": "Paraguay"
-    },
-    "75": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Nederländerna",
-     "predAway": "Marocko"
-    },
-    "76": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 5,
-     "predHome": "Brasilien",
-     "predAway": "Sverige"
-    },
-    "77": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 3,
-     "predHome": "Frankrike",
-     "predAway": "Japan"
-    },
-    "78": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 7,
-     "predHome": "Ecuador",
-     "predAway": "Norge"
-    },
-    "79": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 0,
-     "predHome": "Mexiko",
-     "predAway": "Skottland"
-    },
-    "80": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 7,
-     "predHome": "England",
-     "predAway": "Senegal"
-    },
-    "81": {
-     "home": 1,
-     "away": 0,
-     "sign": "1",
-     "points": 5,
-     "predHome": "USA",
-     "predAway": "Kanada"
-    },
-    "82": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 3,
-     "predHome": "Belgien",
-     "predAway": "Sydkorea"
-    },
-    "83": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 0,
-     "predHome": "Colombia",
-     "predAway": "Kroatien"
-    },
-    "84": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 3,
-     "predHome": "Spanien",
-     "predAway": "Österrike"
-    },
-    "85": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Bosnien-Herzigovina",
-     "predAway": "Elfenbenskusten"
-    },
-    "86": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Argentina",
-     "predAway": "Uruguay"
-    },
-    "87": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Portugal",
-     "predAway": "Ghana"
-    },
-    "88": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 0,
-     "predHome": "Turkiet",
-     "predAway": "Egypten"
-    },
-    "89": {
-     "home": 1,
-     "away": 0,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Tyskland",
-     "predAway": "Frankrike"
-    },
-    "90": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 0,
-     "predHome": "Schweiz",
-     "predAway": "Nederländerna"
-    },
-    "91": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Brasilien",
-     "predAway": "Norge"
-    },
-    "92": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 0,
-     "predHome": "Skottland",
-     "predAway": "England"
-    },
-    "93": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 0,
-     "predHome": "Kroatien",
-     "predAway": "Spanien"
-    },
-    "94": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 0,
-     "predHome": "USA",
-     "predAway": "Belgien"
-    },
-    "95": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Argentina",
-     "predAway": "Egypten"
-    },
-    "96": {
-     "home": 0,
-     "away": 1,
-     "sign": "2",
-     "points": 0,
-     "predHome": "Bosnien-Herzigovina",
-     "predAway": "Portugal"
-    },
-    "97": {
-     "home": 1,
-     "away": 0,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Tyskland",
-     "predAway": "Nederländerna"
-    },
-    "98": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Spanien",
-     "predAway": "Belgien"
-    },
-    "99": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Brasilien",
-     "predAway": "England"
-    },
-    "100": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 0,
-     "predHome": "Argentina",
-     "predAway": "Portugal"
-    },
-    "101": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Tyskland",
-     "predAway": "Spanien"
-    },
-    "102": {
-     "home": 1,
-     "away": 0,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Brasilien",
-     "predAway": "Argentina"
-    },
-    "103": {
-     "home": 0,
-     "away": 1,
-     "sign": "2",
-     "points": 0,
-     "predHome": "Spanien",
-     "predAway": "Argentina"
-    },
-    "104": {
-     "home": 1,
-     "away": 0,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Tyskland",
-     "predAway": "Brasilien"
-    }
-   },
-   "rounds": [
-    {
-     "label": "Gruppspel",
-     "points": 221,
-     "bonus": 0,
-     "total": 221,
-     "round": null
-    },
-    {
-     "label": "Sextondelsfinaler",
-     "points": 36,
-     "bonus": 27,
-     "total": 63,
-     "round": "Sextondelsfinal"
-    },
-    {
-     "label": "Åttondelsfinaler",
-     "points": 0,
-     "bonus": 0,
-     "total": 0,
-     "round": "Åttondelsfinal"
-    },
-    {
-     "label": "Kvartsfinaler",
-     "points": 0,
-     "bonus": 0,
-     "total": 0,
-     "round": "Kvartsfinal"
-    },
-    {
-     "label": "Semifinaler",
-     "points": 0,
-     "bonus": 0,
-     "total": 0,
-     "round": "Semifinal"
-    },
-    {
-     "label": "Bronsmatch",
-     "points": 0,
-     "bonus": 0,
-     "total": 0,
-     "round": "Bronsmatch"
-    },
-    {
-     "label": "Final",
-     "points": 0,
-     "bonus": 0,
-     "total": 0,
-     "round": "Final"
-    },
-    {
-     "label": "Bonusfrågor",
-     "points": 0,
-     "bonus": 0,
-     "total": 0,
-     "round": null
-    }
-   ],
-   "bonus": [
-    {
-     "category": "Skyttekung",
-     "answer": "mbappe",
-     "points": 0
-    },
-    {
-     "category": "Världsmästare",
-     "answer": "Tyskland",
-     "points": 0
-    },
-    {
-     "category": "Vinnare bronsmatch",
-     "answer": "Argentina",
-     "points": 0
-    },
-    {
-     "category": "Lag som gör flest mål i gruppspelet",
-     "answer": "Brasilien",
-     "points": 0
-    },
-    {
-     "category": "Lag som släpper in flest mål i gruppspelet",
-     "answer": "Curacao",
-     "points": 0
-    },
-    {
-     "category": "Egen bonusfråga 1",
-     "answer": null,
-     "points": 0
-    },
-    {
-     "category": "Egen bonusfråga 2",
-     "answer": null,
-     "points": 0
-    }
-   ]
-  },
-  {
-   "name": "Philip Wallberg",
-   "total": 283,
-   "groupPoints": 221,
-   "bonusPoints": 0,
-   "knockoutPoints": 62,
-   "predictions": {
-    "1": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 5
-    },
-    "2": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 2
-    },
-    "25": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 0
-    },
-    "28": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 2
-    },
-    "53": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 3
-    },
-    "54": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 0
-    },
-    "3": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 2
-    },
-    "8": {
-     "home": 0,
-     "away": 3,
-     "sign": "2",
-     "points": 0
-    },
-    "26": {
-     "home": 1,
-     "away": 0,
-     "sign": "1",
-     "points": 3
-    },
-    "27": {
-     "home": 3,
-     "away": 0,
-     "sign": "1",
-     "points": 5
-    },
-    "51": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 2
-    },
-    "52": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 3
-    },
-    "7": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 2
-    },
-    "5": {
-     "home": 0,
-     "away": 3,
-     "sign": "2",
-     "points": 5
-    },
-    "30": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 2
-    },
-    "29": {
-     "home": 4,
-     "away": 0,
-     "sign": "1",
-     "points": 5
-    },
-    "49": {
-     "home": 1,
-     "away": 3,
-     "sign": "2",
-     "points": 5
-    },
-    "50": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 3
-    },
-    "4": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 5
-    },
-    "6": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 0
-    },
-    "32": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 7
-    },
-    "31": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 2
-    },
-    "59": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 0
-    },
-    "60": {
-     "home": 1,
-     "away": 0,
-     "sign": "1",
-     "points": 2
-    },
-    "10": {
-     "home": 3,
-     "away": 0,
-     "sign": "1",
-     "points": 3
-    },
-    "9": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 2
-    },
-    "33": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 7
-    },
-    "34": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 2
-    },
-    "55": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 7
-    },
-    "56": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 0
-    },
-    "11": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 2
-    },
-    "12": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 3
-    },
-    "35": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 2
-    },
-    "36": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 5
-    },
-    "57": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 7
-    },
-    "58": {
-     "home": 0,
-     "away": 3,
-     "sign": "2",
-     "points": 5
-    },
-    "16": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 2
-    },
-    "15": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 2
-    },
-    "39": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 0
-    },
-    "40": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 3
-    },
-    "63": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 7
-    },
-    "64": {
-     "home": 0,
-     "away": 3,
-     "sign": "2",
-     "points": 3
-    },
-    "14": {
-     "home": 4,
-     "away": 0,
-     "sign": "1",
-     "points": 2
-    },
-    "13": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 0
-    },
-    "38": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 5
-    },
-    "37": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 2
-    },
-    "65": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 0
-    },
-    "66": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 2
-    },
-    "17": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 5
-    },
-    "18": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 3
-    },
-    "42": {
-     "home": 3,
-     "away": 0,
-     "sign": "1",
-     "points": 7
-    },
-    "41": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 0
-    },
-    "61": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 5
-    },
-    "62": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 3
-    },
-    "19": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 5
-    },
-    "20": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 3
-    },
-    "43": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 5
-    },
-    "44": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 5
-    },
-    "69": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 3
-    },
-    "70": {
-     "home": 0,
-     "away": 3,
-     "sign": "2",
-     "points": 5
-    },
-    "23": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 0
-    },
-    "24": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 3
-    },
-    "47": {
-     "home": 3,
-     "away": 0,
-     "sign": "1",
-     "points": 5
-    },
-    "48": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 3
-    },
-    "71": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 3
-    },
-    "72": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 3
-    },
-    "22": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 0
-    },
-    "21": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 5
-    },
-    "45": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 0
-    },
-    "46": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 5
-    },
-    "67": {
-     "home": 0,
-     "away": 3,
-     "sign": "2",
-     "points": 5
-    },
-    "68": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 2
-    }
-   },
-   "knockoutPreds": {
-    "73": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 3,
-     "predHome": "Sydkorea",
-     "predAway": "Schweiz"
-    },
-    "74": {
-     "home": 3,
-     "away": 1,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Tyskland",
-     "predAway": "Marocko"
-    },
-    "75": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Nederländerna",
-     "predAway": "Skottland"
-    },
-    "76": {
-     "home": 3,
-     "away": 1,
-     "sign": "1",
-     "points": 5,
-     "predHome": "Brasilien",
-     "predAway": "Sverige"
-    },
-    "77": {
-     "home": 3,
-     "away": 1,
-     "sign": "1",
-     "points": 5,
-     "predHome": "Frankrike",
-     "predAway": "Japan"
-    },
-    "78": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 2,
-     "predHome": "Elfenbenskusten",
-     "predAway": "Norge"
-    },
-    "79": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 0,
-     "predHome": "Mexiko",
-     "predAway": "Ecuador"
-    },
-    "80": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 7,
-     "predHome": "England",
-     "predAway": "Senegal"
-    },
-    "81": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 5,
-     "predHome": "USA",
-     "predAway": "Algeriet"
-    },
-    "82": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 2,
-     "predHome": "Belgien",
-     "predAway": "Czechia"
-    },
-    "83": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 2,
-     "predHome": "Colombia",
-     "predAway": "Kroatien"
-    },
-    "84": {
-     "home": 3,
-     "away": 1,
-     "sign": "1",
-     "points": 5,
-     "predHome": "Spanien",
-     "predAway": "Österrike"
-    },
-    "85": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Kanada",
-     "predAway": "Iran"
-    },
-    "86": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Argentina",
-     "predAway": "Uruguay"
-    },
-    "87": {
-     "home": 3,
-     "away": 1,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Portugal",
-     "predAway": "Ghana"
-    },
-    "88": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Turkiet",
-     "predAway": "Egypten"
-    },
-    "89": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 0,
-     "predHome": "Tyskland",
-     "predAway": "Frankrike"
-    },
-    "90": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 0,
-     "predHome": "Schweiz",
-     "predAway": "Nederländerna"
-    },
-    "91": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Brasilien",
-     "predAway": "Norge"
-    },
-    "92": {
-     "home": 2,
-     "away": 3,
-     "sign": "2",
-     "points": 0,
-     "predHome": "Ecuador",
-     "predAway": "England"
-    },
-    "93": {
-     "home": 1,
-     "away": 3,
-     "sign": "2",
-     "points": 0,
-     "predHome": "Kroatien",
-     "predAway": "Spanien"
-    },
-    "94": {
-     "home": 1,
-     "away": 3,
-     "sign": "2",
-     "points": 0,
-     "predHome": "USA",
-     "predAway": "Czechia"
-    },
-    "95": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Argentina",
-     "predAway": "Turkiet"
-    },
-    "96": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 0,
-     "predHome": "Kanada",
-     "predAway": "Portugal"
-    },
-    "97": {
-     "home": 3,
-     "away": 1,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Frankrike",
-     "predAway": "Nederländerna"
-    },
-    "98": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Spanien",
-     "predAway": "Czechia"
-    },
-    "99": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 0,
-     "predHome": "Brasilien",
-     "predAway": "England"
-    },
-    "100": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Argentina",
-     "predAway": "Portugal"
-    },
-    "101": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 0,
-     "predHome": "Frankrike",
-     "predAway": "Spanien"
-    },
-    "102": {
-     "home": 2,
-     "away": 2,
-     "sign": "X",
-     "points": 0,
-     "predHome": "England",
-     "predAway": "Argentina"
-    },
-    "103": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Frankrike",
-     "predAway": "Argentina"
-    },
-    "104": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 0,
-     "predHome": "Spanien",
-     "predAway": "England"
-    }
-   },
-   "rounds": [
-    {
-     "label": "Gruppspel",
-     "points": 221,
-     "bonus": 0,
-     "total": 221,
-     "round": null
-    },
-    {
-     "label": "Sextondelsfinaler",
-     "points": 36,
-     "bonus": 26,
-     "total": 62,
-     "round": "Sextondelsfinal"
-    },
-    {
-     "label": "Åttondelsfinaler",
-     "points": 0,
-     "bonus": 0,
-     "total": 0,
-     "round": "Åttondelsfinal"
-    },
-    {
-     "label": "Kvartsfinaler",
-     "points": 0,
-     "bonus": 0,
-     "total": 0,
-     "round": "Kvartsfinal"
-    },
-    {
-     "label": "Semifinaler",
-     "points": 0,
-     "bonus": 0,
-     "total": 0,
-     "round": "Semifinal"
-    },
-    {
-     "label": "Bronsmatch",
-     "points": 0,
-     "bonus": 0,
-     "total": 0,
-     "round": "Bronsmatch"
-    },
-    {
-     "label": "Final",
-     "points": 0,
-     "bonus": 0,
-     "total": 0,
-     "round": "Final"
-    },
-    {
-     "label": "Bonusfrågor",
-     "points": 0,
-     "bonus": 0,
-     "total": 0,
-     "round": null
-    }
-   ],
-   "bonus": [
-    {
-     "category": "Skyttekung",
-     "answer": "olise",
-     "points": 0
-    },
-    {
-     "category": "Världsmästare",
-     "answer": "spanien",
-     "points": 0
-    },
-    {
-     "category": "Vinnare bronsmatch",
-     "answer": "Frankrike",
-     "points": 0
-    },
-    {
-     "category": "Lag som gör flest mål i gruppspelet",
-     "answer": "Brasilien",
-     "points": 0
-    },
-    {
-     "category": "Lag som släpper in flest mål i gruppspelet",
-     "answer": "Haiti",
-     "points": 0
-    },
-    {
-     "category": "Egen bonusfråga 1",
-     "answer": null,
-     "points": 0
-    },
-    {
-     "category": "Egen bonusfråga 2",
-     "answer": null,
-     "points": 0
-    }
-   ]
-  },
-  {
-   "name": "Oliver Jönsson",
-   "total": 282,
-   "groupPoints": 221,
-   "bonusPoints": 0,
-   "knockoutPoints": 61,
-   "predictions": {
-    "1": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 7
-    },
-    "2": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 2
-    },
-    "25": {
-     "home": 3,
-     "away": 1,
-     "sign": "1",
-     "points": 2
-    },
-    "28": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 2
-    },
-    "53": {
-     "home": 0,
-     "away": 1,
-     "sign": "2",
-     "points": 5
-    },
-    "54": {
-     "home": 2,
-     "away": 2,
-     "sign": "X",
-     "points": 0
-    },
-    "3": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 0
-    },
-    "8": {
-     "home": 0,
-     "away": 3,
-     "sign": "2",
-     "points": 0
-    },
-    "26": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 5
-    },
-    "27": {
-     "home": 1,
-     "away": 0,
-     "sign": "1",
-     "points": 5
-    },
-    "51": {
-     "home": 4,
-     "away": 1,
-     "sign": "1",
-     "points": 5
-    },
-    "52": {
-     "home": 3,
-     "away": 2,
-     "sign": "1",
-     "points": 5
-    },
-    "7": {
-     "home": 4,
-     "away": 2,
-     "sign": "1",
-     "points": 0
-    },
-    "5": {
-     "home": 0,
-     "away": 3,
-     "sign": "2",
-     "points": 5
-    },
-    "30": {
-     "home": 0,
-     "away": 0,
-     "sign": "X",
-     "points": 2
-    },
-    "29": {
-     "home": 6,
-     "away": 0,
-     "sign": "1",
-     "points": 5
-    },
-    "49": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 0
-    },
-    "50": {
-     "home": 4,
-     "away": 1,
-     "sign": "1",
-     "points": 5
-    },
-    "4": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 3
-    },
-    "6": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 0
-    },
-    "32": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 0
-    },
-    "31": {
-     "home": 1,
-     "away": 0,
-     "sign": "1",
-     "points": 0
-    },
-    "59": {
-     "home": 2,
-     "away": 2,
-     "sign": "X",
-     "points": 2
-    },
-    "60": {
-     "home": 0,
-     "away": 0,
-     "sign": "X",
-     "points": 7
-    },
-    "10": {
-     "home": 5,
-     "away": 0,
-     "sign": "1",
-     "points": 3
-    },
-    "9": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 2
-    },
-    "33": {
-     "home": 2,
-     "away": 2,
-     "sign": "X",
-     "points": 2
-    },
-    "34": {
-     "home": 3,
-     "away": 0,
-     "sign": "1",
-     "points": 2
-    },
-    "55": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 0
-    },
-    "56": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 7
-    },
-    "11": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 3
-    },
-    "12": {
-     "home": 3,
-     "away": 1,
-     "sign": "1",
-     "points": 5
-    },
-    "35": {
-     "home": 2,
-     "away": 2,
-     "sign": "X",
-     "points": 0
-    },
-    "36": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 5
-    },
-    "57": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 2
-    },
-    "58": {
-     "home": 0,
-     "away": 4,
-     "sign": "2",
-     "points": 3
-    },
-    "16": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 2
-    },
-    "15": {
-     "home": 0,
-     "away": 1,
-     "sign": "2",
-     "points": 0
-    },
-    "39": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 3
-    },
-    "40": {
-     "home": 0,
-     "away": 1,
-     "sign": "2",
-     "points": 3
-    },
-    "63": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 7
-    },
-    "64": {
-     "home": 0,
-     "away": 1,
-     "sign": "2",
-     "points": 3
-    },
-    "14": {
-     "home": 4,
-     "away": 0,
-     "sign": "1",
-     "points": 2
-    },
-    "13": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 0
-    },
-    "38": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 3
-    },
-    "37": {
-     "home": 3,
-     "away": 1,
-     "sign": "1",
-     "points": 0
-    },
-    "65": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 3
-    },
-    "66": {
-     "home": 2,
-     "away": 2,
-     "sign": "X",
-     "points": 0
-    },
-    "17": {
-     "home": 3,
-     "away": 1,
-     "sign": "1",
-     "points": 7
-    },
-    "18": {
-     "home": 0,
-     "away": 4,
-     "sign": "2",
-     "points": 5
-    },
-    "42": {
-     "home": 3,
-     "away": 0,
-     "sign": "1",
-     "points": 7
-    },
-    "41": {
-     "home": 3,
-     "away": 3,
-     "sign": "X",
-     "points": 2
-    },
-    "61": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 5
-    },
-    "62": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 3
-    },
-    "19": {
-     "home": 2,
-     "away": 2,
-     "sign": "X",
-     "points": 0
-    },
-    "20": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 3
-    },
-    "43": {
-     "home": 1,
-     "away": 0,
-     "sign": "1",
-     "points": 5
-    },
-    "44": {
-     "home": 1,
-     "away": 3,
-     "sign": "2",
-     "points": 5
-    },
-    "69": {
-     "home": 2,
-     "away": 3,
-     "sign": "2",
-     "points": 2
-    },
-    "70": {
-     "home": 0,
-     "away": 3,
-     "sign": "2",
-     "points": 5
-    },
-    "23": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 7
-    },
-    "24": {
-     "home": 0,
-     "away": 1,
-     "sign": "2",
-     "points": 3
-    },
-    "47": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 5
-    },
-    "48": {
-     "home": 2,
-     "away": 2,
-     "sign": "X",
-     "points": 0
-    },
-    "71": {
-     "home": 3,
-     "away": 2,
-     "sign": "1",
-     "points": 0
-    },
-    "72": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 5
-    },
-    "22": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 3
-    },
-    "21": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 5
-    },
-    "45": {
-     "home": 0,
-     "away": 0,
-     "sign": "X",
-     "points": 7
-    },
-    "46": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 5
-    },
-    "67": {
-     "home": 0,
-     "away": 4,
-     "sign": "2",
-     "points": 5
-    },
-    "68": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 0
-    }
-   },
-   "knockoutPreds": {
-    "73": {
-     "home": 0,
-     "away": 1,
-     "sign": "2",
-     "points": 7,
-     "predHome": "Sydkorea",
-     "predAway": "Kanada"
-    },
-    "74": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Ecuador",
-     "predAway": "Australien"
-    },
-    "75": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 0,
-     "predHome": "Sverige",
-     "predAway": "Skottland"
-    },
-    "76": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 5,
-     "predHome": "Brasilien",
-     "predAway": "Nederländerna"
-    },
-    "77": {
-     "home": 3,
-     "away": 1,
-     "sign": "1",
-     "points": 5,
-     "predHome": "Frankrike",
-     "predAway": "Japan"
-    },
-    "78": {
-     "home": 2,
-     "away": 2,
-     "sign": "X",
-     "points": 2,
-     "predHome": "Tyskland",
-     "predAway": "Norge"
-    },
-    "79": {
-     "home": 1,
-     "away": 0,
-     "sign": "1",
-     "points": 5,
-     "predHome": "Mexiko",
-     "predAway": "Marocko"
-    },
-    "80": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 0,
-     "predHome": "England",
-     "predAway": "Portugal"
-    },
-    "81": {
-     "home": 1,
-     "away": 0,
-     "sign": "1",
-     "points": 5,
-     "predHome": "USA",
-     "predAway": "Senegal"
-    },
-    "82": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 0,
-     "predHome": "Egypten",
-     "predAway": "Czechia"
-    },
-    "83": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 0,
-     "predHome": "Kongo",
-     "predAway": "Ghana"
-    },
-    "84": {
-     "home": 3,
-     "away": 2,
-     "sign": "1",
-     "points": 5,
-     "predHome": "Spanien",
-     "predAway": "Österrike"
-    },
-    "85": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Schweiz",
-     "predAway": "Algeriet"
-    },
-    "86": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 0,
-     "predHome": "Argentina",
-     "predAway": "Uruguay"
-    },
-    "87": {
-     "home": 3,
-     "away": 0,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Colombia",
-     "predAway": "Kroatien"
-    },
-    "88": {
-     "home": 2,
-     "away": 1,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Turkiet",
-     "predAway": "Belgien"
-    },
-    "89": {
-     "home": 1,
-     "away": 3,
-     "sign": "2",
-     "points": 0,
-     "predHome": "Ecuador",
-     "predAway": "Frankrike"
-    },
-    "90": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 0,
-     "predHome": "Kanada",
-     "predAway": "Sverige"
-    },
-    "91": {
-     "home": 3,
-     "away": 2,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Brasilien",
-     "predAway": "Norge"
-    },
-    "92": {
-     "home": 1,
-     "away": 1,
-     "sign": "X",
-     "points": 0,
-     "predHome": "Mexiko",
-     "predAway": "Portugal"
-    },
-    "93": {
-     "home": 0,
-     "away": 2,
-     "sign": "2",
-     "points": 0,
-     "predHome": "Ghana",
-     "predAway": "Spanien"
-    },
-    "94": {
-     "home": 1,
-     "away": 0,
-     "sign": "1",
-     "points": 0,
-     "predHome": "USA",
-     "predAway": "Egypten"
-    },
-    "95": {
-     "home": 3,
-     "away": 0,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Uruguay",
-     "predAway": "Turkiet"
-    },
-    "96": {
-     "home": 1,
-     "away": 2,
-     "sign": "2",
-     "points": 0,
-     "predHome": "Schweiz",
-     "predAway": "Colombia"
-    },
-    "97": {
-     "home": 4,
-     "away": 2,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Frankrike",
-     "predAway": "Sverige"
-    },
-    "98": {
-     "home": 3,
-     "away": 1,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Spanien",
-     "predAway": "USA"
-    },
-    "99": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Brasilien",
-     "predAway": "Mexiko"
-    },
-    "100": {
-     "home": 2,
-     "away": 2,
-     "sign": "X",
-     "points": 0,
-     "predHome": "Uruguay",
-     "predAway": "Colombia"
-    },
-    "101": {
-     "home": 2,
-     "away": 2,
-     "sign": "X",
-     "points": 0,
-     "predHome": "Frankrike",
-     "predAway": "Spanien"
-    },
-    "102": {
-     "home": 2,
-     "away": 2,
-     "sign": "X",
-     "points": 0,
-     "predHome": "Brasilien",
-     "predAway": "Colombia"
-    },
-    "103": {
-     "home": 2,
-     "away": 0,
-     "sign": "1",
-     "points": 0,
-     "predHome": "Frankrike",
-     "predAway": "Colombia"
-    },
-    "104": {
-     "home": 2,
-     "away": 3,
-     "sign": "2",
-     "points": 0,
-     "predHome": "Spanien",
-     "predAway": "Brasilien"
-    }
-   },
-   "rounds": [
-    {
-     "label": "Gruppspel",
-     "points": 221,
-     "bonus": 0,
-     "total": 221,
-     "round": null
-    },
-    {
-     "label": "Sextondelsfinaler",
-     "points": 34,
-     "bonus": 27,
-     "total": 61,
-     "round": "Sextondelsfinal"
-    },
-    {
-     "label": "Åttondelsfinaler",
-     "points": 0,
-     "bonus": 0,
-     "total": 0,
-     "round": "Åttondelsfinal"
-    },
-    {
-     "label": "Kvartsfinaler",
-     "points": 0,
-     "bonus": 0,
-     "total": 0,
-     "round": "Kvartsfinal"
-    },
-    {
-     "label": "Semifinaler",
-     "points": 0,
-     "bonus": 0,
-     "total": 0,
-     "round": "Semifinal"
-    },
-    {
-     "label": "Bronsmatch",
-     "points": 0,
-     "bonus": 0,
-     "total": 0,
-     "round": "Bronsmatch"
-    },
-    {
-     "label": "Final",
-     "points": 0,
-     "bonus": 0,
-     "total": 0,
-     "round": "Final"
-    },
-    {
-     "label": "Bonusfrågor",
-     "points": 0,
-     "bonus": 0,
-     "total": 0,
-     "round": null
-    }
-   ],
-   "bonus": [
-    {
-     "category": "Skyttekung",
-     "answer": "Luis Diaz",
-     "points": 0
-    },
-    {
-     "category": "Världsmästare",
-     "answer": "Brasilien",
-     "points": 0
-    },
-    {
-     "category": "Vinnare bronsmatch",
-     "answer": "Frankrike",
-     "points": 0
-    },
-    {
-     "category": "Lag som gör flest mål i gruppspelet",
-     "answer": "Brasilien",
-     "points": 0
-    },
-    {
-     "category": "Lag som släpper in flest mål i gruppspelet",
-     "answer": "Haiti",
-     "points": 0
-    },
-    {
-     "category": "Egen bonusfråga 1",
-     "answer": null,
-     "points": 0
-    },
-    {
-     "category": "Egen bonusfråga 2",
-     "answer": null,
-     "points": 0
-    }
-   ]
-  },
-  {
    "name": "Ralle Nilsson Hansen",
-   "total": 272,
+   "total": 274,
    "groupPoints": 219,
    "bonusPoints": 0,
-   "knockoutPoints": 53,
+   "knockoutPoints": 55,
    "predictions": {
     "1": {
      "home": 2,
@@ -8517,7 +8517,7 @@
      "home": 2,
      "away": 2,
      "sign": "X",
-     "points": 0,
+     "points": 2,
      "predHome": "Schweiz",
      "predAway": "Algeriet"
     },
@@ -8684,9 +8684,9 @@
     },
     {
      "label": "Sextondelsfinaler",
-     "points": 26,
+     "points": 28,
      "bonus": 27,
-     "total": 53,
+     "total": 55,
      "round": "Sextondelsfinal"
     },
     {
@@ -8772,10 +8772,10 @@
   },
   {
    "name": "Hampus Svensson",
-   "total": 270,
+   "total": 273,
    "groupPoints": 209,
    "bonusPoints": 0,
-   "knockoutPoints": 61,
+   "knockoutPoints": 64,
    "predictions": {
     "1": {
      "home": 2,
@@ -9311,7 +9311,7 @@
      "home": 3,
      "away": 2,
      "sign": "1",
-     "points": 0,
+     "points": 3,
      "predHome": "Schweiz",
      "predAway": "Egypten"
     },
@@ -9478,9 +9478,9 @@
     },
     {
      "label": "Sextondelsfinaler",
-     "points": 35,
+     "points": 38,
      "bonus": 26,
-     "total": 61,
+     "total": 64,
      "round": "Sextondelsfinal"
     },
     {
@@ -9566,10 +9566,10 @@
   },
   {
    "name": "Tim Israelsson",
-   "total": 251,
+   "total": 256,
    "groupPoints": 189,
    "bonusPoints": 10,
-   "knockoutPoints": 52,
+   "knockoutPoints": 57,
    "predictions": {
     "1": {
      "home": 2,
@@ -10105,7 +10105,7 @@
      "home": 2,
      "away": 1,
      "sign": "1",
-     "points": 0,
+     "points": 5,
      "predHome": "Kanada",
      "predAway": "Österrike"
     },
@@ -10272,9 +10272,9 @@
     },
     {
      "label": "Sextondelsfinaler",
-     "points": 26,
+     "points": 31,
      "bonus": 26,
-     "total": 52,
+     "total": 57,
      "round": "Sextondelsfinal"
     },
     {
