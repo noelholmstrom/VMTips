@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-03T23:35:15.072530+00:00",
+ "updated": "2026-07-04T02:28:36.521528+00:00",
  "tournament": "VM 2026",
  "matches": [
   {
@@ -932,9 +932,9 @@
    "home": "Argentina",
    "away": "Kap Verde",
    "date": "2026-07-04",
-   "homeGoals": null,
-   "awayGoals": null,
-   "played": false
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "played": true
   },
   {
    "no": 87,
@@ -1626,10 +1626,10 @@
  "players": [
   {
    "name": "Noel Holmström",
-   "total": 348,
+   "total": 351,
    "groupPoints": 246,
    "bonusPoints": 10,
-   "knockoutPoints": 92,
+   "knockoutPoints": 95,
    "predictions": {
     "1": {
      "home": 2,
@@ -2173,7 +2173,7 @@
      "home": 2,
      "away": 1,
      "sign": "1",
-     "points": 0,
+     "points": 3,
      "predHome": "Argentina",
      "predAway": "Uruguay"
     },
@@ -2332,9 +2332,9 @@
     },
     {
      "label": "Sextondelsfinaler",
-     "points": 66,
+     "points": 69,
      "bonus": 26,
-     "total": 92,
+     "total": 95,
      "round": "Sextondelsfinal"
     },
     {
@@ -2420,10 +2420,10 @@
   },
   {
    "name": "Emma Svensson",
-   "total": 326,
+   "total": 331,
    "groupPoints": 247,
    "bonusPoints": 0,
-   "knockoutPoints": 79,
+   "knockoutPoints": 84,
    "predictions": {
     "1": {
      "home": 1,
@@ -2967,7 +2967,7 @@
      "home": 3,
      "away": 1,
      "sign": "1",
-     "points": 0,
+     "points": 5,
      "predHome": "Argentina",
      "predAway": "Uruguay"
     },
@@ -3126,9 +3126,9 @@
     },
     {
      "label": "Sextondelsfinaler",
-     "points": 53,
+     "points": 58,
      "bonus": 26,
-     "total": 79,
+     "total": 84,
      "round": "Sextondelsfinal"
     },
     {
@@ -3214,10 +3214,10 @@
   },
   {
    "name": "Mikael Cordes",
-   "total": 315,
+   "total": 322,
    "groupPoints": 242,
    "bonusPoints": 0,
-   "knockoutPoints": 73,
+   "knockoutPoints": 80,
    "predictions": {
     "1": {
      "home": 2,
@@ -3761,7 +3761,7 @@
      "home": 3,
      "away": 2,
      "sign": "1",
-     "points": 0,
+     "points": 7,
      "predHome": "Argentina",
      "predAway": "Uruguay"
     },
@@ -3920,9 +3920,9 @@
     },
     {
      "label": "Sextondelsfinaler",
-     "points": 46,
+     "points": 53,
      "bonus": 27,
-     "total": 73,
+     "total": 80,
      "round": "Sextondelsfinal"
     },
     {
@@ -4008,10 +4008,10 @@
   },
   {
    "name": "Lasse Svensson",
-   "total": 304,
+   "total": 307,
    "groupPoints": 234,
    "bonusPoints": 0,
-   "knockoutPoints": 70,
+   "knockoutPoints": 73,
    "predictions": {
     "1": {
      "home": 2,
@@ -4555,7 +4555,7 @@
      "home": 2,
      "away": 1,
      "sign": "1",
-     "points": 0,
+     "points": 3,
      "predHome": "Argentina",
      "predAway": "Uruguay"
     },
@@ -4714,9 +4714,9 @@
     },
     {
      "label": "Sextondelsfinaler",
-     "points": 44,
+     "points": 47,
      "bonus": 26,
-     "total": 70,
+     "total": 73,
      "round": "Sextondelsfinal"
     },
     {
@@ -4802,10 +4802,10 @@
   },
   {
    "name": "Christer Lövgren",
-   "total": 292,
+   "total": 295,
    "groupPoints": 221,
    "bonusPoints": 0,
-   "knockoutPoints": 71,
+   "knockoutPoints": 74,
    "predictions": {
     "1": {
      "home": 2,
@@ -5349,7 +5349,7 @@
      "home": 2,
      "away": 0,
      "sign": "1",
-     "points": 0,
+     "points": 3,
      "predHome": "Argentina",
      "predAway": "Uruguay"
     },
@@ -5508,9 +5508,9 @@
     },
     {
      "label": "Sextondelsfinaler",
-     "points": 44,
+     "points": 47,
      "bonus": 27,
-     "total": 71,
+     "total": 74,
      "round": "Sextondelsfinal"
     },
     {
@@ -5596,10 +5596,10 @@
   },
   {
    "name": "Oliver Jönsson",
-   "total": 289,
+   "total": 291,
    "groupPoints": 221,
    "bonusPoints": 0,
-   "knockoutPoints": 68,
+   "knockoutPoints": 70,
    "predictions": {
     "1": {
      "home": 2,
@@ -6143,7 +6143,7 @@
      "home": 1,
      "away": 2,
      "sign": "2",
-     "points": 0,
+     "points": 2,
      "predHome": "Argentina",
      "predAway": "Uruguay"
     },
@@ -6302,9 +6302,9 @@
     },
     {
      "label": "Sextondelsfinaler",
-     "points": 41,
+     "points": 43,
      "bonus": 27,
-     "total": 68,
+     "total": 70,
      "round": "Sextondelsfinal"
     },
     {
@@ -6390,10 +6390,10 @@
   },
   {
    "name": "Philip Wallberg",
-   "total": 288,
+   "total": 291,
    "groupPoints": 221,
    "bonusPoints": 0,
-   "knockoutPoints": 67,
+   "knockoutPoints": 70,
    "predictions": {
     "1": {
      "home": 2,
@@ -6937,7 +6937,7 @@
      "home": 2,
      "away": 1,
      "sign": "1",
-     "points": 0,
+     "points": 3,
      "predHome": "Argentina",
      "predAway": "Uruguay"
     },
@@ -7096,9 +7096,9 @@
     },
     {
      "label": "Sextondelsfinaler",
-     "points": 41,
+     "points": 44,
      "bonus": 26,
-     "total": 67,
+     "total": 70,
      "round": "Sextondelsfinal"
     },
     {
@@ -7184,10 +7184,10 @@
   },
   {
    "name": "Rayan Lövgren",
-   "total": 288,
+   "total": 291,
    "groupPoints": 218,
    "bonusPoints": 0,
-   "knockoutPoints": 70,
+   "knockoutPoints": 73,
    "predictions": {
     "1": {
      "home": 1,
@@ -7731,7 +7731,7 @@
      "home": 2,
      "away": 0,
      "sign": "1",
-     "points": 0,
+     "points": 3,
      "predHome": "Argentina",
      "predAway": "Uruguay"
     },
@@ -7890,9 +7890,9 @@
     },
     {
      "label": "Sextondelsfinaler",
-     "points": 43,
+     "points": 46,
      "bonus": 27,
-     "total": 70,
+     "total": 73,
      "round": "Sextondelsfinal"
     },
     {
@@ -7978,10 +7978,10 @@
   },
   {
    "name": "Ralle Nilsson Hansen",
-   "total": 274,
+   "total": 277,
    "groupPoints": 219,
    "bonusPoints": 0,
-   "knockoutPoints": 55,
+   "knockoutPoints": 58,
    "predictions": {
     "1": {
      "home": 2,
@@ -8525,7 +8525,7 @@
      "home": 2,
      "away": 0,
      "sign": "1",
-     "points": 0,
+     "points": 3,
      "predHome": "Argentina",
      "predAway": "Saudiarabien"
     },
@@ -8684,9 +8684,9 @@
     },
     {
      "label": "Sextondelsfinaler",
-     "points": 28,
+     "points": 31,
      "bonus": 27,
-     "total": 55,
+     "total": 58,
      "round": "Sextondelsfinal"
     },
     {
@@ -8772,10 +8772,10 @@
   },
   {
    "name": "Hampus Svensson",
-   "total": 273,
+   "total": 276,
    "groupPoints": 209,
    "bonusPoints": 0,
-   "knockoutPoints": 64,
+   "knockoutPoints": 67,
    "predictions": {
     "1": {
      "home": 2,
@@ -9319,7 +9319,7 @@
      "home": 2,
      "away": 1,
      "sign": "1",
-     "points": 0,
+     "points": 3,
      "predHome": "Argentina",
      "predAway": "Uruguay"
     },
@@ -9478,9 +9478,9 @@
     },
     {
      "label": "Sextondelsfinaler",
-     "points": 38,
+     "points": 41,
      "bonus": 26,
-     "total": 64,
+     "total": 67,
      "round": "Sextondelsfinal"
     },
     {
@@ -9566,10 +9566,10 @@
   },
   {
    "name": "Tim Israelsson",
-   "total": 258,
+   "total": 260,
    "groupPoints": 189,
    "bonusPoints": 10,
-   "knockoutPoints": 59,
+   "knockoutPoints": 61,
    "predictions": {
     "1": {
      "home": 2,
@@ -10113,7 +10113,7 @@
      "home": 3,
      "away": 3,
      "sign": "X",
-     "points": 0,
+     "points": 2,
      "predHome": "Argentina",
      "predAway": "Uruguay"
     },
@@ -10272,9 +10272,9 @@
     },
     {
      "label": "Sextondelsfinaler",
-     "points": 33,
+     "points": 35,
      "bonus": 26,
-     "total": 59,
+     "total": 61,
      "round": "Sextondelsfinal"
     },
     {
