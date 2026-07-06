@@ -58,11 +58,14 @@ Det var allt — sen sköter schemat resten.
   `manual_results.json` med matchnumret som nyckel (samma nummer som i arket):
 
   ```json
-  { "7": [1, 1], "25": [1, 0] }
+  { "7": [1, 1], "25": [1, 0], "89": [2, 2, "Tyskland"] }
   ```
 
-  Manuella resultat vinner alltid över API:t. Commita filen så fyller nästa
-  körning i dem.
+  Resultatet anges alltid **efter ordinarie tid** (90 min) — en slutspelsmatch
+  som avgörs på förlängning/straffar räknas alltså som oavgjord. Ange då laget
+  som gick vidare som tredje element (som i exemplet ovan), så hamnar det
+  automatiskt i nästa rundas match. Manuella resultat vinner alltid över API:t.
+  Commita filen så fyller nästa körning i dem.
 
 * **Nya tippare eller ändrade tips.** Uppdatera arket i Excel som vanligt och
   commita den nya `.xlsm`-filen. Nästa körning plockar upp ändringarna.

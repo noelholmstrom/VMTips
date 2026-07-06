@@ -11,7 +11,7 @@ Flöde:
 Körs av GitHub Actions enligt schema. Token läses från miljövariabeln
 FOOTBALL_DATA_TOKEN (lägg in som "Repository secret" på GitHub).
 """
-import os, sys, json, argparse, datetime, unicodedata, urllib.request
+import os, re, sys, json, argparse, datetime, unicodedata, urllib.request
 from openpyxl import load_workbook
 from recalc import recalc
 
@@ -73,7 +73,12 @@ def fetch_matches(token, mock=None):
         return json.load(r).get('matches', [])
 
 def build_results(matches):
-    """frozenset({se_home, se_away}) -> {se_team: goals}"""
+    """frozenset({se_home, se_away}) -> {'goals': {se_team: mål}, 'winner': se_team|None}
+
+    Målen är alltid resultatet efter ordinarie tid (90 min). API:ts fullTime
+    inkluderar förlängnings-/straffmål, så vid EXTRA_TIME/PENALTY_SHOOTOUT
+    används regularTime i stället — ett slutspel som avgörs på straffar räknas
+    alltså som oavgjort. Vem som gick vidare följer med i 'winner'."""
     by_pair = {}
     for m in matches:
         if m.get('status') != 'FINISHED':
@@ -81,11 +86,25 @@ def build_results(matches):
         h = resolve(m.get('homeTeam', {})); a = resolve(m.get('awayTeam', {}))
         if not h or not a:
             continue
-        ft = (m.get('score') or {}).get('fullTime') or {}
+        sc = m.get('score') or {}
+        ft = sc.get('fullTime') or {}
         hg, ag = ft.get('home'), ft.get('away')
+        if sc.get('duration') in ('EXTRA_TIME', 'PENALTY_SHOOTOUT'):
+            rt = sc.get('regularTime') or {}
+            if rt.get('home') is not None and rt.get('away') is not None:
+                hg, ag = rt['home'], rt['away']
+            else:
+                # reserv om regularTime saknas: dra bort straffmålen (ger
+                # 120-minutersresultatet, som också är oavgjort vid straffar)
+                pen = sc.get('penalties') or {}
+                if pen.get('home') is not None and hg is not None:
+                    hg, ag = hg - pen['home'], ag - pen['away']
         if hg is None or ag is None:
             continue
-        by_pair[frozenset((h, a))] = {h: int(hg), a: int(ag)}
+        by_pair[frozenset((h, a))] = {
+            'goals': {h: int(hg), a: int(ag)},
+            'winner': {'HOME_TEAM': h, 'AWAY_TEAM': a}.get(sc.get('winner')),
+            'duration': sc.get('duration')}
     return by_pair
 
 def is_num(v): return isinstance(v, (int, float))
@@ -98,30 +117,90 @@ def match_rows(ws):
         if is_num(b) and isinstance(d, str) and isinstance(f, str) and d.strip() and f.strip():
             yield r, int(b), d.strip(), f.strip()
 
+def goals_for(no, home, away, results, manual):
+    """Effektivt resultat för en match: manuellt facit vinner över API:t.
+    Returnerar (hemmamål, bortamål, vinnare|None). Vinnaren kan vara satt även
+    vid oavgjort (slutspel som avgjorts efter förlängning/straffar). I
+    manual_results.json anges vidare-laget som valfritt tredje element:
+    "89": [1, 1, "Tyskland"]."""
+    hg = ag = winner = None
+    d = results.get(frozenset((home, away)))
+    if d:
+        hg, ag = d['goals'][home], d['goals'][away]
+        if d['winner'] in (home, away):
+            winner = d['winner']
+    m = manual.get(str(no))
+    if m:
+        hg, ag = int(m[0]), int(m[1])
+        if hg != ag:
+            winner = None
+        if len(m) > 2 and m[2]:
+            w = norm(str(m[2]))
+            winner = home if w == norm(home) else (away if w == norm(away) else winner)
+    if winner is None and is_num(hg) and is_num(ag) and hg != ag:
+        winner = home if hg > ag else away
+    return hg, ag, winner
+
 def apply_results(path, results, manual):
-    """Write goals into Resultat & tabell. Returns count written."""
+    """Write goals into Resultat & tabell. Returns count written.
+    Resultaten är alltid efter ordinarie tid, så även slutspelsmatcher kan stå
+    oavgjort i arket — vem som går vidare skrivs in separat (freeze_teams)."""
     wb = load_workbook(path, keep_vba=True)
     ws = wb['Resultat & tabell']
     written = 0
     for r, no, home, away in match_rows(ws):
-        goals = None
-        key = frozenset((home, away))
-        if key in results:
-            d = results[key]; goals = (d[home], d[away])
-            # slutspel kan inte sluta oavgjort i arket (vinnaren måste fram).
-            # Hoppa över oavgjorda API-resultat för matchnr > 72 — matas in manuellt.
-            if no > 72 and goals[0] == goals[1]:
-                goals = None
-        if str(no) in manual:        # manuell override vinner alltid
-            mh, ma = manual[str(no)]; goals = (mh, ma)
-        if goals is not None:
-            ws.cell(row=r, column=7).value = goals[0]
-            ws.cell(row=r, column=9).value = goals[1]
+        hg, ag, _ = goals_for(no, home, away, results, manual)
+        if hg is not None and ag is not None:
+            ws.cell(row=r, column=7).value = hg
+            ws.cell(row=r, column=9).value = ag
             written += 1
     wb.save(path)
     return written
 
-def extract(path):
+def freeze_teams(work_path, recalced_path, results, manual):
+    """Skriv in slutspelslagen i arbetskopian utifrån det omräknade arket.
+
+    1) Lagnamn som arkets formler räknat fram fryses som text (så att
+       resultat kan matchas mot dem).
+    2) Platshållare som "Vinnare match 74"/"Förlorare match 101" — som arket
+       inte kan lösa självt när matchen slutat oavgjort och avgjorts på
+       förlängning/straffar — ersätts med rätt lag via API:ts vinnare eller
+       manuellt facit."""
+    rc = load_workbook(recalced_path, data_only=True)
+    src = rc['Resultat & tabell']
+    wb = load_workbook(work_path, keep_vba=True); ws = wb['Resultat & tabell']
+    def freezable(cell):
+        v = cell.value
+        return not isinstance(v, str) or v.startswith('=')
+    for r in range(1, src.max_row + 1):
+        for c in (4, 6):
+            v = src.cell(row=r, column=c).value
+            if isinstance(v, str) and v.strip() in TEAM_ALIASES and freezable(ws.cell(row=r, column=c)):
+                ws.cell(row=r, column=c).value = v.strip()
+    # vinnare/förlorare per matchnr för matcher vars båda lag nu är kända
+    winners, losers = {}, {}
+    for r, no, home, away in match_rows(ws):
+        if home in TEAM_ALIASES and away in TEAM_ALIASES:
+            _, _, w = goals_for(no, home, away, results, manual)
+            if w:
+                winners[no] = w; losers[no] = away if w == home else home
+    for r in range(1, src.max_row + 1):
+        for c in (4, 6):
+            v = src.cell(row=r, column=c).value
+            if not isinstance(v, str):
+                continue
+            mno = re.search(r'match\s*(\d+)', v, re.I)
+            if not mno:
+                continue
+            low = v.lower()
+            side = winners if 'vinnare' in low else (losers if 'förlorare' in low else None)
+            team = side.get(int(mno.group(1))) if side else None
+            if team and freezable(ws.cell(row=r, column=c)):
+                ws.cell(row=r, column=c).value = team
+    wb.save(work_path)
+
+def extract(path, results=None, manual=None):
+    results = results or {}; manual = manual or {}
     wb = load_workbook(path, data_only=True)
     res = wb['Resultat & tabell']
     ROUNDS = ('Sextondelsfinal','Åttondelsfinal','Kvartsfinal','Semifinal','Bronsmatch','Final')
@@ -153,6 +232,18 @@ def extract(path):
             'sign': str(sign) if sign is not None else None, 'played': bool(played)}
     # --- extra poänglogik som arket inte gör av sig självt ---
     KNOWN_TEAMS = set(TEAM_ALIASES.keys())
+    # vem som gick vidare — vid oavgjort (förlängning/straffar) via API/manuellt
+    for m in knockout:
+        w = dur = None
+        if m['home'] in KNOWN_TEAMS and m['away'] in KNOWN_TEAMS:
+            _, _, w = goals_for(m['no'], m['home'], m['away'], results, manual)
+            if w is None and m['played'] and m['homeGoals'] != m['awayGoals']:
+                w = m['home'] if m['homeGoals'] > m['awayGoals'] else m['away']
+            d = results.get(frozenset((m['home'], m['away']))) or {}
+            dur = d.get('duration')
+        m['winner'] = w
+        m['decidedBy'] = ({'EXTRA_TIME': 'förlängning', 'PENALTY_SHOOTOUT': 'straffar'}.get(dur)
+                          if w and m['played'] and m['homeGoals'] == m['awayGoals'] else None)
     RL_PTS = {'Sextondelsfinal': 1, 'Åttondelsfinal': 2, 'Kvartsfinal': 4,
               'Semifinal': 6, 'Bronsmatch': 8, 'Final': 8}
     # flest gjorda/insläppta mål i gruppspelet — kan delas av flera lag (lika)
@@ -284,7 +375,7 @@ def extract(path):
             'standings': standings,
             'players': players}
 
-def autofill_bonus(work_path, recalced_path):
+def autofill_bonus(work_path, recalced_path, results, manual):
     """Fyll i facit (Resultat & tabell Y5–Y6) för de bonusfrågor som är
     entydiga: världsmästare (vinnare final) och vinnare bronsmatch. Skriver bara
     i tomma celler (manuellt facit vinner).
@@ -294,11 +385,15 @@ def autofill_bonus(work_path, recalced_path):
     res = rc['Resultat & tabell']
     winners = {}  # match_no -> winning team name
     for r, no, home, away in match_rows(res):
-        if no <= 72:
+        if no <= 72 or home not in TEAM_ALIASES or away not in TEAM_ALIASES:
             continue
-        hg = res.cell(row=r, column=7).value; ag = res.cell(row=r, column=9).value
-        if is_num(hg) and is_num(ag) and hg != ag:
-            winners[no] = home if hg > ag else away
+        _, _, w = goals_for(no, home, away, results, manual)
+        if w is None:
+            hg = res.cell(row=r, column=7).value; ag = res.cell(row=r, column=9).value
+            if is_num(hg) and is_num(ag) and hg != ag:
+                w = home if hg > ag else away
+        if w:
+            winners[no] = w
 
     facit = {}
     if 104 in winners: facit[5] = winners[104]   # Y5 världsmästare (vinnare final)
@@ -337,7 +432,7 @@ def main():
     print(f'{len(results)} spelade matcher matchade från källan.')
 
     # arbetskopia av master
-    import shutil, openpyxl
+    import shutil
     work = 'work.xlsm'; shutil.copy(args.master, work)
 
     # Pass 1: skriv gruppspel (slutspelslagen är ännu formler), räkna om
@@ -348,17 +443,7 @@ def main():
     # Varje varv löser nästa runda (sextondel -> åttondel -> ... -> final).
     prev = -1
     for _ in range(7):
-        rc = openpyxl.load_workbook(recalced, data_only=True)
-        src_ws = rc['Resultat & tabell']
-        wb = load_workbook(work, keep_vba=True); ws = wb['Resultat & tabell']
-        for r in range(1, src_ws.max_row + 1):
-            for c in (4, 6):  # hemmalag/bortalag (formler i slutspelet)
-                v = src_ws.cell(row=r, column=c).value
-                if isinstance(v, str) and v.strip() and 'VALUE' not in v.upper():
-                    cur = ws.cell(row=r, column=c).value
-                    if not isinstance(cur, str) or cur.startswith('='):
-                        ws.cell(row=r, column=c).value = v  # frys lagnamn för matchning
-        wb.save(work)
+        freeze_teams(work, recalced, results, manual)
         n = apply_results(work, results, manual)
         recalced = recalc(work)
         if n == prev:
@@ -367,11 +452,11 @@ def main():
     print(f'Skrev {prev} matcher totalt (gruppspel + slutspel).')
 
     # fyll i de bonusfacit som går att räkna ut automatiskt
-    if autofill_bonus(work, recalced):
+    if autofill_bonus(work, recalced, results, manual):
         recalced = recalc(work)
         print('Fyllde i automatiskt bonusfacit (världsmästare, bronsmatchvinnare).')
 
-    data = extract(recalced)
+    data = extract(recalced, results, manual)
     json.dump(data, open(args.out, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     played = sum(1 for m in data['matches'] if m['played'])
     ko_played = sum(1 for m in data.get('knockout', []) if m['played'])

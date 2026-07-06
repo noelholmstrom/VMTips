@@ -141,6 +141,7 @@ main{padding:18px 18px 0}
 .tName.tbd{color:var(--faint); font-style:italic; font-weight:500}
 .mscore{justify-self:end; font-weight:800; font-size:15px; white-space:nowrap}
 .mscore .na{color:var(--faint); font-weight:600; font-size:13px}
+.mscore .dnote{display:block; color:var(--faint); font-weight:600; font-size:10px; text-align:right; line-height:1.1}
 .win{font-weight:800}
 .flag{width:21px; height:15px; border-radius:2px; object-fit:cover; box-shadow:0 0 0 1px rgba(0,0,0,.06); flex:none}
 
@@ -299,8 +300,11 @@ function detailHTML(p){
 function fixtureItem(m){
   const date=m.date?m.date.slice(5).replace('-','/'):'';
   let score,hw='',aw='';
-  if(m.played){score='<span class="mscore">'+m.homeGoals+'–'+m.awayGoals+'</span>';
-    if(m.homeGoals>m.awayGoals)hw='win'; else if(m.awayGoals>m.homeGoals)aw='win';}
+  if(m.played){
+    const note=m.decidedBy?'<small class="dnote">'+m.decidedBy+'</small>':'';
+    score='<span class="mscore">'+m.homeGoals+'–'+m.awayGoals+note+'</span>';
+    const w=m.winner||(m.homeGoals>m.awayGoals?m.home:(m.awayGoals>m.homeGoals?m.away:null));
+    if(w===m.home)hw='win'; else if(w===m.away)aw='win';}
   else score='<span class="mscore"><span class="na">–</span></span>';
   return '<div class="mitem"><div class="mdate">'+date+'</div>'
     +'<div class="mteams"><span class="side '+hw+'">'+teamCell(m.home)+'</span><span class="vs">–</span><span class="side '+aw+'">'+teamCell(m.away)+'</span></div>'+score+'</div>';
