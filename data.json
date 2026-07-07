@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-07T17:33:51.655591+00:00",
+ "updated": "2026-07-07T19:49:34.488498+00:00",
  "tournament": "VM 2026",
  "matches": [
   {
@@ -1066,10 +1066,10 @@
    "home": "Argentina",
    "away": "Egypten",
    "date": "2026-07-07",
-   "homeGoals": null,
-   "awayGoals": null,
-   "played": false,
-   "winner": null,
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "played": true,
+   "winner": "Argentina",
    "decidedBy": null
   },
   {
@@ -1123,7 +1123,7 @@
   {
    "no": 100,
    "round": "Kvartsfinal",
-   "home": "Vinnare match 95",
+   "home": "Argentina",
    "away": "Vinnare match 96",
    "date": "2026-07-12",
    "homeGoals": null,
@@ -1690,10 +1690,10 @@
  "players": [
   {
    "name": "Noel Holmström",
-   "total": 417,
+   "total": 424,
    "groupPoints": 246,
    "bonusPoints": 10,
-   "knockoutPoints": 161,
+   "knockoutPoints": 168,
    "predictions": {
     "1": {
      "home": 2,
@@ -2309,7 +2309,7 @@
      "home": 2,
      "away": 0,
      "sign": "1",
-     "points": 0,
+     "points": 3,
      "predHome": "Argentina",
      "predAway": "Turkiet"
     },
@@ -2403,16 +2403,16 @@
     },
     {
      "label": "Åttondelsfinaler",
-     "points": 21,
+     "points": 24,
      "bonus": 22,
-     "total": 43,
+     "total": 46,
      "round": "Åttondelsfinal"
     },
     {
      "label": "Kvartsfinaler",
      "points": 0,
-     "bonus": 16,
-     "total": 16,
+     "bonus": 20,
+     "total": 20,
      "round": "Kvartsfinal"
     },
     {
@@ -2484,10 +2484,10 @@
   },
   {
    "name": "Mikael Cordes",
-   "total": 386,
+   "total": 393,
    "groupPoints": 242,
    "bonusPoints": 0,
-   "knockoutPoints": 144,
+   "knockoutPoints": 151,
    "predictions": {
     "1": {
      "home": 2,
@@ -3103,7 +3103,7 @@
      "home": 2,
      "away": 0,
      "sign": "1",
-     "points": 0,
+     "points": 3,
      "predHome": "Argentina",
      "predAway": "Egypten"
     },
@@ -3197,16 +3197,16 @@
     },
     {
      "label": "Åttondelsfinaler",
-     "points": 23,
+     "points": 26,
      "bonus": 22,
-     "total": 45,
+     "total": 48,
      "round": "Åttondelsfinal"
     },
     {
      "label": "Kvartsfinaler",
      "points": 0,
-     "bonus": 20,
-     "total": 20,
+     "bonus": 24,
+     "total": 24,
      "round": "Kvartsfinal"
     },
     {
@@ -3278,10 +3278,10 @@
   },
   {
    "name": "Emma Svensson",
-   "total": 385,
+   "total": 392,
    "groupPoints": 247,
    "bonusPoints": 0,
-   "knockoutPoints": 138,
+   "knockoutPoints": 145,
    "predictions": {
     "1": {
      "home": 1,
@@ -3897,7 +3897,7 @@
      "home": 2,
      "away": 0,
      "sign": "1",
-     "points": 0,
+     "points": 3,
      "predHome": "Argentina",
      "predAway": "USA"
     },
@@ -3991,16 +3991,16 @@
     },
     {
      "label": "Åttondelsfinaler",
-     "points": 12,
+     "points": 15,
      "bonus": 20,
-     "total": 32,
+     "total": 35,
      "round": "Åttondelsfinal"
     },
     {
      "label": "Kvartsfinaler",
      "points": 0,
-     "bonus": 12,
-     "total": 12,
+     "bonus": 16,
+     "total": 16,
      "round": "Kvartsfinal"
     },
     {
@@ -4072,10 +4072,10 @@
   },
   {
    "name": "Lasse Svensson",
-   "total": 364,
+   "total": 371,
    "groupPoints": 234,
    "bonusPoints": 0,
-   "knockoutPoints": 130,
+   "knockoutPoints": 137,
    "predictions": {
     "1": {
      "home": 2,
@@ -4691,7 +4691,7 @@
      "home": 2,
      "away": 0,
      "sign": "1",
-     "points": 0,
+     "points": 3,
      "predHome": "Argentina",
      "predAway": "USA"
     },
@@ -4785,16 +4785,16 @@
     },
     {
      "label": "Åttondelsfinaler",
-     "points": 8,
+     "points": 11,
      "bonus": 22,
-     "total": 30,
+     "total": 33,
      "round": "Åttondelsfinal"
     },
     {
      "label": "Kvartsfinaler",
      "points": 0,
-     "bonus": 8,
-     "total": 8,
+     "bonus": 12,
+     "total": 12,
      "round": "Kvartsfinal"
     },
     {
@@ -4866,10 +4866,10 @@
   },
   {
    "name": "Oliver Jönsson",
-   "total": 355,
+   "total": 360,
    "groupPoints": 221,
    "bonusPoints": 0,
-   "knockoutPoints": 134,
+   "knockoutPoints": 139,
    "predictions": {
     "1": {
      "home": 2,
@@ -5485,7 +5485,7 @@
      "home": 3,
      "away": 0,
      "sign": "1",
-     "points": 0,
+     "points": 5,
      "predHome": "Uruguay",
      "predAway": "Turkiet"
     },
@@ -5579,9 +5579,9 @@
     },
     {
      "label": "Åttondelsfinaler",
-     "points": 15,
+     "points": 20,
      "bonus": 22,
-     "total": 37,
+     "total": 42,
      "round": "Åttondelsfinal"
     },
     {
@@ -5660,10 +5660,10 @@
   },
   {
    "name": "Philip Wallberg",
-   "total": 352,
+   "total": 359,
    "groupPoints": 221,
    "bonusPoints": 0,
-   "knockoutPoints": 131,
+   "knockoutPoints": 138,
    "predictions": {
     "1": {
      "home": 2,
@@ -6279,7 +6279,7 @@
      "home": 2,
      "away": 0,
      "sign": "1",
-     "points": 0,
+     "points": 3,
      "predHome": "Argentina",
      "predAway": "Turkiet"
     },
@@ -6373,16 +6373,16 @@
     },
     {
      "label": "Åttondelsfinaler",
-     "points": 21,
+     "points": 24,
      "bonus": 20,
-     "total": 41,
+     "total": 44,
      "round": "Åttondelsfinal"
     },
     {
      "label": "Kvartsfinaler",
      "points": 0,
-     "bonus": 12,
-     "total": 12,
+     "bonus": 16,
+     "total": 16,
      "round": "Kvartsfinal"
     },
     {
@@ -6454,10 +6454,10 @@
   },
   {
    "name": "Rayan Lövgren",
-   "total": 348,
+   "total": 355,
    "groupPoints": 218,
    "bonusPoints": 0,
-   "knockoutPoints": 130,
+   "knockoutPoints": 137,
    "predictions": {
     "1": {
      "home": 1,
@@ -7073,7 +7073,7 @@
      "home": 1,
      "away": 0,
      "sign": "1",
-     "points": 0,
+     "points": 3,
      "predHome": "Argentina",
      "predAway": "Egypten"
     },
@@ -7167,16 +7167,16 @@
     },
     {
      "label": "Åttondelsfinaler",
-     "points": 16,
+     "points": 19,
      "bonus": 18,
-     "total": 34,
+     "total": 37,
      "round": "Åttondelsfinal"
     },
     {
      "label": "Kvartsfinaler",
      "points": 0,
-     "bonus": 12,
-     "total": 12,
+     "bonus": 16,
+     "total": 16,
      "round": "Kvartsfinal"
     },
     {
@@ -7248,10 +7248,10 @@
   },
   {
    "name": "Christer Lövgren",
-   "total": 345,
+   "total": 352,
    "groupPoints": 221,
    "bonusPoints": 0,
-   "knockoutPoints": 124,
+   "knockoutPoints": 131,
    "predictions": {
     "1": {
      "home": 2,
@@ -7867,7 +7867,7 @@
      "home": 2,
      "away": 0,
      "sign": "1",
-     "points": 0,
+     "points": 3,
      "predHome": "Argentina",
      "predAway": "Egypten"
     },
@@ -7961,16 +7961,16 @@
     },
     {
      "label": "Åttondelsfinaler",
-     "points": 16,
+     "points": 19,
      "bonus": 22,
-     "total": 38,
+     "total": 41,
      "round": "Åttondelsfinal"
     },
     {
      "label": "Kvartsfinaler",
      "points": 0,
-     "bonus": 12,
-     "total": 12,
+     "bonus": 16,
+     "total": 16,
      "round": "Kvartsfinal"
     },
     {
@@ -8042,10 +8042,10 @@
   },
   {
    "name": "Hampus Svensson",
-   "total": 335,
+   "total": 342,
    "groupPoints": 209,
    "bonusPoints": 0,
-   "knockoutPoints": 126,
+   "knockoutPoints": 133,
    "predictions": {
     "1": {
      "home": 2,
@@ -8661,7 +8661,7 @@
      "home": 2,
      "away": 0,
      "sign": "1",
-     "points": 0,
+     "points": 3,
      "predHome": "Argentina",
      "predAway": "Iran"
     },
@@ -8755,16 +8755,16 @@
     },
     {
      "label": "Åttondelsfinaler",
-     "points": 21,
+     "points": 24,
      "bonus": 20,
-     "total": 41,
+     "total": 44,
      "round": "Åttondelsfinal"
     },
     {
      "label": "Kvartsfinaler",
      "points": 0,
-     "bonus": 12,
-     "total": 12,
+     "bonus": 16,
+     "total": 16,
      "round": "Kvartsfinal"
     },
     {
@@ -8836,10 +8836,10 @@
   },
   {
    "name": "Ralle Nilsson Hansen",
-   "total": 327,
+   "total": 334,
    "groupPoints": 219,
    "bonusPoints": 0,
-   "knockoutPoints": 108,
+   "knockoutPoints": 115,
    "predictions": {
     "1": {
      "home": 2,
@@ -9455,7 +9455,7 @@
      "home": 1,
      "away": 0,
      "sign": "1",
-     "points": 0,
+     "points": 3,
      "predHome": "Argentina",
      "predAway": "USA"
     },
@@ -9549,16 +9549,16 @@
     },
     {
      "label": "Åttondelsfinaler",
-     "points": 10,
+     "points": 13,
      "bonus": 20,
-     "total": 30,
+     "total": 33,
      "round": "Åttondelsfinal"
     },
     {
      "label": "Kvartsfinaler",
      "points": 0,
-     "bonus": 12,
-     "total": 12,
+     "bonus": 16,
+     "total": 16,
      "round": "Kvartsfinal"
     },
     {
@@ -9630,10 +9630,10 @@
   },
   {
    "name": "Tim Israelsson",
-   "total": 326,
+   "total": 333,
    "groupPoints": 189,
    "bonusPoints": 10,
-   "knockoutPoints": 127,
+   "knockoutPoints": 134,
    "predictions": {
     "1": {
      "home": 2,
@@ -10249,7 +10249,7 @@
      "home": 4,
      "away": 0,
      "sign": "1",
-     "points": 0,
+     "points": 3,
      "predHome": "Argentina",
      "predAway": "Australien"
     },
@@ -10343,16 +10343,16 @@
     },
     {
      "label": "Åttondelsfinaler",
-     "points": 15,
+     "points": 18,
      "bonus": 24,
-     "total": 39,
+     "total": 42,
      "round": "Åttondelsfinal"
     },
     {
      "label": "Kvartsfinaler",
      "points": 0,
-     "bonus": 12,
-     "total": 12,
+     "bonus": 16,
+     "total": 16,
      "round": "Kvartsfinal"
     },
     {
@@ -10424,10 +10424,10 @@
   },
   {
    "name": "Conny Lantz",
-   "total": 275,
+   "total": 282,
    "groupPoints": 198,
    "bonusPoints": 0,
-   "knockoutPoints": 77,
+   "knockoutPoints": 84,
    "predictions": {
     "1": {
      "home": 2,
@@ -11043,7 +11043,7 @@
      "home": 2,
      "away": 1,
      "sign": "1",
-     "points": 0,
+     "points": 3,
      "predHome": "Argentina",
      "predAway": "Paraguay"
     },
@@ -11137,16 +11137,16 @@
     },
     {
      "label": "Åttondelsfinaler",
-     "points": 14,
+     "points": 17,
      "bonus": 20,
-     "total": 34,
+     "total": 37,
      "round": "Åttondelsfinal"
     },
     {
      "label": "Kvartsfinaler",
      "points": 0,
-     "bonus": 16,
-     "total": 16,
+     "bonus": 20,
+     "total": 20,
      "round": "Kvartsfinal"
     },
     {
