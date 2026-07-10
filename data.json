@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-10T20:25:32.271891+00:00",
+ "updated": "2026-07-10T21:36:22.301191+00:00",
  "tournament": "VM 2026",
  "matches": [
   {
@@ -1102,10 +1102,10 @@
    "home": "Spanien",
    "away": "Belgien",
    "date": "2026-07-10",
-   "homeGoals": null,
-   "awayGoals": null,
-   "played": false,
-   "winner": null,
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "played": true,
+   "winner": "Spanien",
    "decidedBy": null
   },
   {
@@ -1136,7 +1136,7 @@
    "no": 101,
    "round": "Semifinal",
    "home": "Frankrike",
-   "away": "Vinnare match 98",
+   "away": "Spanien",
    "date": "2026-07-14",
    "homeGoals": null,
    "awayGoals": null,
@@ -1690,10 +1690,10 @@
  "players": [
   {
    "name": "Noel Holmström",
-   "total": 435,
+   "total": 448,
    "groupPoints": 246,
    "bonusPoints": 10,
-   "knockoutPoints": 179,
+   "knockoutPoints": 192,
    "predictions": {
     "1": {
      "home": 2,
@@ -2333,7 +2333,7 @@
      "home": 2,
      "away": 1,
      "sign": "1",
-     "points": 0,
+     "points": 7,
      "predHome": "Spanien",
      "predAway": "Belgien"
     },
@@ -2410,16 +2410,16 @@
     },
     {
      "label": "Kvartsfinaler",
-     "points": 5,
+     "points": 12,
      "bonus": 20,
-     "total": 25,
+     "total": 32,
      "round": "Kvartsfinal"
     },
     {
      "label": "Semifinaler",
      "points": 0,
-     "bonus": 6,
-     "total": 6,
+     "bonus": 12,
+     "total": 12,
      "round": "Semifinal"
     },
     {
@@ -2484,10 +2484,10 @@
   },
   {
    "name": "Emma Svensson",
-   "total": 407,
+   "total": 420,
    "groupPoints": 247,
    "bonusPoints": 0,
-   "knockoutPoints": 160,
+   "knockoutPoints": 173,
    "predictions": {
     "1": {
      "home": 1,
@@ -3127,7 +3127,7 @@
      "home": 2,
      "away": 1,
      "sign": "1",
-     "points": 0,
+     "points": 7,
      "predHome": "Spanien",
      "predAway": "Turkiet"
     },
@@ -3204,16 +3204,16 @@
     },
     {
      "label": "Kvartsfinaler",
-     "points": 7,
+     "points": 14,
      "bonus": 16,
-     "total": 23,
+     "total": 30,
      "round": "Kvartsfinal"
     },
     {
      "label": "Semifinaler",
      "points": 0,
-     "bonus": 6,
-     "total": 6,
+     "bonus": 12,
+     "total": 12,
      "round": "Semifinal"
     },
     {
@@ -3278,10 +3278,10 @@
   },
   {
    "name": "Mikael Cordes",
-   "total": 404,
+   "total": 413,
    "groupPoints": 242,
    "bonusPoints": 0,
-   "knockoutPoints": 162,
+   "knockoutPoints": 171,
    "predictions": {
     "1": {
      "home": 2,
@@ -3921,7 +3921,7 @@
      "home": 1,
      "away": 0,
      "sign": "1",
-     "points": 0,
+     "points": 3,
      "predHome": "Spanien",
      "predAway": "Turkiet"
     },
@@ -3998,16 +3998,16 @@
     },
     {
      "label": "Kvartsfinaler",
-     "points": 5,
+     "points": 8,
      "bonus": 24,
-     "total": 29,
+     "total": 32,
      "round": "Kvartsfinal"
     },
     {
      "label": "Semifinaler",
      "points": 0,
-     "bonus": 6,
-     "total": 6,
+     "bonus": 12,
+     "total": 12,
      "round": "Semifinal"
     },
     {
@@ -4072,10 +4072,10 @@
   },
   {
    "name": "Lasse Svensson",
-   "total": 385,
+   "total": 398,
    "groupPoints": 234,
    "bonusPoints": 0,
-   "knockoutPoints": 151,
+   "knockoutPoints": 164,
    "predictions": {
     "1": {
      "home": 2,
@@ -4715,7 +4715,7 @@
      "home": 2,
      "away": 1,
      "sign": "1",
-     "points": 0,
+     "points": 7,
      "predHome": "Spanien",
      "predAway": "Turkiet"
     },
@@ -4792,16 +4792,16 @@
     },
     {
      "label": "Kvartsfinaler",
-     "points": 5,
+     "points": 12,
      "bonus": 12,
-     "total": 17,
+     "total": 24,
      "round": "Kvartsfinal"
     },
     {
      "label": "Semifinaler",
      "points": 0,
-     "bonus": 6,
-     "total": 6,
+     "bonus": 12,
+     "total": 12,
      "round": "Semifinal"
     },
     {
@@ -4866,10 +4866,10 @@
   },
   {
    "name": "Oliver Jönsson",
-   "total": 369,
+   "total": 380,
    "groupPoints": 221,
    "bonusPoints": 0,
-   "knockoutPoints": 148,
+   "knockoutPoints": 159,
    "predictions": {
     "1": {
      "home": 2,
@@ -5509,7 +5509,7 @@
      "home": 3,
      "away": 1,
      "sign": "1",
-     "points": 0,
+     "points": 5,
      "predHome": "Spanien",
      "predAway": "USA"
     },
@@ -5586,16 +5586,16 @@
     },
     {
      "label": "Kvartsfinaler",
-     "points": 3,
+     "points": 8,
      "bonus": 8,
-     "total": 11,
+     "total": 16,
      "round": "Kvartsfinal"
     },
     {
      "label": "Semifinaler",
      "points": 0,
-     "bonus": 6,
-     "total": 6,
+     "bonus": 12,
+     "total": 12,
      "round": "Semifinal"
     },
     {
@@ -5660,10 +5660,10 @@
   },
   {
    "name": "Rayan Lövgren",
-   "total": 369,
+   "total": 380,
    "groupPoints": 218,
    "bonusPoints": 0,
-   "knockoutPoints": 151,
+   "knockoutPoints": 162,
    "predictions": {
     "1": {
      "home": 1,
@@ -6303,7 +6303,7 @@
      "home": 3,
      "away": 1,
      "sign": "1",
-     "points": 0,
+     "points": 5,
      "predHome": "Spanien",
      "predAway": "Turkiet"
     },
@@ -6380,16 +6380,16 @@
     },
     {
      "label": "Kvartsfinaler",
-     "points": 5,
+     "points": 10,
      "bonus": 16,
-     "total": 21,
+     "total": 26,
      "round": "Kvartsfinal"
     },
     {
      "label": "Semifinaler",
      "points": 0,
-     "bonus": 6,
-     "total": 6,
+     "bonus": 12,
+     "total": 12,
      "round": "Semifinal"
     },
     {
@@ -6454,10 +6454,10 @@
   },
   {
    "name": "Philip Wallberg",
-   "total": 368,
+   "total": 379,
    "groupPoints": 221,
    "bonusPoints": 0,
-   "knockoutPoints": 147,
+   "knockoutPoints": 158,
    "predictions": {
     "1": {
      "home": 2,
@@ -7097,7 +7097,7 @@
      "home": 2,
      "away": 0,
      "sign": "1",
-     "points": 0,
+     "points": 5,
      "predHome": "Spanien",
      "predAway": "Czechia"
     },
@@ -7174,16 +7174,16 @@
     },
     {
      "label": "Kvartsfinaler",
-     "points": 3,
+     "points": 8,
      "bonus": 16,
-     "total": 19,
+     "total": 24,
      "round": "Kvartsfinal"
     },
     {
      "label": "Semifinaler",
      "points": 0,
-     "bonus": 6,
-     "total": 6,
+     "bonus": 12,
+     "total": 12,
      "round": "Semifinal"
     },
     {
@@ -7248,10 +7248,10 @@
   },
   {
    "name": "Christer Lövgren",
-   "total": 359,
+   "total": 372,
    "groupPoints": 221,
    "bonusPoints": 0,
-   "knockoutPoints": 138,
+   "knockoutPoints": 151,
    "predictions": {
     "1": {
      "home": 2,
@@ -7891,7 +7891,7 @@
      "home": 2,
      "away": 1,
      "sign": "1",
-     "points": 0,
+     "points": 7,
      "predHome": "Spanien",
      "predAway": "Belgien"
     },
@@ -7968,16 +7968,16 @@
     },
     {
      "label": "Kvartsfinaler",
-     "points": 5,
+     "points": 12,
      "bonus": 16,
-     "total": 21,
+     "total": 28,
      "round": "Kvartsfinal"
     },
     {
      "label": "Semifinaler",
      "points": 0,
-     "bonus": 0,
-     "total": 0,
+     "bonus": 6,
+     "total": 6,
      "round": "Semifinal"
     },
     {
@@ -8042,10 +8042,10 @@
   },
   {
    "name": "Tim Israelsson",
-   "total": 351,
+   "total": 364,
    "groupPoints": 189,
    "bonusPoints": 10,
-   "knockoutPoints": 152,
+   "knockoutPoints": 165,
    "predictions": {
     "1": {
      "home": 2,
@@ -8685,7 +8685,7 @@
      "home": 2,
      "away": 1,
      "sign": "1",
-     "points": 0,
+     "points": 7,
      "predHome": "Spanien",
      "predAway": "Belgien"
     },
@@ -8762,16 +8762,16 @@
     },
     {
      "label": "Kvartsfinaler",
-     "points": 5,
+     "points": 12,
      "bonus": 20,
-     "total": 25,
+     "total": 32,
      "round": "Kvartsfinal"
     },
     {
      "label": "Semifinaler",
      "points": 0,
-     "bonus": 6,
-     "total": 6,
+     "bonus": 12,
+     "total": 12,
      "round": "Semifinal"
     },
     {
@@ -8836,10 +8836,10 @@
   },
   {
    "name": "Ralle Nilsson Hansen",
-   "total": 347,
+   "total": 358,
    "groupPoints": 219,
    "bonusPoints": 0,
-   "knockoutPoints": 128,
+   "knockoutPoints": 139,
    "predictions": {
     "1": {
      "home": 2,
@@ -9479,7 +9479,7 @@
      "home": 2,
      "away": 0,
      "sign": "1",
-     "points": 0,
+     "points": 5,
      "predHome": "Spanien",
      "predAway": "Turkiet"
     },
@@ -9556,16 +9556,16 @@
     },
     {
      "label": "Kvartsfinaler",
-     "points": 5,
+     "points": 10,
      "bonus": 16,
-     "total": 21,
+     "total": 26,
      "round": "Kvartsfinal"
     },
     {
      "label": "Semifinaler",
      "points": 0,
-     "bonus": 6,
-     "total": 6,
+     "bonus": 12,
+     "total": 12,
      "round": "Semifinal"
     },
     {
@@ -9630,10 +9630,10 @@
   },
   {
    "name": "Hampus Svensson",
-   "total": 342,
+   "total": 344,
    "groupPoints": 209,
    "bonusPoints": 0,
-   "knockoutPoints": 133,
+   "knockoutPoints": 135,
    "predictions": {
     "1": {
      "home": 2,
@@ -10273,7 +10273,7 @@
      "home": 1,
      "away": 1,
      "sign": "X",
-     "points": 0,
+     "points": 2,
      "predHome": "Spanien",
      "predAway": "Senegal"
     },
@@ -10350,9 +10350,9 @@
     },
     {
      "label": "Kvartsfinaler",
-     "points": 0,
+     "points": 2,
      "bonus": 16,
-     "total": 16,
+     "total": 18,
      "round": "Kvartsfinal"
     },
     {
@@ -10424,10 +10424,10 @@
   },
   {
    "name": "Conny Lantz",
-   "total": 293,
+   "total": 304,
    "groupPoints": 198,
    "bonusPoints": 0,
-   "knockoutPoints": 95,
+   "knockoutPoints": 106,
    "predictions": {
     "1": {
      "home": 2,
@@ -11067,7 +11067,7 @@
      "home": 3,
      "away": 1,
      "sign": "1",
-     "points": 0,
+     "points": 5,
      "predHome": "Spanien",
      "predAway": "Belgien"
     },
@@ -11144,16 +11144,16 @@
     },
     {
      "label": "Kvartsfinaler",
-     "points": 5,
+     "points": 10,
      "bonus": 20,
-     "total": 25,
+     "total": 30,
      "round": "Kvartsfinal"
     },
     {
      "label": "Semifinaler",
      "points": 0,
-     "bonus": 6,
-     "total": 6,
+     "bonus": 12,
+     "total": 12,
      "round": "Semifinal"
     },
     {
